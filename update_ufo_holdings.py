@@ -1,0 +1,473 @@
+from __future__ import annotations
+
+import os
+import sys
+from datetime import date, datetime, timedelta, timezone
+from io import BytesIO
+from typing import Any
+from urllib.parse import urljoin
+
+import pandas as pd
+import requests
+from bs4 import BeautifulSoup
+from dotenv import load_dotenv
+from supabase import Client, create_client
+
+
+ETF_TICKER = "UFO"
+ETF_PAGE_URL = "https://procureetfs.com/ufo/"
+TABLE_NAME = "etf_holdings"
+LOG_TABLE_NAME = "etf_holding_update_logs"
+
+MINIMUM_UPDATE_INTERVAL_DAYS = 3
+REQUEST_TIMEOUT_SECONDS = 30
+BATCH_SIZE = 200
+
+
+def create_supabase_client() -> Client:
+    """Create an authenticated Supabase client."""
+
+    load_dotenv()
+
+    supabase_url = os.getenv("SUPABASE_URL")
+    service_role_key = os.getenv("SUPABASE_SERVICE_ROLE_KEY")
+
+    if not supabase_url:
+        raise RuntimeError("SUPABASE_URL is missing.")
+
+    if not service_role_key:
+        raise RuntimeError("SUPABASE_SERVICE_ROLE_KEY is missing.")
+
+    return create_client(supabase_url, service_role_key)
+
+
+def create_http_session() -> requests.Session:
+    """Create an HTTP session with a descriptive user agent."""
+
+    session = requests.Session()
+    session.headers.update(
+        {
+            "User-Agent": (
+                "UFOHoldingsResearchBot/1.0 "
+                "(personal investment research project)"
+            )
+        }
+    )
+    return session
+
+
+def find_latest_holdings_url(session: requests.Session) -> str:
+    """
+    Find the official full-holdings CSV link from the Procure UFO page.
+
+    This is safer than constructing a filename from today's date because:
+    - weekends may not have a new file;
+    - holidays may delay publication;
+    - the filename structure could change.
+    """
+
+    response = session.get(
+        ETF_PAGE_URL,
+        timeout=REQUEST_TIMEOUT_SECONDS,
+    )
+    response.raise_for_status()
+
+    soup = BeautifulSoup(response.text, "html.parser")
+
+    candidate_urls: list[str] = []
+
+    for link in soup.find_all("a", href=True):
+        href = link["href"].strip()
+        full_url = urljoin(ETF_PAGE_URL, href)
+
+        normalized_url = full_url.lower()
+
+        if (
+            normalized_url.endswith(".csv")
+            and "ufo" in normalized_url
+            and "holding" in normalized_url
+        ):
+            candidate_urls.append(full_url)
+
+    if not candidate_urls:
+        raise RuntimeError(
+            "Could not find an official UFO holdings CSV link "
+            f"on {ETF_PAGE_URL}"
+        )
+
+    # Usually only one full-holdings CSV link is present.
+    # Prefer links containing the expected official filename pattern.
+    preferred_urls = [
+        url
+        for url in candidate_urls
+        if "ufo-jp-holdings" in url.lower()
+    ]
+
+    return preferred_urls[0] if preferred_urls else candidate_urls[0]
+
+
+def download_holdings_csv(
+    session: requests.Session,
+    csv_url: str,
+) -> pd.DataFrame:
+    """Download the official holdings CSV into a DataFrame."""
+
+    response = session.get(
+        csv_url,
+        timeout=REQUEST_TIMEOUT_SECONDS,
+    )
+    response.raise_for_status()
+
+    return pd.read_csv(BytesIO(response.content), encoding="utf-8-sig")
+
+
+def parse_percentage(value: Any) -> float | None:
+    """Convert values such as '6.03%' into 6.03."""
+
+    if pd.isna(value):
+        return None
+
+    cleaned = str(value).replace("%", "").replace(",", "").strip()
+
+    if not cleaned:
+        return None
+
+    return float(cleaned)
+
+
+def parse_number(value: Any) -> float | None:
+    """Convert CSV numeric values into JSON-compatible floats."""
+
+    if pd.isna(value):
+        return None
+
+    if isinstance(value, str):
+        value = value.replace(",", "").strip()
+
+        if not value:
+            return None
+
+    return float(value)
+
+
+def parse_optional_text(value: Any) -> str | None:
+    """Normalize optional text values."""
+
+    if pd.isna(value):
+        return None
+
+    cleaned = str(value).strip()
+
+    return cleaned or None
+
+
+def clean_holdings(
+    raw_df: pd.DataFrame,
+    source_url: str,
+) -> tuple[list[dict[str, Any]], date]:
+    """Convert the official CSV into rows matching the Supabase table."""
+
+    required_columns = {
+        "Date",
+        "Account",
+        "StockTicker",
+        "CUSIP",
+        "SecurityName",
+        "Shares",
+        "Price",
+        "MarketValue",
+        "Weightings",
+        "NetAssets",
+        "SharesOutstanding",
+        "CreationUnits",
+    }
+
+    missing_columns = required_columns - set(raw_df.columns)
+
+    if missing_columns:
+        raise ValueError(
+            "Official CSV structure changed. Missing columns: "
+            f"{sorted(missing_columns)}"
+        )
+
+    df = raw_df.copy()
+
+    # The official CSV can contain a completely empty final row.
+    df = df[df["SecurityName"].notna()].copy()
+
+    # Confirm that the file belongs to UFO.
+    df = df[df["Account"].astype(str).str.strip() == ETF_TICKER].copy()
+
+    if df.empty:
+        raise ValueError("The downloaded CSV contains no UFO holdings.")
+
+    parsed_dates = pd.to_datetime(
+        df["Date"],
+        format="%m/%d/%Y",
+        errors="coerce",
+    )
+
+    if parsed_dates.isna().any():
+        raise ValueError("One or more holding dates could not be parsed.")
+
+    unique_dates = parsed_dates.dt.date.unique()
+
+    if len(unique_dates) != 1:
+        raise ValueError(
+            "Expected one snapshot date, but found: "
+            f"{list(unique_dates)}"
+        )
+
+    holding_date = unique_dates[0]
+
+    records: list[dict[str, Any]] = []
+
+    for _, row in df.iterrows():
+        security_name = parse_optional_text(row["SecurityName"])
+
+        if not security_name:
+            continue
+
+        records.append(
+            {
+                "etf_ticker": ETF_TICKER,
+                "holding_date": holding_date.isoformat(),
+                "stock_ticker": parse_optional_text(row["StockTicker"]),
+                "cusip": parse_optional_text(row["CUSIP"]),
+                "security_name": security_name,
+                "shares": parse_number(row["Shares"]),
+                "price": parse_number(row["Price"]),
+                "market_value": parse_number(row["MarketValue"]),
+                "weight": parse_percentage(row["Weightings"]),
+                "net_assets": parse_number(row["NetAssets"]),
+                "shares_outstanding": parse_number(
+                    row["SharesOutstanding"]
+                ),
+                "creation_units": parse_number(row["CreationUnits"]),
+                "source_url": source_url,
+                "collected_at": datetime.now(timezone.utc).isoformat(),
+            }
+        )
+
+    validate_records(records)
+
+    return records, holding_date
+
+
+def validate_records(records: list[dict[str, Any]]) -> None:
+    """Run basic checks before writing financial data to the database."""
+
+    if not records:
+        raise ValueError("No valid holding records were produced.")
+
+    if len(records) < 20:
+        raise ValueError(
+            f"Only {len(records)} holdings were found. "
+            "The source may be incomplete."
+        )
+
+    weights = [
+        row["weight"]
+        for row in records
+        if row["weight"] is not None
+    ]
+
+    total_weight = sum(weights)
+
+    # Allow a small difference due to source rounding.
+    if not 98 <= total_weight <= 102:
+        raise ValueError(
+            f"Unexpected total portfolio weight: {total_weight:.2f}%"
+        )
+
+    unique_keys = {
+        (
+            row["etf_ticker"],
+            row["holding_date"],
+            row["cusip"],
+            row["security_name"],
+        )
+        for row in records
+    }
+
+    if len(unique_keys) != len(records):
+        raise ValueError("Duplicate holdings exist in the downloaded file.")
+
+
+def get_latest_saved_date(
+    supabase: Client,
+) -> date | None:
+    """Return the newest UFO snapshot date currently saved."""
+
+    response = (
+        supabase.table(TABLE_NAME)
+        .select("holding_date")
+        .eq("etf_ticker", ETF_TICKER)
+        .order("holding_date", desc=True)
+        .limit(1)
+        .execute()
+    )
+
+    if not response.data:
+        return None
+
+    return date.fromisoformat(response.data[0]["holding_date"])
+
+
+def should_run_update(
+    latest_saved_date: date | None,
+    today: date,
+) -> bool:
+    """Check whether at least three days have passed."""
+
+    if latest_saved_date is None:
+        return True
+
+    next_allowed_date = latest_saved_date + timedelta(
+        days=MINIMUM_UPDATE_INTERVAL_DAYS
+    )
+
+    return today >= next_allowed_date
+
+
+def upsert_in_batches(
+    supabase: Client,
+    records: list[dict[str, Any]],
+) -> int:
+    """Bulk-upsert the holdings into Supabase."""
+
+    rows_saved = 0
+
+    for start in range(0, len(records), BATCH_SIZE):
+        batch = records[start : start + BATCH_SIZE]
+
+        response = (
+            supabase.table(TABLE_NAME)
+            .upsert(
+                batch,
+                on_conflict=(
+                    "etf_ticker,"
+                    "holding_date,"
+                    "cusip,"
+                    "security_name"
+                ),
+            )
+            .execute()
+        )
+
+        rows_saved += len(response.data or batch)
+
+    return rows_saved
+
+
+def write_log(
+    supabase: Client,
+    *,
+    status: str,
+    message: str,
+    source_url: str | None = None,
+    holding_date: date | None = None,
+    rows_received: int | None = None,
+    rows_saved: int | None = None,
+) -> None:
+    """Save an execution result to the update-log table."""
+
+    log_record = {
+        "etf_ticker": ETF_TICKER,
+        "source_url": source_url,
+        "holding_date": (
+            holding_date.isoformat() if holding_date else None
+        ),
+        "rows_received": rows_received,
+        "rows_saved": rows_saved,
+        "status": status,
+        "message": message,
+        "completed_at": datetime.now(timezone.utc).isoformat(),
+    }
+
+    supabase.table(LOG_TABLE_NAME).insert(log_record).execute()
+
+
+def main() -> None:
+    supabase = create_supabase_client()
+    session = create_http_session()
+
+    source_url: str | None = None
+    holding_date: date | None = None
+
+    try:
+        latest_saved_date = get_latest_saved_date(supabase)
+        today = datetime.now(timezone.utc).date()
+
+        if not should_run_update(latest_saved_date, today):
+            next_update_date = latest_saved_date + timedelta(
+                days=MINIMUM_UPDATE_INTERVAL_DAYS
+            )
+
+            message = (
+                f"Skipped. Latest saved snapshot is {latest_saved_date}. "
+                f"Next update is allowed on {next_update_date}."
+            )
+
+            print(message)
+
+            write_log(
+                supabase,
+                status="SKIPPED",
+                message=message,
+                holding_date=latest_saved_date,
+            )
+            return
+
+        source_url = find_latest_holdings_url(session)
+        print(f"Official holdings URL: {source_url}")
+
+        raw_df = download_holdings_csv(session, source_url)
+
+        records, holding_date = clean_holdings(
+            raw_df=raw_df,
+            source_url=source_url,
+        )
+
+        rows_saved = upsert_in_batches(supabase, records)
+
+        message = (
+            f"Saved {rows_saved} UFO holdings "
+            f"for snapshot date {holding_date}."
+        )
+
+        print(message)
+
+        write_log(
+            supabase,
+            status="SUCCESS",
+            message=message,
+            source_url=source_url,
+            holding_date=holding_date,
+            rows_received=len(records),
+            rows_saved=rows_saved,
+        )
+
+    except Exception as exc:
+        error_message = f"{type(exc).__name__}: {exc}"
+        print(error_message, file=sys.stderr)
+
+        try:
+            write_log(
+                supabase,
+                status="FAILED",
+                message=error_message,
+                source_url=source_url,
+                holding_date=holding_date,
+            )
+        except Exception as log_exc:
+            print(
+                f"Could not write failure log: {log_exc}",
+                file=sys.stderr,
+            )
+
+        raise
+
+
+if __name__ == "__main__":
+    main()

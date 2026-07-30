@@ -5,7 +5,7 @@ import sys
 from datetime import date, datetime, timedelta, timezone
 from io import BytesIO
 from typing import Any
-from urllib.parse import urljoin
+from urllib.parse import urljoin, urlparse
 
 import pandas as pd
 import requests
@@ -56,14 +56,89 @@ def create_http_session() -> requests.Session:
     return session
 
 
-def find_latest_holdings_url(session: requests.Session) -> str:
+def url_exists(
+    session: requests.Session,
+    url: str,
+) -> bool:
     """
-    Find the official full-holdings CSV link from the Procure UFO page.
+    Check whether a holdings URL is downloadable.
 
-    This is safer than constructing a filename from today's date because:
-    - weekends may not have a new file;
-    - holidays may delay publication;
-    - the filename structure could change.
+    GET is used instead of HEAD because some WordPress servers
+    do not handle HEAD requests consistently.
+    """
+
+    try:
+        response = session.get(
+            url,
+            timeout=REQUEST_TIMEOUT_SECONDS,
+            stream=True,
+            allow_redirects=True,
+        )
+
+        content_type = response.headers.get("Content-Type", "").lower()
+
+        is_valid = (
+            response.status_code == 200
+            and (
+                "csv" in content_type
+                or url.lower().endswith(".csv")
+            )
+        )
+
+        response.close()
+        return is_valid
+
+    except requests.RequestException:
+        return False
+
+
+def generate_recent_holdings_urls(
+    base_url: str,
+    days_to_check: int = 14,
+) -> list[str]:
+    """
+    Generate likely holdings filenames for recent dates.
+
+    Example:
+    UFO-JP-Holdings-Jul-28-2026.csv
+    """
+
+    parsed = urlparse(base_url)
+
+    today = datetime.now(timezone.utc).date()
+    candidates: list[str] = []
+
+    for days_back in range(days_to_check):
+        candidate_date = today - timedelta(days=days_back)
+
+        # Holdings files generally correspond to trading days.
+        if candidate_date.weekday() >= 5:
+            continue
+
+        month_folder = candidate_date.strftime("%Y/%m")
+        filename = (
+            f"UFO-JP-Holdings-"
+            f"{candidate_date.strftime('%b-%d-%Y')}.csv"
+        )
+
+        candidate_url = (
+            f"{parsed.scheme}://{parsed.netloc}"
+            f"/wp-content/uploads/{month_folder}/{filename}"
+        )
+
+        candidates.append(candidate_url)
+
+    return candidates
+
+
+def find_latest_holdings_url(
+    session: requests.Session,
+) -> str:
+    """
+    Find the newest valid official UFO holdings CSV.
+
+    First checks links published on the UFO page.
+    If the page contains a stale link, checks recent filenames.
     """
 
     response = session.get(
@@ -74,36 +149,60 @@ def find_latest_holdings_url(session: requests.Session) -> str:
 
     soup = BeautifulSoup(response.text, "html.parser")
 
-    candidate_urls: list[str] = []
+    page_candidates: list[str] = []
 
     for link in soup.find_all("a", href=True):
-        href = link["href"].strip()
-        full_url = urljoin(ETF_PAGE_URL, href)
+        full_url = urljoin(
+            ETF_PAGE_URL,
+            link["href"].strip(),
+        )
 
         normalized_url = full_url.lower()
 
         if (
-            normalized_url.endswith(".csv")
-            and "ufo" in normalized_url
-            and "holding" in normalized_url
+            "ufo-jp-holdings" in normalized_url
+            and normalized_url.endswith(".csv")
         ):
-            candidate_urls.append(full_url)
+            page_candidates.append(full_url)
 
-    if not candidate_urls:
-        raise RuntimeError(
-            "Could not find an official UFO holdings CSV link "
-            f"on {ETF_PAGE_URL}"
-        )
+    # Remove duplicates while preserving order.
+    page_candidates = list(dict.fromkeys(page_candidates))
 
-    # Usually only one full-holdings CSV link is present.
-    # Prefer links containing the expected official filename pattern.
-    preferred_urls = [
-        url
-        for url in candidate_urls
-        if "ufo-jp-holdings" in url.lower()
-    ]
+    for candidate_url in page_candidates:
+        print(f"Checking page URL: {candidate_url}")
 
-    return preferred_urls[0] if preferred_urls else candidate_urls[0]
+        if url_exists(session, candidate_url):
+            return candidate_url
+
+        print("Page URL is unavailable; checking fallback dates.")
+
+    # Use the discovered URL only as a pattern/base.
+    fallback_base = (
+        page_candidates[0]
+        if page_candidates
+        else ETF_PAGE_URL
+    )
+
+    fallback_candidates = generate_recent_holdings_urls(
+        fallback_base,
+        days_to_check=14,
+    )
+
+    for candidate_url in fallback_candidates:
+        if candidate_url in page_candidates:
+            continue
+
+        print(f"Checking fallback URL: {candidate_url}")
+
+        if url_exists(session, candidate_url):
+            print(f"Found valid holdings file: {candidate_url}")
+            return candidate_url
+
+    raise RuntimeError(
+        "No downloadable UFO holdings CSV was found for the "
+        "last 14 calendar days. The official source may be "
+        "temporarily unavailable."
+    )
 
 
 def download_holdings_csv(

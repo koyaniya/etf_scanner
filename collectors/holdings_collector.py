@@ -209,15 +209,30 @@ def download_holdings_csv(
     session: requests.Session,
     csv_url: str,
 ) -> pd.DataFrame:
-    """Download the official holdings CSV into a DataFrame."""
+    """Download and parse the official UFO holdings CSV."""
 
     response = session.get(
         csv_url,
         timeout=REQUEST_TIMEOUT_SECONDS,
     )
+
+    if response.status_code == 404:
+        raise RuntimeError(
+            "The official holdings link was found, but its file "
+            f"does not exist: {csv_url}"
+        )
+
     response.raise_for_status()
 
-    return pd.read_csv(BytesIO(response.content), encoding="utf-8-sig")
+    if not response.content:
+        raise RuntimeError(
+            f"The holdings file is empty: {csv_url}"
+        )
+
+    return pd.read_csv(
+        BytesIO(response.content),
+        encoding="utf-8-sig",
+    )
 
 
 def parse_percentage(value: Any) -> float | None:

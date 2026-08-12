@@ -6,6 +6,7 @@ from datetime import date, datetime, timedelta, timezone
 from io import BytesIO
 from typing import Any
 from urllib.parse import urljoin, urlparse
+from zoneinfo import ZoneInfo
 
 import pandas as pd
 import requests
@@ -30,6 +31,7 @@ LOG_TABLE_NAME = "etf_holding_update_logs"
 MINIMUM_UPDATE_INTERVAL_DAYS = 3
 REQUEST_TIMEOUT_SECONDS = 30
 BATCH_SIZE = 200
+KOREA_TIMEZONE = ZoneInfo("Asia/Seoul")
 
 
 DRY_RUN_COMPANY_CREATION = False
@@ -497,6 +499,7 @@ def upsert_in_batches(
 def write_log(
     supabase: Client,
     *,
+    started_at: datetime,
     status: str,
     message: str,
     source_url: str | None = None,
@@ -516,13 +519,15 @@ def write_log(
         "rows_saved": rows_saved,
         "status": status,
         "message": message,
-        "completed_at": datetime.now(timezone.utc).isoformat(),
+        "started_at": started_at.astimezone(KOREA_TIMEZONE).isoformat(),
+        "completed_at": datetime.now(KOREA_TIMEZONE).isoformat(),
     }
 
     supabase.table(LOG_TABLE_NAME).insert(log_record).execute()
 
 
 def main() -> None:
+    run_started_at = datetime.now(KOREA_TIMEZONE)
     supabase = create_supabase_client()
     session = create_http_session()
 
@@ -547,6 +552,7 @@ def main() -> None:
 
             write_log(
                 supabase,
+                started_at=run_started_at,
                 status="SKIPPED",
                 message=message,
                 holding_date=latest_saved_date,
@@ -695,6 +701,7 @@ def main() -> None:
 
         write_log(
             supabase,
+            started_at=run_started_at,
             status="SUCCESS",
             message=message,
             source_url=source_url,
@@ -710,6 +717,7 @@ def main() -> None:
         try:
             write_log(
                 supabase,
+                started_at=run_started_at,
                 status="FAILED",
                 message=error_message,
                 source_url=source_url,

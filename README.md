@@ -123,9 +123,14 @@ etf_scanner/
 │
 ├── agents/
 │   ├── __init__.py
-│   └── company_enrichment_agent.py
+│   ├── company_enrichment_agent.py
+│   └── company_alias_agent.py
 │
 ├── scripts/
+│   ├── enrich_company_aliases.py
+│   ├── generate_deterministic_aliases.py
+│   ├── review_company_aliases.py
+│   ├── suggest_company_aliases.py
 │   └── test_company_enrichment.py
 │
 ├── .github/
@@ -148,7 +153,7 @@ etf_scanner/
 | ----------- | -------------------------------------------- |
 | `analysis/` | LLM classification, event clustering, trends |
 | `reports/`  | Daily and weekly report generation           |
-| `database/` | Schema definitions and migrations            |
+| `database/` | Schema migrations and manual run instructions |
 | `prompts/`  | Versioned LLM prompts                        |
 | `tests/`    | Unit and integration tests                   |
 
@@ -252,7 +257,94 @@ re-check company master
 The agent runs **only** for unresolved holdings, keeping scheduled runs deterministic
 and minimizing LLM usage.
 
-### 4. Industry Topic Taxonomy
+### 4. AI-Assisted Company Alias Suggestions
+
+The alias suggestion agent researches one existing company at a time using structured
+OpenAI output and web search. Every suggestion includes an alias type, confidence,
+evidence summary, and one or more supporting URLs. Suggestions are never activated
+automatically by the research model. A separate deterministic validator rejects
+malformed, generic, duplicated, and low-confidence suggestions. Products, brands,
+former names, alternative tickers, and ambiguous cross-company aliases remain
+`PENDING` and inactive. Subsidiaries are excluded from AI alias research because they
+should be represented and enriched as their own company records. Only a
+high-confidence short name that is derived from the canonical name and supported by
+the company's own website can be automatically marked `VERIFIED` and active.
+
+Preview suggestions without writing to the database:
+
+```bash
+python -m scripts.suggest_company_aliases --company-id 123
+```
+
+After inspecting the validation decisions, save reviewable candidates and any narrowly
+auto-approved short names:
+
+```bash
+python -m scripts.suggest_company_aliases --company-id 123 --save
+```
+
+Both commands make an OpenAI API request and may perform web searches. The model
+defaults to `gpt-5-mini` and can be overridden with `OPENAI_ALIAS_MODEL`. Existing
+aliases are compared case- and whitespace-insensitively and are not inserted again.
+
+List aliases waiting for review:
+
+```bash
+python -m scripts.review_company_aliases list
+```
+
+Approve or reject a pending alias:
+
+```bash
+python -m scripts.review_company_aliases decide \
+  --alias-id 456 --action approve --reviewed-by anna \
+  --note "Confirmed on the official company website."
+
+python -m scripts.review_company_aliases decide \
+  --alias-id 456 --action reject --reviewed-by anna \
+  --note "Generic product term."
+```
+
+The review command also supports `deactivate` for an active verified alias and
+`reopen` for a rejected or deactivated alias that needs another review. Decisions use
+an optimistic state check so one reviewer cannot silently overwrite another review
+made at the same time. Each action records `reviewed_at`, `reviewed_by`, and an
+appended audit note.
+
+Run a bounded local enrichment batch in preview mode:
+
+```bash
+python -m scripts.enrich_company_aliases --limit 5
+```
+
+Preview mode performs OpenAI research but does not write aliases or run history. Once
+the output has been inspected, enable writes explicitly:
+
+```bash
+python -m scripts.enrich_company_aliases --limit 5 --save
+```
+
+The save command requires migration
+`database/migrations/002_company_alias_enrichment_runs.sql`. A successful run is
+recorded even when no new alias is found. Successful companies become eligible again
+after `ALIAS_RESEARCH_REFRESH_DAYS` (default: `180`), while failed companies remain
+eligible for the next run. Use `--force` only when intentionally researching a
+company before its refresh date.
+
+Generate all missing deterministic aliases without using OpenAI:
+
+```bash
+python -m scripts.generate_deterministic_aliases --save
+```
+
+The holdings workflow also runs this deterministic step after company resolution.
+AI alias enrichment remains a separate workflow so OpenAI or web-search failures do
+not block holdings collection. The daily alias workflow runs at 06:00 Korea time,
+generates deterministic aliases first, and then researches at most five eligible
+companies. At five companies per day, an initial backlog of 64 companies takes about
+13 daily runs.
+
+### 5. Industry Topic Taxonomy
 
 The project contains a topic taxonomy for major space-industry areas. Each topic can
 contain multiple weighted keywords.
@@ -267,7 +359,7 @@ contain multiple weighted keywords.
 | Infrastructure         | propulsion, orbital infrastructure, lunar exploration                  |
 | Corporate              | funding and IPOs, mergers and acquisitions                             |
 
-### 5. RSS News Collection
+### 6. RSS News Collection
 
 The RSS collector reads active sources from Supabase and collects recent articles.
 Current example sources include **NASA News** and **SpaceNews**.
@@ -285,7 +377,7 @@ The collector normalizes:
 Articles are deduplicated and stored in Supabase. The RSS collector runs
 automatically every day using GitHub Actions.
 
-### 6. Rule-Based Relevance Filtering
+### 7. Rule-Based Relevance Filtering
 
 New articles are evaluated using:
 
@@ -393,6 +485,12 @@ Supabase
 - [x] Automatically create verified new company records
 - [x] Create company master
 - [x] Create company aliases
+- [x] Design alias-enrichment metadata and safety constraints
+- [x] Build AI-assisted alias suggestion agent
+- [x] Add deterministic alias validation and ambiguity controls
+- [x] Add pending-alias review and lifecycle commands
+- [x] Add bounded local alias-enrichment orchestration
+- [x] Add separate daily alias-enrichment automation
 - [x] Create industry topic taxonomy
 - [x] Create weighted topic keywords
 - [x] Create news source registry
@@ -407,7 +505,10 @@ Supabase
 
 - [ ] Connect relevance filtering to the daily GitHub Actions pipeline
 - [ ] Manually evaluate relevance-filter precision and recall
-- [ ] Improve alias matching and ambiguous ticker handling
+- [x] Build deterministic alias normalization and generation
+- [x] Build AI-assisted alias suggestions
+- [x] Add alias validation and ambiguous ticker handling
+- [x] Add a pending-alias review workflow
 - [ ] Add event detection
 - [ ] Add more trusted RSS and official sources
 - [ ] Add SEC EDGAR collector

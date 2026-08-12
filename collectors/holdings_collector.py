@@ -20,6 +20,7 @@ from agents.company_enrichment_agent import ( build_company_candidate,
     normalize_company_candidate,
     should_accept_classification,
     validate_company_candidate,)
+from collectors.company_sync import create_basic_aliases
 
 ETF_TICKER = "UFO"
 ETF_PAGE_URL = "https://procureetfs.com/ufo/"
@@ -676,6 +677,11 @@ def main() -> None:
                 record["cusip"],
                 record["security_name"],
                 )
+
+
+        # Keep free, deterministic aliases current independently of the
+        # separately scheduled AI alias-enrichment workflow.
+        create_basic_aliases(supabase, companies)
 
 
         rows_saved = upsert_in_batches(supabase, records)

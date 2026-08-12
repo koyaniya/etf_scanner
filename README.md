@@ -46,31 +46,61 @@ and forecasting system**.
 ## Current Architecture
 
 ```text
-UFO Holdings
-     │
-     ▼
+UFO Holdings Source
+        │
+        ▼
+Holdings Collector
+        │
+        ▼
+Holding Normalizer
+        │
+        ├── COMPANY ── continues to resolution
+        ├── FUND
+        ├── CASH
+        ├── CURRENCY
+        └── OTHER
+        │
+        ▼
+Company Resolver
+        │
+        ├── Existing company found
+        │       └── assign company_id
+        │
+        └── Unresolved company
+                │
+                ▼
+        LLM + Web Verification
+                │
+                ├── verified non-company ──── correct holding_type
+                ├── verified existing ─────── link company_id
+                ├── verified new company ──── create company master record
+                └── uncertain / conflicting ─ keep unresolved
+        │
+        ▼
+Historical ETF Holdings
+        │
+        ▼
 Company Master / Aliases
-     │
-     ├───────────────┐
-     │               │
-     ▼               ▼
+        │
+        ├───────────────┐
+        ▼               ▼
 RSS Sources      Industry Topics
-     │               │
-     ▼               ▼
+        │               │
+        ▼               ▼
 News Collection  Topic Keywords
-     │               │
-     └───────┬───────┘
-             ▼
-      Relevance Filter
-             │
-             ▼
-      Article Analysis
-             │
-             ▼
-      Event / Trend Data
-             │
-             ▼
-   Daily / Weekly Reports
+        │               │
+        └───────┬───────┘
+                ▼
+        Relevance Filter
+                │
+                ▼
+        Article Analysis
+                │
+                ▼
+        Event / Trend Data
+                │
+                ▼
+     Daily / Weekly Reports
 ```
 
 ---
@@ -87,7 +117,16 @@ etf_scanner/
 │
 ├── processing/
 │   ├── __init__.py
+│   ├── holdings_normalizer.py
+│   ├── company_resolver.py
 │   └── relevance_filter.py
+│
+├── agents/
+│   ├── __init__.py
+│   └── company_enrichment_agent.py
+│
+├── scripts/
+│   └── test_company_enrichment.py
 │
 ├── .github/
 │   └── workflows/
@@ -120,31 +159,100 @@ etf_scanner/
 ### 1. UFO Holdings Collection
 
 The system retrieves the latest UFO ETF holdings from the official Procure ETF
-source. Holdings are stored as historical snapshots rather than overwritten.
-
-This allows future analysis of:
-
-- additions and removals;
-- changes in holding weights;
-- portfolio composition over time;
-- which companies were held at the time an article was published.
+source. Holdings are stored as historical snapshots rather than overwritten, which
+allows analysis of additions and removals, weight changes, portfolio composition over
+time, and which companies were held when a given article was published.
 
 The holdings workflow is executed automatically through GitHub Actions.
 
-### 2. Company Master and Aliases
+### 2. Holding Classification and Company Resolution
 
-ETF holdings are connected to a company master table. Each company may have multiple
-aliases, including:
+Raw ETF holdings do not always represent operating companies — a holdings file may
+also contain cash, currencies, money-market funds, and other instruments. The
+`holdings_normalizer` classifies every holding **before** company matching:
 
-- official company name;
-- shortened company name;
-- ticker;
-- product name;
-- brand;
-- subsidiary;
-- manually defined aliases.
+| Type       | Meaning                                                         |
+| ---------- | --------------------------------------------------------------- |
+| `COMPANY`  | Operating company / equity holding                              |
+| `FUND`     | Mutual fund, money-market fund, or similar                      |
+| `CASH`     | Cash or cash-equivalent position                                |
+| `CURRENCY` | Foreign-currency position                                       |
+| `OTHER`    | Cannot be classified confidently by deterministic rules         |
 
-### 3. Industry Topic Taxonomy
+Only `COMPANY` holdings participate in company-master resolution. Non-company
+holdings remain in `etf_holdings` — they are still valid parts of the historical
+portfolio.
+
+Each company holding is then linked to the `companies` master via `company_id`, using
+a deterministic resolver that attempts ticker matching followed by canonical
+company-name matching. This lets multiple historical security identifiers resolve to
+the same underlying business — ETF source data may change a ticker or identifier
+after an exchange convention change or corporate action while still referring to the
+same company.
+
+Companies carry multiple aliases (official name, short name, ticker, product, brand,
+subsidiary, and manual entries), which the relevance filter later matches against
+article text.
+
+### 3. LLM-Based Company Enrichment
+
+When a holding is classified `COMPANY` but cannot be matched to the existing master,
+it is passed to an OpenAI-based enrichment agent that combines structured model output
+with web verification. The agent treats `stock_ticker`, `cusip`, and `security_name`
+as identifiers of a single security, and determines whether it is a company, fund,
+ETF, bond, warrant, right, currency, cash position, other instrument, or unknown.
+
+It returns `entity_type`, `confidence`, `canonical_name`, `verified`,
+`identifier_conflict`, `corporate_action_detected`, `exchange`, `country_code`,
+`website_url`, `verification_summary`, and `reason`.
+
+A classification is **accepted automatically only when** all four hold:
+
+```text
+verified              = true
+identifier_conflict   = false
+confidence           >= configured threshold
+entity_type          != UNKNOWN
+```
+
+**Identifier conflict protection.** A ticker match alone is not sufficient. If the
+ticker points to Security A, the CUSIP to an unrelated Security B, and the name is
+unverified, the agent returns `verified = false`, `identifier_conflict = true`,
+`entity_type = UNKNOWN`, and no company is created. This stops unrelated securities
+that share or reuse identifiers from contaminating the company master.
+
+**Corporate action handling.** Not every mismatch is an error — reorganizations,
+holding-company formations, ticker and CUSIP changes, renames, and mergers all
+produce legitimate identifier drift. Where reliable public evidence shows identifiers
+belong to the same company lineage, the agent returns `verified = true`,
+`identifier_conflict = false`, `corporate_action_detected = true`, preserving the
+historical source data while still linking to the correct master entity.
+
+**Company master maintenance.** For a verified unresolved company, fields are
+normalized and validated, the master is re-checked, and the holding is either linked
+to an existing company or inserted as a new record (`canonical_name`,
+`primary_ticker`, `exchange`, `country_code`, `website_url`, `is_active`) with a
+database-generated `company_id`.
+
+```text
+unresolved holding
+        ↓
+LLM + web verification
+        ↓
+verified COMPANY
+        ↓
+normalize + validate candidate
+        ↓
+re-check company master
+        │
+        ├── exists → link company_id
+        └── new    → create company → assign company_id
+```
+
+The agent runs **only** for unresolved holdings, keeping scheduled runs deterministic
+and minimizing LLM usage.
+
+### 4. Industry Topic Taxonomy
 
 The project contains a topic taxonomy for major space-industry areas. Each topic can
 contain multiple weighted keywords.
@@ -159,7 +267,7 @@ contain multiple weighted keywords.
 | Infrastructure         | propulsion, orbital infrastructure, lunar exploration                  |
 | Corporate              | funding and IPOs, mergers and acquisitions                             |
 
-### 4. RSS News Collection
+### 5. RSS News Collection
 
 The RSS collector reads active sources from Supabase and collects recent articles.
 Current example sources include **NASA News** and **SpaceNews**.
@@ -177,7 +285,7 @@ The collector normalizes:
 Articles are deduplicated and stored in Supabase. The RSS collector runs
 automatically every day using GitHub Actions.
 
-### 5. Rule-Based Relevance Filtering
+### 6. Rule-Based Relevance Filtering
 
 New articles are evaluated using:
 
@@ -214,17 +322,38 @@ The scoring system is versioned so it can be improved and re-run later.
 
 ### UFO Holdings
 
-Runs automatically and checks whether a new snapshot should be collected.
+The holdings pipeline runs automatically through GitHub Actions and checks whether
+enough time has passed since the latest stored snapshot.
 
 ```text
 GitHub Actions
-    ↓
-UFO holdings collector
-    ↓
-Validation
-    ↓
-Supabase
+      ↓
+UFO Holdings Collector
+      ↓
+Source Validation
+      ↓
+Holding Classification
+      ↓
+Company Resolver
+      ↓
+unresolved COMPANY?
+      │
+      ├── no ───────────────────────────┐
+      │                                │
+      └── yes                          │
+            ↓                          │
+       OpenAI + Web Verification       │
+            ↓                          │
+       Company Enrichment              │
+            ↓                          │
+       Company Master Update           │
+            │                          │
+            └──────────────┬───────────┘
+                           ↓
+                     Supabase
 ```
+
+OpenAI is therefore used as a fallback rather than for every ETF holding.
 
 ### Daily News Collection
 
@@ -246,13 +375,22 @@ Supabase
 
 ## Roadmap
 
-### Phase 1 — Data Collection and Relevance Engine
+### Phase 1 — Data Collection, Entity Resolution and Relevance Engine
 
 **Completed**
 
 - [x] Create UFO holdings database
 - [x] Automatically update UFO holdings
 - [x] Preserve historical holding snapshots
+- [x] Classify holdings by entity type
+- [x] Separate company holdings from cash, currencies and funds
+- [x] Link ETF holdings to company master with `company_id`
+- [x] Build deterministic company resolver
+- [x] Build LLM-based company enrichment fallback
+- [x] Add web verification for unresolved holdings
+- [x] Add identifier-conflict detection
+- [x] Add corporate-action-aware company resolution
+- [x] Automatically create verified new company records
 - [x] Create company master
 - [x] Create company aliases
 - [x] Create industry topic taxonomy
@@ -591,7 +729,7 @@ and market-impact datasets.
 
 | Status      | Tools                                                                                                                  |
 | ----------- | ---------------------------------------------------------------------------------------------------------------------- |
-| **Current** | Python · pandas · Supabase / PostgreSQL · GitHub Actions · RSS / Atom · feedparser · requests · BeautifulSoup            |
+| **Current** | Python · pandas · Supabase / PostgreSQL · GitHub Actions · OpenAI API · Responses API · Structured Outputs · Web Search · Pydantic · RSS / Atom · feedparser · requests · BeautifulSoup         |
 | **Planned** | Claude API or OpenAI API · embeddings · SEC APIs · search APIs · scikit-learn · XGBoost / LightGBM · statsmodels · PyTorch · time-series forecasting libraries |
 
 ---

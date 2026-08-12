@@ -13,6 +13,13 @@ from bs4 import BeautifulSoup
 from dotenv import load_dotenv
 from supabase import Client, create_client
 
+from processing.holdings_normalizer import classify_holding
+from processing.company_resolver import (create_company, load_companies, resolve_candidate_company_id, resolve_company_id,)
+from agents.company_enrichment_agent import ( build_company_candidate,
+    classify_with_llm,
+    normalize_company_candidate,
+    should_accept_classification,
+    validate_company_candidate,)
 
 ETF_TICKER = "UFO"
 ETF_PAGE_URL = "https://procureetfs.com/ufo/"
@@ -22,6 +29,9 @@ LOG_TABLE_NAME = "etf_holding_update_logs"
 MINIMUM_UPDATE_INTERVAL_DAYS = 3
 REQUEST_TIMEOUT_SECONDS = 30
 BATCH_SIZE = 200
+
+
+DRY_RUN_COMPANY_CREATION = False
 
 
 def create_supabase_client() -> Client:
@@ -337,18 +347,27 @@ def clean_holdings(
     records: list[dict[str, Any]] = []
 
     for _, row in df.iterrows():
+        stock_ticker = parse_optional_text(row["StockTicker"])
+        cusip = parse_optional_text(row["CUSIP"])
         security_name = parse_optional_text(row["SecurityName"])
 
         if not security_name:
             continue
 
+        holding_type = classify_holding(
+            stock_ticker,
+            cusip,
+            security_name,
+        )
+
         records.append(
             {
                 "etf_ticker": ETF_TICKER,
                 "holding_date": holding_date.isoformat(),
-                "stock_ticker": parse_optional_text(row["StockTicker"]),
-                "cusip": parse_optional_text(row["CUSIP"]),
+                "stock_ticker": stock_ticker,
+                "cusip": cusip,
                 "security_name": security_name,
+                "holding_type": holding_type,
                 "shares": parse_number(row["Shares"]),
                 "price": parse_number(row["Price"]),
                 "market_value": parse_number(row["MarketValue"]),
@@ -542,6 +561,122 @@ def main() -> None:
             raw_df=raw_df,
             source_url=source_url,
         )
+
+        companies = load_companies(supabase)
+
+        for record in records:
+            record["company_id"] = resolve_company_id(
+                holding=record,
+                companies=companies,
+            )
+
+
+        for record in records:
+            print( record["stock_ticker"],
+                record["security_name"],
+                record["holding_type"],
+                record["company_id"],
+            )
+            
+
+
+
+        
+
+        unresolved_companies = [
+            record 
+            for record in records 
+            if record["holding_type"] == "COMPANY" 
+            and record["company_id"] is None
+            ]
+
+
+        for record in unresolved_companies: 
+            llm_result = classify_with_llm(record)
+        
+            print(
+                "LLM classification:",
+                record["stock_ticker"],
+                record["security_name"],
+                llm_result,
+            )
+
+            if not should_accept_classification(llm_result):
+                continue
+
+            # LLM verified that this is not actually a company.
+            if llm_result["entity_type"] != "COMPANY":
+                record["holding_type"] = llm_result["entity_type"]
+                continue
+
+
+            # Verified company: build enriched candidate.
+            candidate = build_company_candidate(
+                holding=record,
+                llm_result=llm_result,
+            )
+
+            candidate = normalize_company_candidate(candidate)
+
+            validate_company_candidate(candidate)
+
+
+            # Check again against existing master using enriched data.
+            existing_company_id = resolve_candidate_company_id(
+                candidate=candidate,
+                companies=companies,
+                )
+
+
+            if existing_company_id is not None:
+                record["company_id"] = existing_company_id
+                continue
+
+            # Truly new, verified company.
+            if DRY_RUN_COMPANY_CREATION:
+                print(
+                    "DRY RUN - would create company:",
+                    candidate,
+                )
+                continue
+
+            new_company_id = create_company(
+                supabase=supabase,
+                candidate=candidate,
+            )
+
+            record["company_id"] = new_company_id
+
+            companies.append(
+                {
+                    "company_id": new_company_id,
+                    "canonical_name": candidate["canonical_name"],
+                    "primary_ticker": candidate.get("stock_ticker"),
+                }
+            )
+
+            print(
+                "Created new company:",
+                new_company_id,
+                candidate["canonical_name"],
+            )
+
+
+        still_unresolved_companies = [
+            record
+            for record in records 
+            if record["holding_type"] == "COMPANY"
+            and record["company_id"] is None]
+
+        if still_unresolved_companies: 
+            print("Still unresolved after LLM classification:")
+            for record in still_unresolved_companies:
+                print(
+                record["stock_ticker"],
+                record["cusip"],
+                record["security_name"],
+                )
+
 
         rows_saved = upsert_in_batches(supabase, records)
 

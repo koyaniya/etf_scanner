@@ -21,6 +21,7 @@ AliasType = Literal[
     "FORMER_NAME",
     "PRODUCT",
     "BRAND",
+    "SUBSIDIARY",
 ]
 
 
@@ -99,12 +100,10 @@ def research_company_aliases(
                     "search and reliable public sources, prioritizing the company's "
                     "official website, exchange filings, regulator filings, and "
                     "reputable reporting. Suggest only names that clearly identify "
-                    "this company or its owned brands and products. Do not suggest "
-                    "subsidiaries; a subsidiary must be represented and researched "
-                    "as its own company record. "
+                    "this company or its owned brands, products, and subsidiaries. "
                     "Do not suggest generic industry terms, slogans, executive names, "
                     "competitors, customers, or merely related organizations. A brand, "
-                    "product must have evidence of ownership. A former "
+                    "product, or subsidiary must have evidence of ownership. A former "
                     "name must have evidence of the rename or corporate lineage. "
                     "Return the direct evidence page URL for every suggestion. Do not "
                     "repeat an existing alias. If the supplied company identity cannot "

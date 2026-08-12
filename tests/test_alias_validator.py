@@ -106,6 +106,17 @@ class AliasValidatorTests(unittest.TestCase):
             result.reasons,
         )
 
+    def test_subsidiary_alias_requires_review(self) -> None:
+        result = self.validate(
+            research_with("Example Subsidiary", "SUBSIDIARY")
+        )
+
+        self.assertEqual(result.decision, "REVIEW")
+        self.assertIn(
+            "OWNERSHIP_RELATIONSHIP_REQUIRES_REVIEW",
+            result.reasons,
+        )
+
     def test_ticker_is_normalized_and_requires_review(self) -> None:
         result = self.validate(research_with("rklx", "TICKER"))
 

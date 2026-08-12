@@ -63,8 +63,6 @@ class CompanyAliasAgentTests(unittest.TestCase):
         self.assertEqual(call["model"], "test-model")
         self.assertEqual(call["tools"], [{"type": "web_search"}])
         self.assertIs(call["text_format"], CompanyAliasResearch)
-        system_prompt = call["input"][0]["content"]
-        self.assertIn("Do not suggest subsidiaries", system_prompt)
 
     def test_pending_rows_are_inactive_and_keep_provenance(self) -> None:
         rows = build_pending_alias_rows(12, make_research(), [])

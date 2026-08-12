@@ -264,11 +264,10 @@ OpenAI output and web search. Every suggestion includes an alias type, confidenc
 evidence summary, and one or more supporting URLs. Suggestions are never activated
 automatically by the research model. A separate deterministic validator rejects
 malformed, generic, duplicated, and low-confidence suggestions. Products, brands,
-former names, alternative tickers, and ambiguous cross-company aliases remain
-`PENDING` and inactive. Subsidiaries are excluded from AI alias research because they
-should be represented and enriched as their own company records. Only a
-high-confidence short name that is derived from the canonical name and supported by
-the company's own website can be automatically marked `VERIFIED` and active.
+subsidiaries, former names, alternative tickers, and ambiguous cross-company aliases
+remain `PENDING` and inactive. Only a high-confidence short name that is derived from
+the canonical name and supported by the company's own website can be automatically
+marked `VERIFIED` and active.
 
 Preview suggestions without writing to the database:
 

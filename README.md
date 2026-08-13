@@ -374,7 +374,9 @@ The collector normalizes:
 - content hash.
 
 Articles are deduplicated and stored in Supabase. The RSS collector runs
-automatically every day using GitHub Actions.
+automatically every day using GitHub Actions. After collection succeeds, the same
+workflow runs the rule-based relevance filter for newly unprocessed articles and
+stores their results in `article_relevance`.
 
 ### 7. Rule-Based Relevance Filtering
 
@@ -502,7 +504,7 @@ Supabase
 
 **Next**
 
-- [ ] Connect relevance filtering to the daily GitHub Actions pipeline
+- [x] Connect relevance filtering to the daily GitHub Actions pipeline
 - [ ] Manually evaluate relevance-filter precision and recall
 - [x] Build deterministic alias normalization and generation
 - [x] Build AI-assisted alias suggestions

@@ -139,12 +139,12 @@ def is_public_evidence_url(value: str) -> bool:
     )
 
 
-def build_pending_alias_rows(
+def build_verified_alias_rows(
     company_id: int,
     research: CompanyAliasResearch,
     existing_aliases: list[dict[str, Any]],
 ) -> list[dict[str, Any]]:
-    """Convert valid, new suggestions into inactive database rows."""
+    """Convert valid, new suggestions into active verified database rows."""
 
     if not research.company_verified:
         return []
@@ -174,9 +174,9 @@ def build_pending_alias_rows(
                 "company_id": company_id,
                 "alias": alias,
                 "alias_type": suggestion.alias_type,
-                "is_active": False,
+                "is_active": True,
                 "confidence": suggestion.confidence,
-                "verification_status": "PENDING",
+                "verification_status": "VERIFIED",
                 "source_urls": source_urls,
                 "generated_by": "AI",
                 "notes": normalize_name(suggestion.evidence_summary),

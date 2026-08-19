@@ -265,9 +265,9 @@ evidence summary, and one or more supporting URLs. Suggestions are never activat
 automatically by the research model. A separate deterministic validator rejects
 malformed, generic, duplicated, and low-confidence suggestions. Products, brands,
 subsidiaries, former names, alternative tickers, and ambiguous cross-company aliases
-remain `PENDING` and inactive. Only a high-confidence short name that is derived from
-the canonical name and supported by the company's own website can be automatically
-marked `VERIFIED` and active.
+retain validation warnings in their notes. Every suggestion that passes the hard
+validation checks is saved as `VERIFIED` and active. If an alias later proves
+incorrect, it can be rejected and deactivated with the review command.
 
 Preview suggestions without writing to the database:
 
@@ -275,8 +275,8 @@ Preview suggestions without writing to the database:
 python -m scripts.suggest_company_aliases --company-id 123
 ```
 
-After inspecting the validation decisions, save reviewable candidates and any narrowly
-auto-approved short names:
+After inspecting the validation decisions, save all candidates that passed the hard
+validation checks:
 
 ```bash
 python -m scripts.suggest_company_aliases --company-id 123 --save
@@ -292,7 +292,7 @@ List aliases waiting for review:
 python -m scripts.review_company_aliases list
 ```
 
-Approve or reject a pending alias:
+Approve a legacy pending alias or reject an active alias:
 
 ```bash
 python -m scripts.review_company_aliases decide \
@@ -538,12 +538,16 @@ For relevant articles, extract structured fields such as:
 
 **Planned tasks**
 
-- [ ] Build LLM classifier
-- [ ] Use structured JSON output
-- [ ] Separate facts from interpretation
-- [ ] Add prompt versioning
-- [ ] Store LLM analysis separately from raw article data
-- [ ] Track model and prompt versions
+- [x] Design versioned Article Analyzer database storage
+- [x] Define Article Analyzer structured schema and entity resolution
+- [x] Build preview-only LLM classifier with strict structured output
+- [x] Use structured JSON output
+- [x] Separate facts from interpretation
+- [x] Add prompt versioning
+- [x] Store LLM analysis separately from raw article data
+- [x] Track model and prompt versions in analyzer output and storage
+- [x] Run bounded Article Analyzer batches after daily relevance filtering
+- [x] Validate live analysis, persistence, entity links, and repeat prevention
 
 ### Phase 3 — Event Detection and Deduplication
 
@@ -559,6 +563,12 @@ These should eventually become one event.
 
 **Planned tasks**
 
+- [x] Design canonical event, evidence-link, and clustering-run storage
+- [x] Build deterministic canonical-event candidate generation
+- [x] Add conservative deterministic clustering decisions and event creation
+- [x] Add structured LLM resolution for ambiguous event candidates
+- [x] Add evidence-preserving canonical event consolidation and update history
+- [x] Automate and validate the complete canonical-event pipeline
 - [ ] Semantic duplicate detection
 - [ ] Event clustering
 - [ ] Event fingerprints

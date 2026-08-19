@@ -45,6 +45,18 @@ class AliasReviewTests(unittest.TestCase):
         self.assertEqual(update["verification_status"], "REJECTED")
         self.assertFalse(update["is_active"])
 
+    def test_reject_active_verified_alias(self) -> None:
+        update = build_review_update(
+            alias_row("VERIFIED", True),
+            "reject",
+            "reviewer",
+            note="Incorrect AI alias.",
+            reviewed_at=NOW,
+        )
+
+        self.assertEqual(update["verification_status"], "REJECTED")
+        self.assertFalse(update["is_active"])
+
     def test_deactivate_verified_alias(self) -> None:
         update = build_review_update(
             alias_row("VERIFIED", True),

@@ -76,8 +76,8 @@ def parse_args() -> argparse.Namespace:
         "--save",
         action="store_true",
         help=(
-            "Save REVIEW rows as inactive PENDING aliases and narrowly safe "
-            "AUTO_APPROVE rows as active VERIFIED aliases."
+            "Save every alias that passes deterministic validation as active "
+            "and VERIFIED."
         ),
     )
     return parser.parse_args()
@@ -116,7 +116,7 @@ def main() -> None:
     )
 
     if not args.save:
-        print("Preview only. Re-run with --save to insert pending aliases.")
+        print("Preview only. Re-run with --save to insert verified aliases.")
         return
 
     inserted_count = save_alias_rows(supabase, rows)

@@ -2,6 +2,23 @@ name: Daily RSS Collector
 
 on:
   workflow_dispatch:
+    inputs:
+      analysis_limit:
+        description: Maximum number of eligible articles to analyze
+        required: false
+        default: "10"
+      event_cluster_limit:
+        description: Maximum number of analyses to cluster into events
+        required: false
+        default: "10"
+      ambiguous_limit:
+        description: Maximum number of ambiguous clusters for LLM resolution
+        required: false
+        default: "5"
+      event_update_limit:
+        description: Maximum number of canonical events to consolidate
+        required: false
+        default: "5"
 
   schedule:
     # 08:30 every day in Korea
@@ -36,3 +53,71 @@ jobs:
           SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
           SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
         run: python -m processing.relevance_filter
+
+      - name: Analyze eligible articles
+        id: analyze_articles
+        continue-on-error: true
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          OPENAI_ARTICLE_ANALYZER_MODEL: ${{ vars.OPENAI_ARTICLE_ANALYZER_MODEL || 'gpt-5-mini' }}
+          ARTICLE_ANALYSIS_DAILY_LIMIT: ${{ inputs.analysis_limit || vars.ARTICLE_ANALYSIS_DAILY_LIMIT || '10' }}
+        run: >-
+          python -m scripts.analyze_articles
+          --limit "$ARTICLE_ANALYSIS_DAILY_LIMIT"
+          --save
+          --fail-on-error
+
+      - name: Cluster article analyses into canonical events
+        id: cluster_events
+        continue-on-error: true
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+          EVENT_CLUSTER_DAILY_LIMIT: ${{ inputs.event_cluster_limit || vars.EVENT_CLUSTER_DAILY_LIMIT || '10' }}
+        run: >-
+          python -m scripts.cluster_article_events
+          --limit "$EVENT_CLUSTER_DAILY_LIMIT"
+          --save
+          --fail-on-error
+
+      - name: Resolve ambiguous event clusters
+        id: resolve_ambiguous_events
+        continue-on-error: true
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          OPENAI_EVENT_CLUSTER_MODEL: ${{ vars.OPENAI_EVENT_CLUSTER_MODEL || 'gpt-5-mini' }}
+          EVENT_AMBIGUOUS_DAILY_LIMIT: ${{ inputs.ambiguous_limit || vars.EVENT_AMBIGUOUS_DAILY_LIMIT || '5' }}
+        run: >-
+          python -m scripts.resolve_ambiguous_events
+          --limit "$EVENT_AMBIGUOUS_DAILY_LIMIT"
+          --save
+          --fail-on-error
+
+      - name: Consolidate canonical events
+        id: update_events
+        continue-on-error: true
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          OPENAI_EVENT_UPDATE_MODEL: ${{ vars.OPENAI_EVENT_UPDATE_MODEL || 'gpt-5-mini' }}
+          EVENT_UPDATE_DAILY_LIMIT: ${{ inputs.event_update_limit || vars.EVENT_UPDATE_DAILY_LIMIT || '5' }}
+        run: >-
+          python -m scripts.update_canonical_events
+          --limit "$EVENT_UPDATE_DAILY_LIMIT"
+          --save
+          --fail-on-error
+
+      - name: Report downstream pipeline failure
+        if: >-
+          steps.analyze_articles.outcome == 'failure' ||
+          steps.cluster_events.outcome == 'failure' ||
+          steps.resolve_ambiguous_events.outcome == 'failure' ||
+          steps.update_events.outcome == 'failure'
+        run: |
+          echo "One or more analysis/event stages failed; inspect the logs above."
+          exit 1

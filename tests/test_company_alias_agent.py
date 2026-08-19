@@ -6,7 +6,7 @@ from types import SimpleNamespace
 from agents.company_alias_agent import (
     AliasSuggestion,
     CompanyAliasResearch,
-    build_pending_alias_rows,
+    build_verified_alias_rows,
     is_public_evidence_url,
     research_company_aliases,
 )
@@ -64,21 +64,21 @@ class CompanyAliasAgentTests(unittest.TestCase):
         self.assertEqual(call["tools"], [{"type": "web_search"}])
         self.assertIs(call["text_format"], CompanyAliasResearch)
 
-    def test_pending_rows_are_inactive_and_keep_provenance(self) -> None:
-        rows = build_pending_alias_rows(12, make_research(), [])
+    def test_verified_rows_are_active_and_keep_provenance(self) -> None:
+        rows = build_verified_alias_rows(12, make_research(), [])
 
         self.assertEqual(len(rows), 1)
         self.assertEqual(rows[0]["alias"], "Electron")
-        self.assertEqual(rows[0]["verification_status"], "PENDING")
+        self.assertEqual(rows[0]["verification_status"], "VERIFIED")
         self.assertEqual(rows[0]["generated_by"], "AI")
-        self.assertFalse(rows[0]["is_active"])
+        self.assertTrue(rows[0]["is_active"])
         self.assertEqual(
             rows[0]["source_urls"],
             ["https://example.com/electron"],
         )
 
     def test_existing_alias_is_not_suggested_again(self) -> None:
-        rows = build_pending_alias_rows(
+        rows = build_verified_alias_rows(
             12,
             make_research(),
             [{"alias": "  ELECTRON  "}],
@@ -89,13 +89,13 @@ class CompanyAliasAgentTests(unittest.TestCase):
         research = make_research().model_copy(
             update={"company_verified": False}
         )
-        self.assertEqual(build_pending_alias_rows(12, research, []), [])
+        self.assertEqual(build_verified_alias_rows(12, research, []), [])
 
     def test_invalid_evidence_url_is_rejected(self) -> None:
         research = make_research()
         research.aliases[0].source_urls = ["not-a-url"]
 
-        self.assertEqual(build_pending_alias_rows(12, research, []), [])
+        self.assertEqual(build_verified_alias_rows(12, research, []), [])
         self.assertTrue(is_public_evidence_url("https://example.com/source"))
         self.assertFalse(is_public_evidence_url("file:///tmp/source"))
 

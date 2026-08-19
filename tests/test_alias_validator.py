@@ -60,7 +60,7 @@ class AliasValidatorTests(unittest.TestCase):
             "VERIFIED",
         )
 
-    def test_short_name_without_official_source_requires_review(self) -> None:
+    def test_short_name_without_official_source_is_approved_with_warning(self) -> None:
         result = self.validate(
             research_with(
                 "Rocket Lab",
@@ -69,9 +69,10 @@ class AliasValidatorTests(unittest.TestCase):
             )
         )
 
-        self.assertEqual(result.decision, "REVIEW")
+        self.assertEqual(result.decision, "AUTO_APPROVE")
         self.assertIn("NO_COMPANY_WEBSITE_EVIDENCE", result.reasons)
-        self.assertFalse(result.database_row["is_active"])
+        self.assertTrue(result.database_row["is_active"])
+        self.assertEqual(result.database_row["verification_status"], "VERIFIED")
 
     def test_generic_alias_is_rejected(self) -> None:
         result = self.validate(research_with("Space", "SHORT_NAME"))
@@ -88,40 +89,40 @@ class AliasValidatorTests(unittest.TestCase):
         self.assertEqual(result.decision, "REJECT")
         self.assertIn("CONFIDENCE_BELOW_MINIMUM", result.reasons)
 
-    def test_cross_company_alias_requires_review(self) -> None:
+    def test_cross_company_alias_is_approved_with_warning(self) -> None:
         result = self.validate(
             research_with("Rocket Lab", "SHORT_NAME"),
             all_aliases=[{"company_id": 99, "alias": "rocket lab"}],
         )
 
-        self.assertEqual(result.decision, "REVIEW")
+        self.assertEqual(result.decision, "AUTO_APPROVE")
         self.assertIn("ALIAS_USED_BY_ANOTHER_COMPANY", result.reasons)
 
-    def test_relationship_alias_always_requires_review(self) -> None:
+    def test_relationship_alias_is_approved_with_warning(self) -> None:
         result = self.validate(research_with("Electron", "PRODUCT"))
 
-        self.assertEqual(result.decision, "REVIEW")
+        self.assertEqual(result.decision, "AUTO_APPROVE")
         self.assertIn(
             "OWNERSHIP_RELATIONSHIP_REQUIRES_REVIEW",
             result.reasons,
         )
 
-    def test_subsidiary_alias_requires_review(self) -> None:
+    def test_subsidiary_alias_is_approved_with_warning(self) -> None:
         result = self.validate(
             research_with("Example Subsidiary", "SUBSIDIARY")
         )
 
-        self.assertEqual(result.decision, "REVIEW")
+        self.assertEqual(result.decision, "AUTO_APPROVE")
         self.assertIn(
             "OWNERSHIP_RELATIONSHIP_REQUIRES_REVIEW",
             result.reasons,
         )
 
-    def test_ticker_is_normalized_and_requires_review(self) -> None:
+    def test_ticker_is_normalized_and_approved_with_warning(self) -> None:
         result = self.validate(research_with("rklx", "TICKER"))
 
         self.assertEqual(result.alias, "RKLX")
-        self.assertEqual(result.decision, "REVIEW")
+        self.assertEqual(result.decision, "AUTO_APPROVE")
         self.assertEqual(result.database_row["alias"], "RKLX")
         self.assertIn("TICKER_REQUIRES_REVIEW", result.reasons)
 

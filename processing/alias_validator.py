@@ -18,7 +18,7 @@ from collectors.company_sync import (
 )
 
 
-ValidationDecision = Literal["AUTO_APPROVE", "REVIEW", "REJECT"]
+ValidationDecision = Literal["AUTO_APPROVE", "REJECT"]
 
 MINIMUM_CONFIDENCE = {
     "SHORT_NAME": 0.90,
@@ -138,7 +138,6 @@ def build_alias_database_row(
     decision: ValidationDecision,
     reasons: list[str],
 ) -> dict[str, Any]:
-    auto_approved = decision == "AUTO_APPROVE"
     validation_note = ", ".join(reasons)
     evidence_note = normalize_name(suggestion.evidence_summary)
 
@@ -146,9 +145,9 @@ def build_alias_database_row(
         "company_id": company_id,
         "alias": alias,
         "alias_type": suggestion.alias_type,
-        "is_active": auto_approved,
+        "is_active": True,
         "confidence": suggestion.confidence,
-        "verification_status": "VERIFIED" if auto_approved else "PENDING",
+        "verification_status": "VERIFIED",
         "source_urls": source_urls,
         "generated_by": "AI",
         "notes": f"{evidence_note} Validation: {validation_note}",
@@ -249,9 +248,7 @@ def validate_alias_suggestions(
             )
             continue
 
-        decision: ValidationDecision = (
-            "REVIEW" if review_reasons else "AUTO_APPROVE"
-        )
+        decision: ValidationDecision = "AUTO_APPROVE"
         reasons = review_reasons or ["SAFE_CANONICAL_SHORT_NAME"]
         database_row = build_alias_database_row(
             company_id,

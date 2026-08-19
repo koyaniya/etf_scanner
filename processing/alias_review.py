@@ -9,7 +9,7 @@ ReviewAction = Literal["approve", "reject", "deactivate", "reopen"]
 
 ALLOWED_TRANSITIONS = {
     "approve": {("PENDING", False)},
-    "reject": {("PENDING", False)},
+    "reject": {("PENDING", False), ("VERIFIED", True), ("VERIFIED", False)},
     "deactivate": {("VERIFIED", True)},
     "reopen": {("REJECTED", False), ("VERIFIED", False)},
 }

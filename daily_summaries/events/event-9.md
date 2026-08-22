@@ -9,7 +9,7 @@ importance_score: 7
 confidence: 0.75
 time_horizon: "MEDIUM_TERM"
 companies:
-  - "Intuitive Machines Inc"
+  - "Intuitive Machines Inc [company_id: 37]"
 topics:
   - "Satellite communications"
   - "Satellite manufacturing"
@@ -40,10 +40,13 @@ The contract represents a significant commercial win for Intuitive Machines and 
 
 ## Sources
 
-- [Intuitive Machines wins contract for three GEO satellites](https://spacenews.com/intuitive-machines-wins-contract-for-three-geo-satellites/) — 2026-08-14T11:29:03+00:00
+- [Intuitive Machines wins contract for three GEO satellites](https://spacenews.com/intuitive-machines-wins-contract-for-three-geo-satellites/) — 2026-08-14 20:29 KST
 
 ## Related events
 
 - [[event-6|Rocket Lab to test Space Force data network connection in orbit in 2027]]
 - [[event-7|Lynk and Omnispace form Elveo Mobile to advance D2D services]]
-- [[event-15|Space Force awards five companies $60 million for multi-vendor satellite network tests]]
+- [[event-15|Space Force awards five companies $60 million to prototype multi-vendor connections to SpaceX-built network]]
+- [[event-23|Kepler books Neutron for 2028 optical relay launch]]
+- [[event-27|Satellite manufacturing thrives in California despite cost and regulatory pressures]]
+- [[event-34|Telesat lands $1.63 billion Canadian defense contract]]

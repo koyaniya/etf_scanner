@@ -37,7 +37,7 @@ Strengthens U.S.–Japan collaboration on space-based surveillance and increases
 
 ## Sources
 
-- [U.S. Space Force adds second surveillance sensor to Japanese constellation](https://spacenews.com/u-s-space-force-adds-second-surveillance-sensor-to-japanese-constellation/) — 2026-08-14T22:26:27+00:00
+- [U.S. Space Force adds second surveillance sensor to Japanese constellation](https://spacenews.com/u-s-space-force-adds-second-surveillance-sensor-to-japanese-constellation/) — 2026-08-15 07:26 KST
 
 ## Related events
 
@@ -46,6 +46,8 @@ Strengthens U.S.–Japan collaboration on space-based surveillance and increases
 - [[event-3|Hypersonic missile startup Castelion raises $1 billion]]
 - [[event-6|Rocket Lab to test Space Force data network connection in orbit in 2027]]
 - [[event-14|Elve qualifies millimeter-wave amplifiers for spaceflight]]
-- [[event-15|Space Force awards five companies $60 million for multi-vendor satellite network tests]]
+- [[event-15|Space Force awards five companies $60 million to prototype multi-vendor connections to SpaceX-built network]]
 - [[event-18|Former Space Force general joins Lunar Outpost board]]
 - [[event-21|Space Force orders two more Impulse Space vehicles for maneuvering demonstrations]]
+- [[event-25|U.S. Senate confirms Schiess to lead Space Force]]
+- [[event-26|Bipartisan Senate bill would sharpen Space Force training for conflict with China]]

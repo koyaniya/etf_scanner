@@ -9,7 +9,7 @@ importance_score: 6
 confidence: 0.7
 time_horizon: "SHORT_TERM"
 companies:
-  - "Spire Global Inc"
+  - "Spire Global Inc [company_id: 11]"
 topics:
   - "Earth observation"
   - "Government contracts"
@@ -39,7 +39,7 @@ The awards expand the role of commercial radio‑occultation providers in supply
 
 ## Sources
 
-- [Spire and PlanetiQ win NOAA radio-occultation contracts](https://spacenews.com/spire-and-planetiq-win-noaa-radio-occultation-contracts/) — 2026-08-14T16:33:58+00:00
+- [Spire and PlanetiQ win NOAA radio-occultation contracts](https://spacenews.com/spire-and-planetiq-win-noaa-radio-occultation-contracts/) — 2026-08-15 01:33 KST
 
 ## Related events
 
@@ -48,5 +48,8 @@ The awards expand the role of commercial radio‑occultation providers in supply
 - [[event-8|NASA Selects Companies to Provide Payload Processing Services]]
 - [[event-13|Rocket Lab launches 9th satellite for iQPS]]
 - [[event-14|Elve qualifies millimeter-wave amplifiers for spaceflight]]
-- [[event-15|Space Force awards five companies $60 million for multi-vendor satellite network tests]]
+- [[event-15|Space Force awards five companies $60 million to prototype multi-vendor connections to SpaceX-built network]]
 - [[event-21|Space Force orders two more Impulse Space vehicles for maneuvering demonstrations]]
+- [[event-22|Webb Opens Treasure Chest]]
+- [[event-25|U.S. Senate confirms Schiess to lead Space Force]]
+- [[event-28|Voyager seeks relaxed requirements in NASA commercial space station RFP]]

@@ -9,7 +9,7 @@ importance_score: 6
 confidence: 0.6
 time_horizon: "SHORT_TERM"
 companies:
-  - "Ispace Inc/Japan"
+  - "Ispace Inc/Japan [company_id: 28]"
 topics:
   - "Launch services"
   - "Private funding and IPOs"
@@ -39,13 +39,14 @@ Additional Series E funding for Ispace could accelerate development and testing 
 
 ## Sources
 
-- [China’s iSpace raises first batch of series E funding for reusable rocketry](https://spacenews.com/chinas-ispace-raises-first-batch-of-series-e-funding-for-reusable-rocketry/) — 2026-08-12T12:48:16+00:00
+- [China’s iSpace raises first batch of series E funding for reusable rocketry](https://spacenews.com/chinas-ispace-raises-first-batch-of-series-e-funding-for-reusable-rocketry/) — 2026-08-12 21:48 KST
 
 ## Related events
 
-- [[event-3|Hypersonic missile startup Castelion raises $1 billion]]
 - [[event-12|Portal Space Systems to include rideshare payloads on Falcon 9 launch of Supernova]]
+- [[event-3|Hypersonic missile startup Castelion raises $1 billion]]
 - [[event-13|Rocket Lab launches 9th satellite for iQPS]]
 - [[event-17|Firefly increases vehicle production even as launches lag]]
 - [[event-19|First Neutron launch may slip to 2027]]
 - [[event-20|Rocket Lab builds deployable infrastructure for Electron launches]]
+- [[event-23|Kepler books Neutron for 2028 optical relay launch]]

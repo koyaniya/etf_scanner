@@ -38,17 +38,17 @@ This contract expansion advances Space Force responsive-space maneuvering demons
 
 ## Sources
 
-- [Space Force orders two more Impulse Space vehicles for maneuvering demonstrations](https://spacenews.com/space-force-orders-two-more-impulse-space-vehicles-for-maneuvering-demonstrations/) — 2026-08-12T23:30:00+00:00
+- [Space Force orders two more Impulse Space vehicles for maneuvering demonstrations](https://spacenews.com/space-force-orders-two-more-impulse-space-vehicles-for-maneuvering-demonstrations/) — 2026-08-13 08:30 KST
 
 ## Related events
 
 - [[event-1|NRO to expand use of HawkEye 360’s satellite intelligence]]
 - [[event-2|New report takes closer look at the Space Force spending surge]]
 - [[event-14|Elve qualifies millimeter-wave amplifiers for spaceflight]]
-- [[event-15|Space Force awards five companies $60 million for multi-vendor satellite network tests]]
+- [[event-15|Space Force awards five companies $60 million to prototype multi-vendor connections to SpaceX-built network]]
+- [[event-25|U.S. Senate confirms Schiess to lead Space Force]]
+- [[event-34|Telesat lands $1.63 billion Canadian defense contract]]
 - [[event-3|Hypersonic missile startup Castelion raises $1 billion]]
 - [[event-6|Rocket Lab to test Space Force data network connection in orbit in 2027]]
 - [[event-8|NASA Selects Companies to Provide Payload Processing Services]]
 - [[event-10|U.S. Space Force adds second surveillance sensor to Japanese constellation]]
-- [[event-11|Spire and PlanetiQ win NOAA radio-occultation contracts]]
-- [[event-18|Former Space Force general joins Lunar Outpost board]]

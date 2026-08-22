@@ -9,8 +9,8 @@ importance_score: 60
 confidence: 0.7
 time_horizon: "SHORT_TERM"
 companies:
-  - "Rocket Lab Corp"
-  - "Space Exploration Technologies Corp"
+  - "Rocket Lab Corp [company_id: 49]"
+  - "Space Exploration Technologies Corp [company_id: 19]"
 topics:
   - "Defense and national security"
   - "Satellite communications"
@@ -40,17 +40,17 @@ If successful, the test would demonstrate third-party (non-SpaceX) spacecraft ca
 
 ## Sources
 
-- [Rocket Lab to test Space Force data network connection in orbit in 2027](https://spacenews.com/rocket-lab-to-test-space-force-data-network-connection-in-orbit-in-2027/) — 2026-08-18T22:52:36+00:00
+- [Rocket Lab to test Space Force data network connection in orbit in 2027](https://spacenews.com/rocket-lab-to-test-space-force-data-network-connection-in-orbit-in-2027/) — 2026-08-19 07:52 KST
 
 ## Related events
 
-- [[event-15|Space Force awards five companies $60 million for multi-vendor satellite network tests]]
+- [[event-15|Space Force awards five companies $60 million to prototype multi-vendor connections to SpaceX-built network]]
+- [[event-23|Kepler books Neutron for 2028 optical relay launch]]
 - [[event-20|Rocket Lab builds deployable infrastructure for Electron launches]]
+- [[event-34|Telesat lands $1.63 billion Canadian defense contract]]
 - [[event-12|Portal Space Systems to include rideshare payloads on Falcon 9 launch of Supernova]]
 - [[event-13|Rocket Lab launches 9th satellite for iQPS]]
 - [[event-19|First Neutron launch may slip to 2027]]
 - [[event-1|NRO to expand use of HawkEye 360’s satellite intelligence]]
 - [[event-2|New report takes closer look at the Space Force spending surge]]
 - [[event-3|Hypersonic missile startup Castelion raises $1 billion]]
-- [[event-5|NASA’s B777 Gets New Coat of Paint]]
-- [[event-7|Lynk and Omnispace form Elveo Mobile to advance D2D services]]

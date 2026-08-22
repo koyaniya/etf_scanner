@@ -9,7 +9,7 @@ importance_score: 45
 confidence: 0.6
 time_horizon: "SHORT_TERM"
 companies:
-  - "Firefly Aerospace Inc"
+  - "Firefly Aerospace Inc [company_id: 39]"
 topics:
   - "Launch failures and delays"
   - "Launch services"
@@ -38,13 +38,14 @@ If Firefly successfully increases vehicle output, it could expand available smal
 
 ## Sources
 
-- [Firefly increases vehicle production even as launches lag](https://spacenews.com/firefly-increases-vehicle-production-even-as-launches-lag/) — 2026-08-12T02:06:13+00:00
+- [Firefly increases vehicle production even as launches lag](https://spacenews.com/firefly-increases-vehicle-production-even-as-launches-lag/) — 2026-08-12 11:06 KST
 
 ## Related events
 
 - [[event-4|Firefly Aerospace to fly Zeno Power radioisotope heating unit on lunar lander mission]]
+- [[event-13|Rocket Lab launches 9th satellite for iQPS]]
 - [[event-19|First Neutron launch may slip to 2027]]
 - [[event-12|Portal Space Systems to include rideshare payloads on Falcon 9 launch of Supernova]]
-- [[event-13|Rocket Lab launches 9th satellite for iQPS]]
 - [[event-16|China’s iSpace raises first batch of series E funding for reusable rocketry]]
 - [[event-20|Rocket Lab builds deployable infrastructure for Electron launches]]
+- [[event-23|Kepler books Neutron for 2028 optical relay launch]]

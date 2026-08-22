@@ -36,7 +36,7 @@ This action broadens the pool of commercial providers available to support NASA 
 
 ## Sources
 
-- [NASA Selects Companies to Provide Payload Processing Services](https://www.nasa.gov/news-release/nasa-selects-companies-to-provide-payload-processing-services/) — 2026-08-17T20:17:20+00:00
+- [NASA Selects Companies to Provide Payload Processing Services](https://www.nasa.gov/news-release/nasa-selects-companies-to-provide-payload-processing-services/) — 2026-08-18 05:17 KST
 
 ## Related events
 
@@ -44,5 +44,8 @@ This action broadens the pool of commercial providers available to support NASA 
 - [[event-2|New report takes closer look at the Space Force spending surge]]
 - [[event-11|Spire and PlanetiQ win NOAA radio-occultation contracts]]
 - [[event-14|Elve qualifies millimeter-wave amplifiers for spaceflight]]
-- [[event-15|Space Force awards five companies $60 million for multi-vendor satellite network tests]]
+- [[event-15|Space Force awards five companies $60 million to prototype multi-vendor connections to SpaceX-built network]]
 - [[event-21|Space Force orders two more Impulse Space vehicles for maneuvering demonstrations]]
+- [[event-25|U.S. Senate confirms Schiess to lead Space Force]]
+- [[event-28|Voyager seeks relaxed requirements in NASA commercial space station RFP]]
+- [[event-34|Telesat lands $1.63 billion Canadian defense contract]]

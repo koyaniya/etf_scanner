@@ -9,7 +9,7 @@ importance_score: 30
 confidence: 0.75
 time_horizon: "SHORT_TERM"
 companies:
-  - "Boeing Co/The"
+  - "Boeing Co/The [company_id: 54]"
 topics:
   - "Space infrastructure"
 updated_at: "2026-08-19T23:48:03.540088+00:00"
@@ -36,9 +36,14 @@ The photographed repaint and planned entry into service indicate NASA is transit
 
 ## Sources
 
-- [NASA’s B777 Gets New Coat of Paint](https://www.nasa.gov/image-article/nasas-b777-gets-new-coat-of-paint/) — 2026-08-18T15:10:36+00:00
+- [NASA’s B777 Gets New Coat of Paint](https://www.nasa.gov/image-article/nasas-b777-gets-new-coat-of-paint/) — 2026-08-19 00:10 KST
 
 ## Related events
 
 - [[event-6|Rocket Lab to test Space Force data network connection in orbit in 2027]]
 - [[event-20|Rocket Lab builds deployable infrastructure for Electron launches]]
+- [[event-22|Webb Opens Treasure Chest]]
+- [[event-23|Kepler books Neutron for 2028 optical relay launch]]
+- [[event-24|Northrop Grumman, Canadian Space Agency repurpose their Gateway projects]]
+- [[event-28|Voyager seeks relaxed requirements in NASA commercial space station RFP]]
+- [[event-34|Telesat lands $1.63 billion Canadian defense contract]]

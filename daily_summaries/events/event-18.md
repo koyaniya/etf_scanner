@@ -36,7 +36,7 @@ The appointment could strengthen Lunar Outpost's credibility and relationships w
 
 ## Sources
 
-- [Former Space Force general joins Lunar Outpost board](https://spacenews.com/former-space-force-general-joins-lunar-outpost-board/) — 2026-08-11T13:00:00+00:00
+- [Former Space Force general joins Lunar Outpost board](https://spacenews.com/former-space-force-general-joins-lunar-outpost-board/) — 2026-08-11 22:00 KST
 
 ## Related events
 
@@ -47,5 +47,6 @@ The appointment could strengthen Lunar Outpost's credibility and relationships w
 - [[event-6|Rocket Lab to test Space Force data network connection in orbit in 2027]]
 - [[event-10|U.S. Space Force adds second surveillance sensor to Japanese constellation]]
 - [[event-14|Elve qualifies millimeter-wave amplifiers for spaceflight]]
-- [[event-15|Space Force awards five companies $60 million for multi-vendor satellite network tests]]
+- [[event-15|Space Force awards five companies $60 million to prototype multi-vendor connections to SpaceX-built network]]
 - [[event-21|Space Force orders two more Impulse Space vehicles for maneuvering demonstrations]]
+- [[event-24|Northrop Grumman, Canadian Space Agency repurpose their Gateway projects]]

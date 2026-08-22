@@ -9,7 +9,7 @@ importance_score: 6
 confidence: 0.65
 time_horizon: "MEDIUM_TERM"
 companies:
-  - "Rocket Lab Corp"
+  - "Rocket Lab Corp [company_id: 49]"
 topics:
   - "Launch failures and delays"
   - "Launch services"
@@ -39,14 +39,15 @@ A possible slip of Neutron's maiden flight to 2027 represents schedule risk for 
 
 ## Sources
 
-- [First Neutron launch may slip to 2027](https://spacenews.com/first-neutron-launch-may-slip-to-2027/) — 2026-08-11T11:13:24+00:00
+- [First Neutron launch may slip to 2027](https://spacenews.com/first-neutron-launch-may-slip-to-2027/) — 2026-08-11 20:13 KST
 
 ## Related events
 
 - [[event-13|Rocket Lab launches 9th satellite for iQPS]]
 - [[event-20|Rocket Lab builds deployable infrastructure for Electron launches]]
+- [[event-23|Kepler books Neutron for 2028 optical relay launch]]
 - [[event-6|Rocket Lab to test Space Force data network connection in orbit in 2027]]
-- [[event-15|Space Force awards five companies $60 million for multi-vendor satellite network tests]]
+- [[event-15|Space Force awards five companies $60 million to prototype multi-vendor connections to SpaceX-built network]]
 - [[event-17|Firefly increases vehicle production even as launches lag]]
 - [[event-12|Portal Space Systems to include rideshare payloads on Falcon 9 launch of Supernova]]
 - [[event-16|China’s iSpace raises first batch of series E funding for reusable rocketry]]

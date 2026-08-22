@@ -41,10 +41,12 @@ The merger and rebrand combine messaging-focused D2D capabilities with coordinat
 
 ## Sources
 
-- [Lynk and Omnispace form Elveo Mobile to advance D2D services](https://spacenews.com/lynk-and-omnispace-form-elveo-mobile-to-advance-d2d-services/) — 2026-08-17T04:30:00+00:00
+- [Lynk and Omnispace form Elveo Mobile to advance D2D services](https://spacenews.com/lynk-and-omnispace-form-elveo-mobile-to-advance-d2d-services/) — 2026-08-17 13:30 KST
 
 ## Related events
 
 - [[event-6|Rocket Lab to test Space Force data network connection in orbit in 2027]]
 - [[event-9|Intuitive Machines wins contract for three GEO satellites]]
-- [[event-15|Space Force awards five companies $60 million for multi-vendor satellite network tests]]
+- [[event-15|Space Force awards five companies $60 million to prototype multi-vendor connections to SpaceX-built network]]
+- [[event-23|Kepler books Neutron for 2028 optical relay launch]]
+- [[event-34|Telesat lands $1.63 billion Canadian defense contract]]

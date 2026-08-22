@@ -9,7 +9,7 @@ importance_score: 55
 confidence: 0.7
 time_horizon: "SHORT_TERM"
 companies:
-  - "Firefly Aerospace Inc"
+  - "Firefly Aerospace Inc [company_id: 39]"
 topics:
   - "Lunar exploration"
 updated_at: "2026-08-19T23:48:00.491947+00:00"
@@ -37,9 +37,10 @@ A successful test would be a modest technology milestone for lunar surface opera
 
 ## Sources
 
-- [Firefly Aerospace to fly Zeno Power radioisotope heating unit on lunar lander mission](https://spacenews.com/firefly-aerospace-to-fly-zeno-power-radioisotope-heating-unit-on-lunar-lander-mission/) — 2026-08-19T12:00:00+00:00
+- [Firefly Aerospace to fly Zeno Power radioisotope heating unit on lunar lander mission](https://spacenews.com/firefly-aerospace-to-fly-zeno-power-radioisotope-heating-unit-on-lunar-lander-mission/) — 2026-08-19 21:00 KST
 
 ## Related events
 
 - [[event-17|Firefly increases vehicle production even as launches lag]]
 - [[event-18|Former Space Force general joins Lunar Outpost board]]
+- [[event-24|Northrop Grumman, Canadian Space Agency repurpose their Gateway projects]]

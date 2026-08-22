@@ -1,5 +1,8 @@
 name: Daily RSS Collector
 
+permissions:
+  contents: write
+
 on:
   workflow_dispatch:
     inputs:
@@ -47,6 +50,15 @@ jobs:
           SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
           SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
         run: python -m collectors.rss_collector
+
+      - name: Collect SEC EDGAR filings
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+          SEC_USER_AGENT: ${{ vars.SEC_USER_AGENT }}
+          SEC_LOOKBACK_DAYS: ${{ vars.SEC_LOOKBACK_DAYS || '7' }}
+          SEC_FILING_FORMS: ${{ vars.SEC_FILING_FORMS || '8-K,10-K,10-Q,6-K,20-F,40-F' }}
+        run: python -m collectors.sec_edgar_collector
 
       - name: Evaluate article relevance
         env:
@@ -111,6 +123,36 @@ jobs:
           --limit "$EVENT_UPDATE_DAILY_LIMIT"
           --save
           --fail-on-error
+
+      - name: Generate Obsidian event notes and daily summary
+        if: >-
+          steps.analyze_articles.outcome != 'failure' &&
+          steps.cluster_events.outcome != 'failure' &&
+          steps.resolve_ambiguous_events.outcome != 'failure' &&
+          steps.update_events.outcome != 'failure'
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          OPENAI_DAILY_SUMMARY_MODEL: ${{ vars.OPENAI_DAILY_SUMMARY_MODEL || 'gpt-5-mini' }}
+        run: python -m scripts.generate_obsidian_reports
+
+      - name: Commit generated Obsidian notes
+        if: >-
+          steps.analyze_articles.outcome != 'failure' &&
+          steps.cluster_events.outcome != 'failure' &&
+          steps.resolve_ambiguous_events.outcome != 'failure' &&
+          steps.update_events.outcome != 'failure'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add daily_summaries/events daily_summaries/summaries
+          if git diff --cached --quiet; then
+            echo "No Obsidian note changes to commit."
+          else
+            git commit -m "Update Obsidian event notes and daily summary"
+            git push
+          fi
 
       - name: Report downstream pipeline failure
         if: >-

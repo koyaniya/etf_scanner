@@ -358,7 +358,7 @@ contain multiple weighted keywords.
 | Infrastructure         | propulsion, orbital infrastructure, lunar exploration                  |
 | Corporate              | funding and IPOs, mergers and acquisitions                             |
 
-### 6. RSS News Collection
+### 6. RSS and SEC EDGAR Collection
 
 The RSS collector reads active sources from Supabase and collects recent articles.
 Current example sources include **NASA News** and **SpaceNews**.
@@ -377,6 +377,34 @@ Articles are deduplicated and stored in Supabase. The RSS collector runs
 automatically every day using GitHub Actions. After collection succeeds, the same
 workflow runs the rule-based relevance filter for newly unprocessed articles and
 stores their results in `article_relevance`.
+
+The scheduled workflow starts at 08:30 Asia/Seoul. The daily report covers the
+rolling 24-hour publication window from the previous day's 08:30 KST up to, but not
+including, the current day's 08:30 KST. Source publication timestamps in generated
+event notes are displayed in Korean time. Using an inclusive start and exclusive end
+ensures that an article on the exact boundary appears in only one report.
+
+The SEC collector treats the active `sec.gov` row whose `collection_method` is
+`API` as a filing source. It maps ticker symbols in the latest UFO holdings to SEC
+CIKs, requests each company's recent submissions, and stores selected filings in the
+same `articles` table. SEC public data access needs no API key, but the SEC requires a
+declared user agent containing an application identity and contact email.
+
+For local runs, add this to `.env` and then run the collector:
+
+```text
+SEC_USER_AGENT=UFO ETF Research your-email@example.com
+SEC_LOOKBACK_DAYS=7
+SEC_FILING_FORMS=8-K,10-K,10-Q,6-K,20-F,40-F
+```
+
+```bash
+python3 -m collectors.sec_edgar_collector
+```
+
+For GitHub Actions, create the repository variable `SEC_USER_AGENT`. The lookback and
+form list can optionally be overridden with `SEC_LOOKBACK_DAYS` and
+`SEC_FILING_FORMS`. Amendments such as `10-K/A` are excluded unless explicitly added.
 
 ### 7. Rule-Based Relevance Filtering
 
@@ -512,7 +540,7 @@ Supabase
 - [x] Add a pending-alias review workflow
 - [ ] Add event detection
 - [ ] Add more trusted RSS and official sources
-- [ ] Add SEC EDGAR collector
+- [x] Add SEC EDGAR collector
 - [ ] Add broad search / news discovery collector
 - [ ] Add article-body extraction
 

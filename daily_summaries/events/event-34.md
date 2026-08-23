@@ -47,6 +47,7 @@ The contract materially strengthens Telesat's position in defense-focused LEO sa
 
 - [[event-6|Rocket Lab to test Space Force data network connection in orbit in 2027]]
 - [[event-15|Space Force awards five companies $60 million to prototype multi-vendor connections to SpaceX-built network]]
+- [[event-41|Space Force awards All Points $250 million to expand satellite processing at Vandenberg]]
 - [[event-1|NRO to expand use of HawkEye 360’s satellite intelligence]]
 - [[event-2|New report takes closer look at the Space Force spending surge]]
 - [[event-14|Elve qualifies millimeter-wave amplifiers for spaceflight]]
@@ -54,4 +55,3 @@ The contract materially strengthens Telesat's position in defense-focused LEO sa
 - [[event-23|Kepler books Neutron for 2028 optical relay launch]]
 - [[event-25|U.S. Senate confirms Schiess to lead Space Force]]
 - [[event-28|Voyager seeks relaxed requirements in NASA commercial space station RFP]]
-- [[event-3|Hypersonic missile startup Castelion raises $1 billion]]

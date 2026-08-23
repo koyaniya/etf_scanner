@@ -45,13 +45,13 @@ An expanded NRO contract would validate and increase government demand for comme
 
 ## Related events
 
-- [[event-11|Spire and PlanetiQ win NOAA radio-occultation contracts]]
+- [[event-11|NOAA awards radio‑occultation contracts to Spire and PlanetiQ; extends Spire HyMS evaluation contract]]
 - [[event-2|New report takes closer look at the Space Force spending surge]]
 - [[event-14|Elve qualifies millimeter-wave amplifiers for spaceflight]]
 - [[event-15|Space Force awards five companies $60 million to prototype multi-vendor connections to SpaceX-built network]]
 - [[event-21|Space Force orders two more Impulse Space vehicles for maneuvering demonstrations]]
 - [[event-25|U.S. Senate confirms Schiess to lead Space Force]]
 - [[event-34|Telesat lands $1.63 billion Canadian defense contract]]
-- [[event-3|Hypersonic missile startup Castelion raises $1 billion]]
-- [[event-6|Rocket Lab to test Space Force data network connection in orbit in 2027]]
-- [[event-8|NASA Selects Companies to Provide Payload Processing Services]]
+- [[event-39|SpaceX wins $1.6 billion in launch orders for military satellite networks]]
+- [[event-40|Rocket Lab to open Alaska launch site under $266 million Space Force deal]]
+- [[event-41|Space Force awards All Points $250 million to expand satellite processing at Vandenberg]]

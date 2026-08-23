@@ -5,8 +5,8 @@ event_type: "GOVERNMENT_CONTRACT"
 event_date: null
 impact_direction: "POSITIVE"
 impact_strength: 3
-importance_score: 6
-confidence: 0.7
+importance_score: 10
+confidence: 0.75
 time_horizon: "SHORT_TERM"
 companies:
   - "Spire Global Inc [company_id: 11]"
@@ -14,32 +14,34 @@ topics:
   - "Earth observation"
   - "Government contracts"
   - "Space data and analytics"
-updated_at: "2026-08-19T23:48:35.032267+00:00"
+updated_at: "2026-08-23T23:48:08.844221+00:00"
 ---
 
-# Spire and PlanetiQ win NOAA radio-occultation contracts
+# NOAA awards radio‑occultation contracts to Spire and PlanetiQ; extends Spire HyMS evaluation contract
 
-The National Oceanic and Atmospheric Administration awarded contracts to Spire Global and PlanetiQ to provide radio occultation data to support terrestrial and space weather forecasts.
+The National Oceanic and Atmospheric Administration has taken multiple procurement actions involving commercial providers: it awarded contracts to Spire Global and PlanetiQ to supply radio‑occultation data to support terrestrial and space‑weather forecasts, and (separately) announced a $3 million contract extension, announced Aug. 4, to continue evaluating data from Spire Global’s Hyperspectral Microwave Sounder (HyMS).
 
 ## Industry implication
 
-The awards expand the role of commercial radio‑occultation providers in supplying operational weather and space‑weather data to a U.S. government agency, likely supporting near‑term revenue and validation for the providers and increasing government reliance on commercial atmospheric/space‑weather data sources.
+These actions expand NOAA's use of commercial space‑based weather data across multiple sensing techniques (radio occultation and microwave sounding). Near‑term effects likely include validation and modest revenue for the vendors (particularly Spire), increased government reliance on commercial atmospheric and space‑weather data sources, and potential strengthening of the market for privately operated atmospheric sounding sensors — though broader market impact depends on evaluation outcomes, contract sizes/durations, and future purchases.
 
 ## Key facts
 
-- The National Oceanic and Atmospheric Administration has awarded contracts to Spire Global and PlanetiQ.
-- The contracts are to provide radio occultation data for terrestrial and space weather forecasts.
-- Source: SpaceNews summary (article id 343).
+- NOAA awarded contracts to Spire Global and PlanetiQ to provide radio occultation data for terrestrial and space weather forecasts. (Source: SpaceNews, article id 343.)
+- NOAA announced a $3 million contract extension on Aug. 4 to continue evaluating data from Spire Global’s Hyperspectral Microwave Sounder (HyMS). (Source: SpaceNews, article id 96.)
+- The SpaceNews article about the radio‑occultation contracts (article id 343) was published Aug. 14, 2026; the HyMS purchase article (article id 96) was published Aug. 4, 2026.
 
 ## Risks
 
-- The summary does not state contract values or durations, so the financial impact on the companies is unclear.
+- Neither summary specifies full contract values, durations, deliverables, or performance metrics for the radio‑occultation awards, leaving the financial and operational impact unclear.
+- The $3 million HyMS contract extension funds evaluation but does not guarantee further or larger purchases if the data fail to meet NOAA requirements.
 - Operational performance and data quality of the awarded services could affect continuation or expansion of contracts.
-- Competition from other commercial or government radio‑occultation providers could limit future contract opportunities.
+- Competition from other commercial or government radio‑occultation and microwave sounding providers could limit future contract opportunities.
 
 ## Sources
 
 - [Spire and PlanetiQ win NOAA radio-occultation contracts](https://spacenews.com/spire-and-planetiq-win-noaa-radio-occultation-contracts/) — 2026-08-15 01:33 KST
+- [NOAA purchases Spire hyperspectral microwave sounder data](https://spacenews.com/noaa-purchases-spire-hyperspectral-microwave-sounder-data/) — 2026-08-05 05:05 KST
 
 ## Related events
 

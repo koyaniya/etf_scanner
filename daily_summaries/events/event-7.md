@@ -45,6 +45,7 @@ The merger and rebrand combine messaging-focused D2D capabilities with coordinat
 
 ## Related events
 
+- [[event-36|Amazon files application for direct-to-device satellite constellation]]
 - [[event-6|Rocket Lab to test Space Force data network connection in orbit in 2027]]
 - [[event-9|Intuitive Machines wins contract for three GEO satellites]]
 - [[event-15|Space Force awards five companies $60 million to prototype multi-vendor connections to SpaceX-built network]]

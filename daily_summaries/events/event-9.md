@@ -50,3 +50,5 @@ The contract represents a significant commercial win for Intuitive Machines and 
 - [[event-23|Kepler books Neutron for 2028 optical relay launch]]
 - [[event-27|Satellite manufacturing thrives in California despite cost and regulatory pressures]]
 - [[event-34|Telesat lands $1.63 billion Canadian defense contract]]
+- [[event-35|Kreios Space to fly VLEO demonstration in NanoAvionics bus]]
+- [[event-36|Amazon files application for direct-to-device satellite constellation]]

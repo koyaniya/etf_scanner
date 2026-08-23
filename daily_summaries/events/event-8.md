@@ -42,10 +42,11 @@ This action broadens the pool of commercial providers available to support NASA 
 
 - [[event-1|NRO to expand use of HawkEye 360’s satellite intelligence]]
 - [[event-2|New report takes closer look at the Space Force spending surge]]
-- [[event-11|Spire and PlanetiQ win NOAA radio-occultation contracts]]
+- [[event-11|NOAA awards radio‑occultation contracts to Spire and PlanetiQ; extends Spire HyMS evaluation contract]]
 - [[event-14|Elve qualifies millimeter-wave amplifiers for spaceflight]]
 - [[event-15|Space Force awards five companies $60 million to prototype multi-vendor connections to SpaceX-built network]]
 - [[event-21|Space Force orders two more Impulse Space vehicles for maneuvering demonstrations]]
 - [[event-25|U.S. Senate confirms Schiess to lead Space Force]]
 - [[event-28|Voyager seeks relaxed requirements in NASA commercial space station RFP]]
 - [[event-34|Telesat lands $1.63 billion Canadian defense contract]]
+- [[event-37|NASA selects successor to CAPSTONE lunar mission]]

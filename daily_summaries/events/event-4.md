@@ -44,3 +44,4 @@ A successful test would be a modest technology milestone for lunar surface opera
 - [[event-17|Firefly increases vehicle production even as launches lag]]
 - [[event-18|Former Space Force general joins Lunar Outpost board]]
 - [[event-24|Northrop Grumman, Canadian Space Agency repurpose their Gateway projects]]
+- [[event-37|NASA selects successor to CAPSTONE lunar mission]]

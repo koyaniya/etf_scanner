@@ -51,6 +51,7 @@ The award supports movement toward multi-vendor, interoperable satellite communi
 ## Related events
 
 - [[event-6|Rocket Lab to test Space Force data network connection in orbit in 2027]]
+- [[event-40|Rocket Lab to open Alaska launch site under $266 million Space Force deal]]
 - [[event-23|Kepler books Neutron for 2028 optical relay launch]]
 - [[event-34|Telesat lands $1.63 billion Canadian defense contract]]
 - [[event-1|NRO to expand use of HawkEye 360’s satellite intelligence]]
@@ -59,4 +60,3 @@ The award supports movement toward multi-vendor, interoperable satellite communi
 - [[event-14|Elve qualifies millimeter-wave amplifiers for spaceflight]]
 - [[event-19|First Neutron launch may slip to 2027]]
 - [[event-20|Rocket Lab builds deployable infrastructure for Electron launches]]
-- [[event-21|Space Force orders two more Impulse Space vehicles for maneuvering demonstrations]]

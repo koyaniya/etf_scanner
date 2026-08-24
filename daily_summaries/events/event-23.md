@@ -47,7 +47,7 @@ A confirmed Neutron booking helps validate Rocket Lab's commercial demand for Ne
 - [[event-15|Space Force awards five companies $60 million to prototype multi-vendor connections to SpaceX-built network]]
 - [[event-19|First Neutron launch may slip to 2027]]
 - [[event-40|Rocket Lab to open Alaska launch site under $266 million Space Force deal]]
+- [[event-42|Aerospace demonstrates DiskSats in low-Earth orbit]]
 - [[event-34|Telesat lands $1.63 billion Canadian defense contract]]
 - [[event-5|NASA’s B777 Gets New Coat of Paint]]
 - [[event-7|Lynk and Omnispace form Elveo Mobile to advance D2D services]]
-- [[event-9|Intuitive Machines wins contract for three GEO satellites]]

@@ -52,3 +52,4 @@ The contract represents a significant commercial win for Intuitive Machines and 
 - [[event-34|Telesat lands $1.63 billion Canadian defense contract]]
 - [[event-35|Kreios Space to fly VLEO demonstration in NanoAvionics bus]]
 - [[event-36|Amazon files application for direct-to-device satellite constellation]]
+- [[event-42|Aerospace demonstrates DiskSats in low-Earth orbit]]

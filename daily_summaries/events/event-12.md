@@ -45,6 +45,7 @@ Adds a commercial launch booking for Space Exploration Technologies Corp (Falcon
 ## Related events
 
 - [[event-39|SpaceX wins $1.6 billion in launch orders for military satellite networks]]
+- [[event-43|NASA Sets Coverage for Roman Space Telescope Launch from Florida]]
 - [[event-6|Rocket Lab to test Space Force data network connection in orbit in 2027]]
 - [[event-16|China’s iSpace raises first batch of series E funding for reusable rocketry]]
 - [[event-13|Rocket Lab launches 9th satellite for iQPS]]
@@ -53,4 +54,3 @@ Adds a commercial launch booking for Space Exploration Technologies Corp (Falcon
 - [[event-20|Rocket Lab builds deployable infrastructure for Electron launches]]
 - [[event-23|Kepler books Neutron for 2028 optical relay launch]]
 - [[event-38|Boeing still working with NASA to schedule next Starliner flight]]
-- [[event-40|Rocket Lab to open Alaska launch site under $266 million Space Force deal]]

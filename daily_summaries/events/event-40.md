@@ -50,6 +50,6 @@ This contract expands Rocket Lab's presence in U.S. national-security launch sup
 - [[event-20|Rocket Lab builds deployable infrastructure for Electron launches]]
 - [[event-23|Kepler books Neutron for 2028 optical relay launch]]
 - [[event-39|SpaceX wins $1.6 billion in launch orders for military satellite networks]]
+- [[event-42|Aerospace demonstrates DiskSats in low-Earth orbit]]
 - [[event-1|NRO to expand use of HawkEye 360’s satellite intelligence]]
 - [[event-2|New report takes closer look at the Space Force spending surge]]
-- [[event-14|Elve qualifies millimeter-wave amplifiers for spaceflight]]

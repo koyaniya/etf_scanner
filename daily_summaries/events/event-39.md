@@ -42,10 +42,10 @@ This award increases SpaceX's government/military launch backlog and strengthens
 
 ## Related events
 
+- [[event-43|NASA Sets Coverage for Roman Space Telescope Launch from Florida]]
 - [[event-6|Rocket Lab to test Space Force data network connection in orbit in 2027]]
 - [[event-12|Portal Space Systems to include rideshare payloads on Falcon 9 launch of Supernova]]
 - [[event-40|Rocket Lab to open Alaska launch site under $266 million Space Force deal]]
-- [[event-43|NASA Sets Coverage for Roman Space Telescope Launch from Florida]]
 - [[event-1|NRO to expand use of HawkEye 360’s satellite intelligence]]
 - [[event-2|New report takes closer look at the Space Force spending surge]]
 - [[event-14|Elve qualifies millimeter-wave amplifiers for spaceflight]]

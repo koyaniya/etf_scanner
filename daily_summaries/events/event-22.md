@@ -42,6 +42,7 @@ Demonstrates that the James Webb Space Telescope continues to produce new infrar
 
 ## Related events
 
+- [[event-47|APOD: 2026 August 26 – JWST Images The Lion’s Head Nebula]]
 - [[event-1|NRO to expand use of HawkEye 360’s satellite intelligence]]
 - [[event-5|NASA’s B777 Gets New Coat of Paint]]
 - [[event-6|Rocket Lab to test Space Force data network connection in orbit in 2027]]
@@ -51,4 +52,3 @@ Demonstrates that the James Webb Space Telescope continues to produce new infrar
 - [[event-24|Northrop Grumman, Canadian Space Agency repurpose their Gateway projects]]
 - [[event-28|Voyager seeks relaxed requirements in NASA commercial space station RFP]]
 - [[event-34|Telesat lands $1.63 billion Canadian defense contract]]
-- [[event-35|Kreios Space to fly VLEO demonstration in NanoAvionics bus]]

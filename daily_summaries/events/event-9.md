@@ -53,3 +53,4 @@ The contract represents a significant commercial win for Intuitive Machines and 
 - [[event-35|Kreios Space to fly VLEO demonstration in NanoAvionics bus]]
 - [[event-36|Amazon files application for direct-to-device satellite constellation]]
 - [[event-42|Aerospace demonstrates DiskSats in low-Earth orbit]]
+- [[event-46|RTX’s Blue Canyon Technologies introduces new spacecraft mission enabler]]

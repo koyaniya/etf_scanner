@@ -43,4 +43,4 @@ Routine regulatory disclosure by a major semiconductor supplier. By itself, the 
 - [STMicroelectronics N.V. files 6-K](https://www.sec.gov/Archives/edgar/data/932787/000094787126000820/ss6727672_6k.htm) — 2026-08-20 06:17 KST
 - [STMicroelectronics N.V. files 6-K](https://www.sec.gov/Archives/edgar/data/932787/000093278726000064/c3407c-august172026xdisclo.htm) — 2026-08-17 22:03 KST
 - [STMicroelectronics N.V. files 6-K](https://www.sec.gov/Archives/edgar/data/932787/000093278726000069/stm_sarxmaster-semiannual2.htm) — 2026-08-20 05:27 KST
-- [STMicroelectronics N.V. files 6-K](https://www.sec.gov/Archives/edgar/data/932787/000094787126000828/ss6743381_6k.htm) — 2026-08-25 15:30 KST
+- [STMicroelectronics N.V. files 6-K](https://www.sec.gov/Archives/edgar/data/932787/000094787126000828/ss6743381_6k.htm) — 2026-08-25 19:30 KST

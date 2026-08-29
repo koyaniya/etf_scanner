@@ -41,6 +41,7 @@ The photographed repaint and planned entry into service indicate NASA is transit
 ## Related events
 
 - [[event-38|Boeing still working with NASA to schedule next Starliner flight]]
+- [[event-50|BOEING CO files 8-K]]
 - [[event-6|Rocket Lab to test Space Force data network connection in orbit in 2027]]
 - [[event-20|Rocket Lab builds deployable infrastructure for Electron launches]]
 - [[event-22|Webb Opens Treasure Chest]]
@@ -49,4 +50,3 @@ The photographed repaint and planned entry into service indicate NASA is transit
 - [[event-28|Voyager seeks relaxed requirements in NASA commercial space station RFP]]
 - [[event-34|Telesat lands $1.63 billion Canadian defense contract]]
 - [[event-35|Kreios Space to fly VLEO demonstration in NanoAvionics bus]]
-- [[event-41|Space Force awards All Points $250 million to expand satellite processing at Vandenberg]]

@@ -45,7 +45,7 @@ Adds a commercial launch booking for Space Exploration Technologies Corp (Falcon
 ## Related events
 
 - [[event-39|SpaceX wins $1.6 billion in launch orders for military satellite networks]]
-- [[event-43|NASA Sets Coverage for Roman Space Telescope Launch from Florida]]
+- [[event-43|Nancy Grace Roman Space Telescope Launches Aboard SpaceX Falcon Heavy]]
 - [[event-6|Rocket Lab to test Space Force data network connection in orbit in 2027]]
 - [[event-16|China’s iSpace raises first batch of series E funding for reusable rocketry]]
 - [[event-13|Rocket Lab launches 9th satellite for iQPS]]

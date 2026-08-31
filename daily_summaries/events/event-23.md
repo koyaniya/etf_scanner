@@ -49,5 +49,5 @@ A confirmed Neutron booking helps validate Rocket Lab's commercial demand for Ne
 - [[event-40|Rocket Lab to open Alaska launch site under $266 million Space Force deal]]
 - [[event-42|Aerospace demonstrates DiskSats in low-Earth orbit]]
 - [[event-34|Telesat lands $1.63 billion Canadian defense contract]]
+- [[event-43|Nancy Grace Roman Space Telescope Launches Aboard SpaceX Falcon Heavy]]
 - [[event-5|NASA’s B777 Gets New Coat of Paint]]
-- [[event-7|Lynk and Omnispace form Elveo Mobile to advance D2D services]]

@@ -39,8 +39,8 @@ This is a regulatory disclosure event (SEC Form 6‑K) by a foreign issuer. Depe
 ## Sources
 
 - [GILAT SATELLITE NETWORKS LTD files 6-K](https://www.sec.gov/Archives/edgar/data/897322/000117891326004161/zk2635977.htm) — 2026-08-17 20:00 KST
-- [GILAT SATELLITE NETWORKS LTD files 6-K](https://www.sec.gov/Archives/edgar/data/897322/000117891326004309/zk2636039.htm) — 2026-08-31 15:01 KST
-- [GILAT SATELLITE NETWORKS LTD files 6-K](https://www.sec.gov/Archives/edgar/data/897322/000117891326004336/zk2636046.htm) — 2026-08-31 20:00 KST
+- [GILAT SATELLITE NETWORKS LTD files 6-K](https://www.sec.gov/Archives/edgar/data/897322/000117891326004309/zk2636039.htm) — 2026-08-31 19:01 KST
+- [GILAT SATELLITE NETWORKS LTD files 6-K](https://www.sec.gov/Archives/edgar/data/897322/000117891326004336/zk2636046.htm) — 2026-09-01 00:00 KST
 
 ## Related events
 

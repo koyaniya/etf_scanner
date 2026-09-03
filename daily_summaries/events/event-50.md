@@ -36,7 +36,7 @@ An 8-K is a disclosure of a material event or other reportable matter for a publ
 
 ## Sources
 
-- [BOEING CO files 8-K](https://www.sec.gov/Archives/edgar/data/12927/000162828026059427/ba-20260824.htm) — 2026-08-29 01:43 KST
+- [BOEING CO files 8-K](https://www.sec.gov/Archives/edgar/data/12927/000162828026059427/ba-20260824.htm) — 2026-08-29 05:43 KST
 
 ## Related events
 

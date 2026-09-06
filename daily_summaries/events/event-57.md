@@ -37,4 +37,4 @@ Unknown — the 8-K could disclose material information (financial, governance, 
 
 ## Sources
 
-- [VIASAT INC files 8-K](https://www.sec.gov/Archives/edgar/data/797721/000119312526383834/d156314d8k.htm) — 2026-09-05 02:22 KST
+- [VIASAT INC files 8-K](https://www.sec.gov/Archives/edgar/data/797721/000119312526383834/d156314d8k.htm) — 2026-09-05 06:22 KST

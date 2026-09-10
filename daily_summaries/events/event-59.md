@@ -34,8 +34,8 @@ Unknown until the 6-K contents are reviewed; the filing could contain material d
 
 ## Sources
 
-- [GILAT SATELLITE NETWORKS LTD files 6-K](https://www.sec.gov/Archives/edgar/data/897322/000117891326004427/zk2636044.htm) — 2026-09-08 15:00 KST
+- [GILAT SATELLITE NETWORKS LTD files 6-K](https://www.sec.gov/Archives/edgar/data/897322/000117891326004427/zk2636044.htm) — 2026-09-08 19:00 KST
 
 ## Related events
 
-- [[event-30|GILAT SATELLITE NETWORKS LTD submits multiple Form 6‑K filings to the U.S. SEC (EDGAR)]]
+- [[event-30|GILAT SATELLITE NETWORKS LTD submits multiple Form 6-K filings to the U.S. SEC (EDGAR); at least five archive entries referenced]]

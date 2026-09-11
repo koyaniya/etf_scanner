@@ -46,7 +46,7 @@ This is a regulatory disclosure event by a foreign issuer. Depending on the fili
 - [GILAT SATELLITE NETWORKS LTD files 6-K](https://www.sec.gov/Archives/edgar/data/897322/000117891326004309/zk2636039.htm) — 2026-08-31 19:01 KST
 - [GILAT SATELLITE NETWORKS LTD files 6-K](https://www.sec.gov/Archives/edgar/data/897322/000117891326004336/zk2636046.htm) — 2026-09-01 00:00 KST
 - [GILAT SATELLITE NETWORKS LTD files 6-K](https://www.sec.gov/Archives/edgar/data/897322/000117891326004438/zk2636088.htm) — 2026-09-08 21:00 KST
-- [GILAT SATELLITE NETWORKS LTD files 6-K](https://www.sec.gov/Archives/edgar/data/897322/000117891326004448/zk2636093.htm) — 2026-09-09 16:00 KST
+- [GILAT SATELLITE NETWORKS LTD files 6-K](https://www.sec.gov/Archives/edgar/data/897322/000117891326004448/zk2636093.htm) — 2026-09-09 20:00 KST
 
 ## Related events
 

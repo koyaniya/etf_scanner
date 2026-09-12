@@ -51,6 +51,6 @@ If successful, the test would demonstrate third-party (non-SpaceX) spacecraft ca
 - [[event-39|SpaceX wins $1.6 billion in launch orders for military satellite networks]]
 - [[event-40|Rocket Lab to open Alaska launch site under $266 million Space Force deal]]
 - [[event-43|Nancy Grace Roman Space Telescope Launches Aboard SpaceX Falcon Heavy]]
+- [[event-61|NASA’s SpaceX Crew-12 to Discuss Station Mission, Upcoming Return]]
 - [[event-12|Portal Space Systems to include rideshare payloads on Falcon 9 launch of Supernova]]
 - [[event-13|Rocket Lab launches 9th satellite for iQPS]]
-- [[event-19|First Neutron launch may slip to 2027]]

@@ -50,4 +50,4 @@ A confirmed Neutron booking helps validate Rocket Lab's commercial demand for Ne
 - [[event-42|Aerospace demonstrates DiskSats in low-Earth orbit]]
 - [[event-34|Telesat lands $1.63 billion Canadian defense contract]]
 - [[event-43|Nancy Grace Roman Space Telescope Launches Aboard SpaceX Falcon Heavy]]
-- [[event-5|NASA’s B777 Gets New Coat of Paint]]
+- [[event-64|Rocket Lab Corp files 8-K]]

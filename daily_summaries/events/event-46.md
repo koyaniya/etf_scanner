@@ -42,6 +42,7 @@ The new subsystem could modestly strengthen RTX’s (via Blue Canyon Technologie
 
 ## Related events
 
+- [[event-66|RTX Corp files 8-K]]
 - [[event-9|Intuitive Machines wins contract for three GEO satellites]]
 - [[event-27|Satellite manufacturing thrives in California despite cost and regulatory pressures]]
 - [[event-35|Kreios Space to fly VLEO demonstration in NanoAvionics bus]]

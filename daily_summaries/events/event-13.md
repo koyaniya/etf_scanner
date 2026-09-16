@@ -54,5 +54,5 @@ A successful Rocket Lab launch for an Earth-observation radar-imaging customer s
 - [[event-6|Rocket Lab to test Space Force data network connection in orbit in 2027]]
 - [[event-15|Space Force awards five companies $60 million to prototype multi-vendor connections to SpaceX-built network]]
 - [[event-17|Firefly increases vehicle production even as launches lag]]
+- [[event-64|Rocket Lab Corp files 8-K]]
 - [[event-1|NRO to expand use of HawkEye 360’s satellite intelligence]]
-- [[event-11|NOAA awards radio‑occultation contracts to Spire and PlanetiQ; extends Spire HyMS evaluation contract]]

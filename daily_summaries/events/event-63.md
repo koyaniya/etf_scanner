@@ -35,7 +35,7 @@ Routine quarterly SEC filings are standard compliance events; they may provide u
 
 ## Sources
 
-- [FREQUENCY ELECTRONICS INC files 10-Q](https://www.sec.gov/Archives/edgar/data/39020/000118518526003983/feim10q073126.htm) — 2026-09-15 01:44 KST
+- [FREQUENCY ELECTRONICS INC files 10-Q](https://www.sec.gov/Archives/edgar/data/39020/000118518526003983/feim10q073126.htm) — 2026-09-15 05:44 KST
 
 ## Related events
 

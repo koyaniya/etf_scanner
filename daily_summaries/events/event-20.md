@@ -50,5 +50,5 @@ If deployed, GHOST could allow Rocket Lab to operate launches with less dependen
 - [[event-42|Aerospace demonstrates DiskSats in low-Earth orbit]]
 - [[event-15|Space Force awards five companies $60 million to prototype multi-vendor connections to SpaceX-built network]]
 - [[event-43|Nancy Grace Roman Space Telescope Launches Aboard SpaceX Falcon Heavy]]
+- [[event-64|Rocket Lab Corp files 8-K]]
 - [[event-5|NASA’s B777 Gets New Coat of Paint]]
-- [[event-12|Portal Space Systems to include rideshare payloads on Falcon 9 launch of Supernova]]

@@ -35,4 +35,4 @@ The specific implications cannot be determined from the summary alone. The 8-K c
 
 ## Sources
 
-- [BlackSky Technology Inc. files 8-K](https://www.sec.gov/Archives/edgar/data/1753539/000175353926000143/bksy-20260910.htm) — 2026-09-15 01:18 KST
+- [BlackSky Technology Inc. files 8-K](https://www.sec.gov/Archives/edgar/data/1753539/000175353926000143/bksy-20260910.htm) — 2026-09-15 05:18 KST

@@ -35,7 +35,7 @@ Routine Form 8-K filings are compliance disclosures; without the filing content 
 
 ## Sources
 
-- [Rocket Lab Corp files 8-K](https://www.sec.gov/Archives/edgar/data/1819994/000175392626001769/g085951_8k.htm) — 2026-09-15 15:44 KST
+- [Rocket Lab Corp files 8-K](https://www.sec.gov/Archives/edgar/data/1819994/000175392626001769/g085951_8k.htm) — 2026-09-15 19:44 KST
 
 ## Related events
 

@@ -35,7 +35,7 @@ Form 8-K filings can disclose material events (e.g., financial impacts, leadersh
 
 ## Sources
 
-- [RTX Corp files 8-K](https://www.sec.gov/Archives/edgar/data/101829/000114036126036662/ef20082011_8k.htm) — 2026-09-16 01:30 KST
+- [RTX Corp files 8-K](https://www.sec.gov/Archives/edgar/data/101829/000114036126036662/ef20082011_8k.htm) — 2026-09-16 05:30 KST
 
 ## Related events
 

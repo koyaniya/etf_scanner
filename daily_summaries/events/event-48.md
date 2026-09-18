@@ -39,7 +39,7 @@ Unknown pending review of the 8-K contents. The filing(s) could be routine with 
 ## Sources
 
 - [Karman Holdings Inc. files 8-K](https://www.sec.gov/Archives/edgar/data/2040127/000119312526369561/d116376d8k.htm) — 2026-08-27 20:30 KST
-- [Karman Holdings Inc. files 8-K](https://www.sec.gov/Archives/edgar/data/2040127/000119312526392480/d98785d8k.htm) — 2026-09-16 15:08 KST
+- [Karman Holdings Inc. files 8-K](https://www.sec.gov/Archives/edgar/data/2040127/000119312526392480/d98785d8k.htm) — 2026-09-16 19:08 KST
 
 ## Related events
 

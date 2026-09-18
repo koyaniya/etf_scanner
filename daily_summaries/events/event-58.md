@@ -41,3 +41,4 @@ The observation demonstrates routine Earth-observation satellite capability to i
 - [[event-1|NRO to expand use of HawkEye 360’s satellite intelligence]]
 - [[event-11|NOAA awards radio‑occultation contracts to Spire and PlanetiQ; extends Spire HyMS evaluation contract]]
 - [[event-13|Rocket Lab launches 9th satellite for iQPS]]
+- [[event-68|Satrec Initiative to build 10-centimeter-class optical satellites for Hanwha constellation]]

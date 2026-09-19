@@ -13,21 +13,21 @@ companies:
 topics:
   - "Government contracts"
   - "Launch services"
-updated_at: "2026-09-18T01:23:27.432001+00:00"
+updated_at: "2026-09-19T01:22:49.676942+00:00"
 ---
 
 # NASA Invites Media to SpaceX’s 35th Resupply Launch to Space Station
 
-NASA opened media accreditation for SpaceX’s 35th commercial resupply services mission to the International Space Station, a cargo flight that will launch on a Falcon 9 and is being targeted by NASA and SpaceX for no earlier than October.
+NASA opened media accreditation for SpaceX’s 35th commercial resupply services mission (CRS-35) to the International Space Station. The cargo mission will launch on a Falcon 9 and NASA and SpaceX are targeting a launch no earlier than October, per the NASA news release published 2026-09-17.
 
 ## Industry implication
 
-Continued execution of NASA’s commercial resupply services program with SpaceX supports ISS operations and delivery of science and supplies in the near term, and signals ongoing launch cadence for Falcon 9 under the CRS contract.
+The media invitation and planned CRS-35 launch indicate continued execution of NASA’s commercial resupply services with SpaceX, supporting ISS operations and near-term demand for Falcon 9 cargo flights. Linked analyses in the corpus also show NASA awarding additional SpaceX launch services (a Bandwagon rideshare for the StarBurst smallsat) and a contract modification for three additional crewed flights, which together reinforce continued NASA procurement of SpaceX launch capacity for both cargo, smallsat rideshares, and crew transport in the near-to-medium term.
 
 ## Key facts
 
 - NASA opened media accreditation for the next cargo launch to the International Space Station.
-- The mission is described as the 35th SpaceX commercial resupply services mission to the orbital laboratory for NASA.
+- The mission is described as the 35th SpaceX commercial resupply services mission to the orbital laboratory for NASA (CRS-35).
 - The mission will lift off on a Falcon 9 rocket.
 - NASA and SpaceX are targeting no earlier than October for the launch.
 - The primary source article was published on 2026-09-17 and is titled "NASA Invites Media to SpaceX’s 35th Resupply Launch to Space Station."
@@ -41,6 +41,7 @@ Continued execution of NASA’s commercial resupply services program with SpaceX
 
 - [NASA Invites Media to SpaceX’s 35th Resupply Launch to Space Station](https://www.nasa.gov/news-release/nasa-invites-media-to-spacexs-35th-resupply-launch-to-space-station/) — 2026-09-18 03:32 KST
 - [NASA Awards Launch Services for StarBurst Gamma-Ray Detector](https://www.nasa.gov/news-release/nasa-awards-launch-services-for-starburst-gamma-ray-detector/) — 2026-09-18 05:37 KST
+- [NASA Awards SpaceX Three Crew Flights to Space Station](https://www.nasa.gov/missions/station/commercial-crew/nasa-awards-spacex-three-crew-flights-to-space-station/) — 2026-09-19 01:02 KST
 
 ## Related events
 

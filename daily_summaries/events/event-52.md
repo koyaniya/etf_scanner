@@ -41,3 +41,4 @@ Because the RSS summary gives no details, the filing is a routine regulatory/com
 ## Related events
 
 - [[event-15|Space Force awards five companies $60 million to prototype multi-vendor connections to SpaceX-built network]]
+- [[event-70|Terran Orbital Promotes Margherita Cardi to Vice President of European Operations & Head of Strategic Programs]]

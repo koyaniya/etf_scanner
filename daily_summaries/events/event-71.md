@@ -37,7 +37,7 @@ Contents of the 8-K are not provided in the summary; likely no identifiable indu
 
 ## Sources
 
-- [Iridium Communications Inc. files 8-K](https://www.sec.gov/Archives/edgar/data/1418819/000095010326014197/dp253526_8k.htm) — 2026-09-19 01:14 KST
+- [Iridium Communications Inc. files 8-K](https://www.sec.gov/Archives/edgar/data/1418819/000095010326014197/dp253526_8k.htm) — 2026-09-19 05:14 KST
 
 ## Related events
 

@@ -41,4 +41,4 @@ Contents of the 8-K are not provided in the summary; likely no identifiable indu
 
 ## Related events
 
-- [[event-65|Iridium Communications Inc. files 8-K]]
+- [[event-65|Iridium Communications Inc. files Form 8-K (SEC EDGAR) — multiple EDGAR items reported]]

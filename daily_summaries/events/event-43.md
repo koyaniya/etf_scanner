@@ -58,6 +58,7 @@ A successful launch of a flagship NASA observatory on a Falcon Heavy provides ne
 
 - [[event-39|SpaceX wins $1.6 billion in launch orders for military satellite networks]]
 - [[event-69|NASA Invites Media to SpaceX’s 35th Resupply Launch to Space Station]]
+- [[event-72|NASA Shares SpaceX Crew-14 Assignments for Space Station Mission]]
 - [[event-6|Rocket Lab to test Space Force data network connection in orbit in 2027]]
 - [[event-12|Portal Space Systems to include rideshare payloads on Falcon 9 launch of Supernova]]
 - [[event-61|NASA’s SpaceX Crew-12 to Discuss Station Mission, Upcoming Return]]
@@ -65,4 +66,3 @@ A successful launch of a flagship NASA observatory on a Falcon Heavy provides ne
 - [[event-23|Kepler books Neutron for 2028 optical relay launch]]
 - [[event-28|Voyager seeks relaxed requirements in NASA commercial space station RFP]]
 - [[event-34|Telesat lands $1.63 billion Canadian defense contract]]
-- [[event-38|Boeing still working with NASA to schedule next Starliner flight]]

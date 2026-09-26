@@ -54,4 +54,4 @@ The media invitation and planned CRS-35 launch indicate continued execution of N
 - [[event-40|Rocket Lab to open Alaska launch site under $266 million Space Force deal]]
 - [[event-61|NASA’s SpaceX Crew-12 to Discuss Station Mission, Upcoming Return]]
 - [[event-73|NASA to Study Human Health, Performance During Crew-13 Mission]]
-- [[event-1|NRO to expand use of HawkEye 360’s satellite intelligence]]
+- [[event-74|NASA, Boeing to Provide Update on Starliner Development]]

@@ -39,6 +39,7 @@ The scheduling uncertainty means NASA and Boeing have not finalized when Starlin
 
 ## Related events
 
+- [[event-74|NASA, Boeing to Provide Update on Starliner Development]]
 - [[event-5|NASA’s B777 Gets New Coat of Paint]]
 - [[event-39|SpaceX wins $1.6 billion in launch orders for military satellite networks]]
 - [[event-40|Rocket Lab to open Alaska launch site under $266 million Space Force deal]]
@@ -48,4 +49,3 @@ The scheduling uncertainty means NASA and Boeing have not finalized when Starlin
 - [[event-1|NRO to expand use of HawkEye 360’s satellite intelligence]]
 - [[event-2|New report takes closer look at the Space Force spending surge]]
 - [[event-8|NASA Selects Companies to Provide Payload Processing Services]]
-- [[event-11|NOAA awards radio‑occultation contracts to Spire and PlanetiQ; extends Spire HyMS evaluation contract]]

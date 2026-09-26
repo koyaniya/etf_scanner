@@ -41,7 +41,7 @@ Form 8-K filings can disclose material corporate developments (financials, contr
 ## Sources
 
 - [Iridium Communications Inc. files 8-K](https://www.sec.gov/Archives/edgar/data/1418819/000095010326013945/dp253331_8k.htm) — 2026-09-15 19:05 KST
-- [Iridium Communications Inc. files 8-K](https://www.sec.gov/Archives/edgar/data/1418819/000095010326014464/dp253851_8k.htm) — 2026-09-25 01:52 KST
+- [Iridium Communications Inc. files 8-K](https://www.sec.gov/Archives/edgar/data/1418819/000095010326014464/dp253851_8k.htm) — 2026-09-25 05:52 KST
 
 ## Related events
 

@@ -48,7 +48,7 @@ This award increases SpaceX's government/military launch backlog and strengthens
 - [[event-12|Portal Space Systems to include rideshare payloads on Falcon 9 launch of Supernova]]
 - [[event-40|Rocket Lab to open Alaska launch site under $266 million Space Force deal]]
 - [[event-72|NASA Shares SpaceX Crew-14 Assignments for Space Station Mission]]
+- [[event-73|NASA to Study Human Health, Performance During Crew-13 Mission]]
 - [[event-1|NRO to expand use of HawkEye 360’s satellite intelligence]]
 - [[event-2|New report takes closer look at the Space Force spending surge]]
 - [[event-14|Elve qualifies millimeter-wave amplifiers for spaceflight]]
-- [[event-15|Space Force awards five companies $60 million to prototype multi-vendor connections to SpaceX-built network]]

@@ -44,6 +44,7 @@ The briefing could provide new schedule or certification details for Boeing's St
 ## Related events
 
 - [[event-38|Boeing still working with NASA to schedule next Starliner flight]]
+- [[event-75|NASA, Boeing Share Update on Commercial Starliner Development Plans]]
 - [[event-5|NASA’s B777 Gets New Coat of Paint]]
 - [[event-39|SpaceX wins $1.6 billion in launch orders for military satellite networks]]
 - [[event-40|Rocket Lab to open Alaska launch site under $266 million Space Force deal]]
@@ -52,4 +53,3 @@ The briefing could provide new schedule or certification details for Boeing's St
 - [[event-69|NASA Invites Media to SpaceX’s 35th Resupply Launch to Space Station]]
 - [[event-1|NRO to expand use of HawkEye 360’s satellite intelligence]]
 - [[event-2|New report takes closer look at the Space Force spending surge]]
-- [[event-8|NASA Selects Companies to Provide Payload Processing Services]]

@@ -48,3 +48,4 @@ The new subsystem could modestly strengthen RTX’s (via Blue Canyon Technologie
 - [[event-35|Kreios Space to fly VLEO demonstration in NanoAvionics bus]]
 - [[event-42|Aerospace demonstrates DiskSats in low-Earth orbit]]
 - [[event-68|Satrec Initiative to build 10-centimeter-class optical satellites for Hanwha constellation]]
+- [[event-70|Terran Orbital Announces Two Senior Leadership Changes: Margherita Cardi Promoted; Jamin Brown Named COO]]

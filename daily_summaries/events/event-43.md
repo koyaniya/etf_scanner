@@ -63,6 +63,6 @@ A successful launch of a flagship NASA observatory on a Falcon Heavy provides ne
 - [[event-6|Rocket Lab to test Space Force data network connection in orbit in 2027]]
 - [[event-12|Portal Space Systems to include rideshare payloads on Falcon 9 launch of Supernova]]
 - [[event-61|NASA’s SpaceX Crew-12 to Discuss Station Mission, Upcoming Return]]
+- [[event-78|NASA Sets Crew-13 Launch, Docking Coverage]]
+- [[event-79|Crew-13 Rocket and Spacecraft at Launch Pad]]
 - [[event-20|Rocket Lab builds deployable infrastructure for Electron launches]]
-- [[event-23|Kepler books Neutron for 2028 optical relay launch]]
-- [[event-28|Voyager seeks relaxed requirements in NASA commercial space station RFP]]

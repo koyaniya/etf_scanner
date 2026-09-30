@@ -42,6 +42,7 @@ The facility opening signals continued growth of U.S. satellite manufacturing ca
 
 ## Related events
 
+- [[event-70|Terran Orbital Announces Two Senior Leadership Changes: Margherita Cardi Promoted; Jamin Brown Named COO]]
 - [[event-1|NRO to expand use of HawkEye 360’s satellite intelligence]]
 - [[event-2|New report takes closer look at the Space Force spending surge]]
 - [[event-3|Hypersonic missile startup Castelion raises $1 billion]]
@@ -51,4 +52,3 @@ The facility opening signals continued growth of U.S. satellite manufacturing ca
 - [[event-14|Elve qualifies millimeter-wave amplifiers for spaceflight]]
 - [[event-15|Space Force awards five companies $60 million to prototype multi-vendor connections to SpaceX-built network]]
 - [[event-18|Former Space Force general joins Lunar Outpost board]]
-- [[event-21|Space Force orders two more Impulse Space vehicles for maneuvering demonstrations]]

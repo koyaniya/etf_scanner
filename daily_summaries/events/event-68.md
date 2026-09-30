@@ -50,3 +50,4 @@ Adding 10-cm-class optical sensors to a SAR constellation creates a multi-sensor
 - [[event-42|Aerospace demonstrates DiskSats in low-Earth orbit]]
 - [[event-46|RTX’s Blue Canyon Technologies introduces new spacecraft mission enabler]]
 - [[event-58|A Bright Spot at Mount Michael]]
+- [[event-70|Terran Orbital Announces Two Senior Leadership Changes: Margherita Cardi Promoted; Jamin Brown Named COO]]

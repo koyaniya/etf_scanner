@@ -55,6 +55,6 @@ The announcement reinforces SpaceX's continued role as a provider of crewed acce
 - [[event-39|SpaceX wins $1.6 billion in launch orders for military satellite networks]]
 - [[event-61|NASA’s SpaceX Crew-12 to Discuss Station Mission, Upcoming Return]]
 - [[event-69|NASA Invites Media to SpaceX’s 35th Resupply Launch to Space Station]]
+- [[event-78|NASA Sets Crew-13 Launch, Docking Coverage]]
+- [[event-79|Crew-13 Rocket and Spacecraft at Launch Pad]]
 - [[event-20|Rocket Lab builds deployable infrastructure for Electron launches]]
-- [[event-23|Kepler books Neutron for 2028 optical relay launch]]
-- [[event-5|NASA’s B777 Gets New Coat of Paint]]

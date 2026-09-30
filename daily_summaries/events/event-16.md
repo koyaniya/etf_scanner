@@ -44,6 +44,7 @@ Additional Series E funding for Ispace could accelerate development and testing 
 ## Related events
 
 - [[event-12|Portal Space Systems to include rideshare payloads on Falcon 9 launch of Supernova]]
+- [[event-79|Crew-13 Rocket and Spacecraft at Launch Pad]]
 - [[event-3|Hypersonic missile startup Castelion raises $1 billion]]
 - [[event-13|Rocket Lab launches 9th satellite for iQPS]]
 - [[event-17|Firefly increases vehicle production even as launches lag]]
@@ -52,4 +53,3 @@ Additional Series E funding for Ispace could accelerate development and testing 
 - [[event-23|Kepler books Neutron for 2028 optical relay launch]]
 - [[event-38|Boeing still working with NASA to schedule next Starliner flight]]
 - [[event-39|SpaceX wins $1.6 billion in launch orders for military satellite networks]]
-- [[event-40|Rocket Lab to open Alaska launch site under $266 million Space Force deal]]

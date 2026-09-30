@@ -44,13 +44,13 @@ Adds a commercial launch booking for Space Exploration Technologies Corp (Falcon
 
 ## Related events
 
+- [[event-79|Crew-13 Rocket and Spacecraft at Launch Pad]]
 - [[event-39|SpaceX wins $1.6 billion in launch orders for military satellite networks]]
 - [[event-43|Nancy Grace Roman Space Telescope Launches Aboard SpaceX Falcon Heavy]]
 - [[event-69|NASA Invites Media to SpaceX’s 35th Resupply Launch to Space Station]]
 - [[event-72|NASA Shares SpaceX Crew-14 Assignments for Space Station Mission]]
 - [[event-73|NASA to Study Human Health, Performance During Crew-13 Mission]]
+- [[event-78|NASA Sets Crew-13 Launch, Docking Coverage]]
 - [[event-6|Rocket Lab to test Space Force data network connection in orbit in 2027]]
 - [[event-16|China’s iSpace raises first batch of series E funding for reusable rocketry]]
 - [[event-61|NASA’s SpaceX Crew-12 to Discuss Station Mission, Upcoming Return]]
-- [[event-13|Rocket Lab launches 9th satellite for iQPS]]
-- [[event-17|Firefly increases vehicle production even as launches lag]]

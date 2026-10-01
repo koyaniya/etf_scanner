@@ -37,4 +37,4 @@ No clear industry-level impact can be assessed from the provided summary. Any im
 
 ## Sources
 
-- [Sidus Space Inc. files 8-K](https://www.sec.gov/Archives/edgar/data/1879726/000149315226044862/form8-k.htm) — 2026-09-30 01:01 KST
+- [Sidus Space Inc. files 8-K](https://www.sec.gov/Archives/edgar/data/1879726/000149315226044862/form8-k.htm) — 2026-09-30 05:01 KST

@@ -50,4 +50,4 @@ If adopted, a spaceflight-qualified 100 W millimeter-wave TWT could enable highe
 - [[event-39|SpaceX wins $1.6 billion in launch orders for military satellite networks]]
 - [[event-40|Rocket Lab to open Alaska launch site under $266 million Space Force deal]]
 - [[event-41|Space Force awards All Points $250 million to expand satellite processing at Vandenberg]]
-- [[event-3|Hypersonic missile startup Castelion raises $1 billion]]
+- [[event-80|NASA’s SpaceX Crew-13 Launches]]

@@ -51,6 +51,6 @@ Adds a commercial launch booking for Space Exploration Technologies Corp (Falcon
 - [[event-72|NASA Shares SpaceX Crew-14 Assignments for Space Station Mission]]
 - [[event-73|NASA to Study Human Health, Performance During Crew-13 Mission]]
 - [[event-78|NASA Sets Crew-13 Launch, Docking Coverage]]
+- [[event-80|NASA’s SpaceX Crew-13 Launches]]
 - [[event-6|Rocket Lab to test Space Force data network connection in orbit in 2027]]
 - [[event-16|China’s iSpace raises first batch of series E funding for reusable rocketry]]
-- [[event-61|NASA’s SpaceX Crew-12 to Discuss Station Mission, Upcoming Return]]

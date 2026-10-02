@@ -51,5 +51,5 @@ The briefing could provide new schedule or certification details for Boeing's St
 - [[event-43|Nancy Grace Roman Space Telescope Launches Aboard SpaceX Falcon Heavy]]
 - [[event-50|BOEING CO files 8-K]]
 - [[event-69|NASA Invites Media to SpaceX’s 35th Resupply Launch to Space Station]]
+- [[event-80|NASA’s SpaceX Crew-13 Launches]]
 - [[event-1|NRO to expand use of HawkEye 360’s satellite intelligence]]
-- [[event-2|New report takes closer look at the Space Force spending surge]]

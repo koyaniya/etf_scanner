@@ -45,6 +45,7 @@ The vehicle being at the pad indicates Crew-13 was at an advanced pre-launch sta
 
 - [[event-12|Portal Space Systems to include rideshare payloads on Falcon 9 launch of Supernova]]
 - [[event-39|SpaceX wins $1.6 billion in launch orders for military satellite networks]]
+- [[event-80|NASA’s SpaceX Crew-13 Launches]]
 - [[event-6|Rocket Lab to test Space Force data network connection in orbit in 2027]]
 - [[event-43|Nancy Grace Roman Space Telescope Launches Aboard SpaceX Falcon Heavy]]
 - [[event-69|NASA Invites Media to SpaceX’s 35th Resupply Launch to Space Station]]
@@ -52,4 +53,3 @@ The vehicle being at the pad indicates Crew-13 was at an advanced pre-launch sta
 - [[event-73|NASA to Study Human Health, Performance During Crew-13 Mission]]
 - [[event-78|NASA Sets Crew-13 Launch, Docking Coverage]]
 - [[event-16|China’s iSpace raises first batch of series E funding for reusable rocketry]]
-- [[event-40|Rocket Lab to open Alaska launch site under $266 million Space Force deal]]

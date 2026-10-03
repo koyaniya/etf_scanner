@@ -29,3 +29,7 @@ Routine regulatory disclosure. By itself the 10-Q filing is unlikely to change t
 ## Sources
 
 - [Starfighters Space, Inc. files 10-Q](https://www.sec.gov/Archives/edgar/data/1947016/000106299326004518/form10q.htm) — 2026-08-20 05:15 KST
+
+## Related events
+
+- [[event-85|Starfighters Space, Inc. files 8-K]]

@@ -50,5 +50,5 @@ This is a regulatory disclosure event by a foreign issuer. Depending on the fili
 
 ## Related events
 
-- [[event-59|GILAT SATELLITE NETWORKS LTD files 6-K]]
+- [[event-59|GILAT SATELLITE NETWORKS LTD files 6-K (SEC EDGAR filings noted; contents not provided)]]
 - [[event-27|Satellite manufacturing thrives in California despite cost and regulatory pressures]]

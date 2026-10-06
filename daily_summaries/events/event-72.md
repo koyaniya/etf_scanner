@@ -46,6 +46,7 @@ The announcement confirms continued reliance on SpaceX crewed launch services fo
 
 - [[event-43|Nancy Grace Roman Space Telescope Launches Aboard SpaceX Falcon Heavy]]
 - [[event-73|NASA to Study Human Health, Performance During Crew-13 Mission]]
+- [[event-86|Heading Home: NASA’s SpaceX Crew-12 Concludes Station Science Mission]]
 - [[event-6|Rocket Lab to test Space Force data network connection in orbit in 2027]]
 - [[event-12|Portal Space Systems to include rideshare payloads on Falcon 9 launch of Supernova]]
 - [[event-39|SpaceX wins $1.6 billion in launch orders for military satellite networks]]
@@ -53,4 +54,3 @@ The announcement confirms continued reliance on SpaceX crewed launch services fo
 - [[event-69|NASA Invites Media to SpaceX’s 35th Resupply Launch to Space Station]]
 - [[event-78|NASA Sets Crew-13 Launch, Docking Coverage]]
 - [[event-79|Crew-13 Rocket and Spacecraft at Launch Pad]]
-- [[event-80|NASA’s SpaceX Crew-13 Launches]]

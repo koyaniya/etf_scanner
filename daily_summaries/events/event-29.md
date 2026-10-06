@@ -48,3 +48,4 @@ Routine regulatory disclosure by a major semiconductor supplier. By itself, the 
 ## Related events
 
 - [[event-53|STMicroelectronics N.V. files 6-K]]
+- [[event-87|STMicroelectronics N.V. files 6-K]]

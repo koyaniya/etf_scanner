@@ -37,4 +37,4 @@ An 8-K filing is a material disclosure vehicle; the filing could relate to a ran
 
 ## Sources
 
-- [COMTECH TELECOMMUNICATIONS CORP /DE/ files 8-K](https://www.sec.gov/Archives/edgar/data/23197/000002319726000088/cmtl-20261001.htm) — 2026-10-06 06:14 KST
+- [COMTECH TELECOMMUNICATIONS CORP /DE/ files 8-K](https://www.sec.gov/Archives/edgar/data/23197/000002319726000088/cmtl-20261001.htm) — 2026-10-06 10:14 KST

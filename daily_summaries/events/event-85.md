@@ -2,7 +2,7 @@
 event_id: 85
 status: "ACTIVE"
 event_type: "LEGAL_OR_COMPLIANCE"
-event_date: null
+event_date: "2026-10-02"
 impact_direction: "NEUTRAL"
 impact_strength: 1
 importance_score: 20
@@ -11,30 +11,33 @@ time_horizon: "IMMEDIATE"
 companies:
   - "Starfighters Space Inc [company_id: 65]"
 topics:
-updated_at: "2026-10-03T02:12:24.53012+00:00"
+updated_at: "2026-10-07T02:36:39.561941+00:00"
 ---
 
-# Starfighters Space, Inc. files 8-K
+# Starfighters Space, Inc. files Form 8-K (multiple filings)
 
-Starfighters Space Inc filed a Form 8-K with the U.S. Securities and Exchange Commission (SEC) as reported on EDGAR.
+Starfighters Space, Inc. submitted at least two Form 8-K filings to the U.S. Securities and Exchange Commission (EDGAR). The filings are available at two distinct EDGAR URLs dated 2026-10-02 and 2026-10-06; the supplied summaries do not disclose the substantive content of the filings.
 
 ## Industry implication
 
-This appears to be a routine regulatory disclosure. Because the RSS summary does not include the 8-K's substantive content, there is no clear broader industry impact; any material implications would depend on the undisclosed details of the filing.
+Likely a routine regulatory disclosure with limited apparent impact on the broader space industry based on available summaries. Any material implications depend on the undisclosed contents of the Form 8-K filings (e.g., governance, material agreements, financings, litigation, or other material events).
 
 ## Key facts
 
-- Starfighters Space, Inc. submitted a Form 8-K to the SEC (EDGAR).
-- Source URL: https://www.sec.gov/Archives/edgar/data/1947016/000106299326005167/form8k.htm
+- Starfighters Space, Inc. submitted a Form 8-K to the SEC (EDGAR) at: https://www.sec.gov/Archives/edgar/data/1947016/000106299326005167/form8k.htm (article published 2026-10-02).
+- Starfighters Space, Inc. submitted a Form 8-K to the SEC (EDGAR) at: https://www.sec.gov/Archives/edgar/data/1947016/000106299326005199/form8k.htm (article published 2026-10-06).
+- Linked analyses and article metadata report two separate EDGAR URLs and two publication dates for the filings.
 
 ## Risks
 
-- RSS summary does not provide the 8-K's contents, creating uncertainty about material information that may be disclosed.
-- If the 8-K contains unexpected material news (e.g., insolvency, litigation, leadership change), it could have a greater (positive or negative) impact on the company than indicated here.
+- Available RSS/article summaries do not include the substantive content of either Form 8-K, preventing assessment of materiality.
+- If either 8-K discloses adverse material information (e.g., insolvency, material litigation, leadership change, financing issues), it could materially affect the company’s operations, financings, or share price.
+- Multiple filings within a short span could indicate related or separate disclosures; without the filings' content, timing or relation of the disclosures is uncertain.
 
 ## Sources
 
 - [Starfighters Space, Inc. files 8-K](https://www.sec.gov/Archives/edgar/data/1947016/000106299326005167/form8k.htm) — 2026-10-03 05:30 KST
+- [Starfighters Space, Inc. files 8-K](https://www.sec.gov/Archives/edgar/data/1947016/000106299326005199/form8k.htm) — 2026-10-07 06:15 KST
 
 ## Related events
 

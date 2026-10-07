@@ -39,7 +39,7 @@ Unknown pending review of the 6-K text. The filings could contain corporate, ope
 ## Sources
 
 - [GILAT SATELLITE NETWORKS LTD files 6-K](https://www.sec.gov/Archives/edgar/data/897322/000117891326004427/zk2636044.htm) — 2026-09-08 19:00 KST
-- [GILAT SATELLITE NETWORKS LTD files 6-K](https://www.sec.gov/Archives/edgar/data/897322/000117891326004703/zk2636193.htm) — 2026-10-05 20:00 KST
+- [GILAT SATELLITE NETWORKS LTD files 6-K](https://www.sec.gov/Archives/edgar/data/897322/000117891326004703/zk2636193.htm) — 2026-10-06 00:00 KST
 
 ## Related events
 

@@ -36,4 +36,4 @@ Filing a Form 8-K can indicate disclosure of a material event (e.g., financial, 
 
 ## Sources
 
-- [EchoStar CORP files 8-K](https://www.sec.gov/Archives/edgar/data/1415404/000141540426000048/sats-20261001x8k.htm) — 2026-10-02 20:55 KST
+- [EchoStar CORP files 8-K](https://www.sec.gov/Archives/edgar/data/1415404/000141540426000048/sats-20261001x8k.htm) — 2026-10-03 00:55 KST

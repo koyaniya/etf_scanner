@@ -41,6 +41,7 @@ If implemented, repurposing Gateway-related hardware and work toward a lunar bas
 
 ## Related events
 
+- [[event-90|NASA to Cover Northrop Grumman CRS-24 Spacecraft Departure]]
 - [[event-15|Space Force awards five companies $60 million to prototype multi-vendor connections to SpaceX-built network]]
 - [[event-4|Firefly Aerospace to fly Zeno Power radioisotope heating unit on lunar lander mission]]
 - [[event-5|NASA’s B777 Gets New Coat of Paint]]
@@ -50,4 +51,3 @@ If implemented, repurposing Gateway-related hardware and work toward a lunar bas
 - [[event-22|Webb Opens Treasure Chest]]
 - [[event-23|Kepler books Neutron for 2028 optical relay launch]]
 - [[event-28|Voyager seeks relaxed requirements in NASA commercial space station RFP]]
-- [[event-34|Telesat lands $1.63 billion Canadian defense contract]]

@@ -26,7 +26,7 @@ STMicroelectronics N.V. submitted a Form 6-K disclosure to the U.S. SEC (EDGAR).
 
 ## Sources
 
-- [STMicroelectronics N.V. files 6-K](https://www.sec.gov/Archives/edgar/data/932787/000093278726000074/c3414c-oct52026xdisclosure.htm) — 2026-10-05 21:35 KST
+- [STMicroelectronics N.V. files 6-K](https://www.sec.gov/Archives/edgar/data/932787/000093278726000074/c3414c-oct52026xdisclosure.htm) — 2026-10-06 01:35 KST
 
 ## Related events
 

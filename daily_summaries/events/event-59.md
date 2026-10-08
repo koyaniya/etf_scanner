@@ -43,4 +43,4 @@ Unknown pending review of the 6-K text. The filings could contain corporate, ope
 
 ## Related events
 
-- [[event-30|GILAT SATELLITE NETWORKS LTD submits multiple Form 6-K filings to the U.S. SEC (EDGAR); at least five archive entries referenced]]
+- [[event-30|GILAT SATELLITE NETWORKS LTD files multiple Form 6‑K reports to SEC EDGAR (at least six archive entries referenced)]]

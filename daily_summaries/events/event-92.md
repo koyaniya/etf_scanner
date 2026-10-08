@@ -36,7 +36,7 @@ The 8-K filing is a corporate disclosure that could reflect a range of material 
 
 ## Sources
 
-- [Firefly Aerospace Inc. files 8-K](https://www.sec.gov/Archives/edgar/data/1860160/000119312526415543/fly-20260930.htm) — 2026-10-07 05:05 KST
+- [Firefly Aerospace Inc. files 8-K](https://www.sec.gov/Archives/edgar/data/1860160/000119312526415543/fly-20260930.htm) — 2026-10-07 09:05 KST
 
 ## Related events
 

@@ -47,7 +47,7 @@ Routine undocking/departure signals successful completion of Northrop Grumman’
 - [[event-34|Telesat lands $1.63 billion Canadian defense contract]]
 - [[event-41|Space Force awards All Points $250 million to expand satellite processing at Vandenberg]]
 - [[event-43|Nancy Grace Roman Space Telescope Launches Aboard SpaceX Falcon Heavy]]
+- [[event-93|NASA’s SpaceX 35th Commercial Resupply Mission Overview]]
 - [[event-1|NRO to expand use of HawkEye 360’s satellite intelligence]]
 - [[event-2|New report takes closer look at the Space Force spending surge]]
 - [[event-5|NASA’s B777 Gets New Coat of Paint]]
-- [[event-6|Rocket Lab to test Space Force data network connection in orbit in 2027]]

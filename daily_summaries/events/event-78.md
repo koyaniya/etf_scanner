@@ -50,4 +50,4 @@ This is a near-term operational announcement for a crewed launch that reinforces
 - [[event-79|Crew-13 Rocket and Spacecraft at Launch Pad]]
 - [[event-80|NASA’s SpaceX Crew-13 Launches]]
 - [[event-86|Heading Home: NASA’s SpaceX Crew-12 Concludes Station Science Mission]]
-- [[event-6|Rocket Lab to test Space Force data network connection in orbit in 2027]]
+- [[event-93|NASA’s SpaceX 35th Commercial Resupply Mission Overview]]

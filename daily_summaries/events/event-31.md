@@ -37,3 +37,7 @@ An 8-K filing can indicate a material corporate disclosure (e.g., leadership cha
 ## Sources
 
 - [L3HARRIS TECHNOLOGIES, INC. /DE/ files 8-K](https://www.sec.gov/Archives/edgar/data/202058/000020205826000066/hrs-20260816.htm) — 2026-08-17 20:30 KST
+
+## Related events
+
+- [[event-95|NASA Advances LISA Mission Contributions With New Test Telescope]]

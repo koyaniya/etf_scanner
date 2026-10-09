@@ -48,6 +48,6 @@ Routine undocking/departure signals successful completion of Northrop Grumman’
 - [[event-41|Space Force awards All Points $250 million to expand satellite processing at Vandenberg]]
 - [[event-43|Nancy Grace Roman Space Telescope Launches Aboard SpaceX Falcon Heavy]]
 - [[event-93|NASA’s SpaceX 35th Commercial Resupply Mission Overview]]
+- [[event-95|NASA Advances LISA Mission Contributions With New Test Telescope]]
 - [[event-1|NRO to expand use of HawkEye 360’s satellite intelligence]]
 - [[event-2|New report takes closer look at the Space Force spending surge]]
-- [[event-5|NASA’s B777 Gets New Coat of Paint]]

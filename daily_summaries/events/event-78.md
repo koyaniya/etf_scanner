@@ -49,5 +49,5 @@ This is a near-term operational announcement for a crewed launch that reinforces
 - [[event-73|NASA to Study Human Health, Performance During Crew-13 Mission]]
 - [[event-79|Crew-13 Rocket and Spacecraft at Launch Pad]]
 - [[event-80|NASA’s SpaceX Crew-13 Launches]]
-- [[event-86|Heading Home: NASA’s SpaceX Crew-12 Concludes Station Science Mission]]
+- [[event-86|NASA’s SpaceX Crew‑12 Splashes Down, Concluding Station Science Mission]]
 - [[event-93|NASA’s SpaceX 35th Commercial Resupply Mission Overview]]

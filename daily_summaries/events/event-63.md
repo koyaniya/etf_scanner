@@ -40,3 +40,4 @@ Routine quarterly SEC filings are standard compliance events; they may provide u
 ## Related events
 
 - [[event-60|FREQUENCY ELECTRONICS INC files 8-K]]
+- [[event-94|FREQUENCY ELECTRONICS INC files 8-K]]

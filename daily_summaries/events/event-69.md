@@ -54,4 +54,4 @@ The media invitation and planned CRS-35 launch indicate continued execution of N
 - [[event-73|NASA to Study Human Health, Performance During Crew-13 Mission]]
 - [[event-78|NASA Sets Crew-13 Launch, Docking Coverage]]
 - [[event-79|Crew-13 Rocket and Spacecraft at Launch Pad]]
-- [[event-86|Heading Home: NASA’s SpaceX Crew-12 Concludes Station Science Mission]]
+- [[event-86|NASA’s SpaceX Crew‑12 Splashes Down, Concluding Station Science Mission]]

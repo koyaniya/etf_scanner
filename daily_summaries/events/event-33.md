@@ -32,4 +32,4 @@ Routine regulatory disclosure. By itself the 10-Q filing is unlikely to change t
 
 ## Related events
 
-- [[event-85|Starfighters Space, Inc. files Form 8-K (multiple filings)]]
+- [[event-85|Starfighters Space, Inc. files multiple Form 8-Ks on EDGAR (3 filings identified)]]

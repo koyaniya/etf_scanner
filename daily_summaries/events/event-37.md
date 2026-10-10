@@ -42,6 +42,7 @@ A NASA selection to fly a CAPSTONE successor signals continued government suppor
 
 ## Related events
 
+- [[event-99|NASA Demonstrates Next-Generation Heat Shield Technologies]]
 - [[event-1|NRO to expand use of HawkEye 360’s satellite intelligence]]
 - [[event-2|New report takes closer look at the Space Force spending surge]]
 - [[event-4|Firefly Aerospace to fly Zeno Power radioisotope heating unit on lunar lander mission]]
@@ -51,4 +52,3 @@ A NASA selection to fly a CAPSTONE successor signals continued government suppor
 - [[event-15|Space Force awards five companies $60 million to prototype multi-vendor connections to SpaceX-built network]]
 - [[event-18|Former Space Force general joins Lunar Outpost board]]
 - [[event-21|Space Force orders two more Impulse Space vehicles for maneuvering demonstrations]]
-- [[event-24|Northrop Grumman, Canadian Space Agency repurpose their Gateway projects]]

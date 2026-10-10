@@ -51,9 +51,10 @@ This is a regulatory disclosure event by a foreign issuer. Depending on the fili
 - [GILAT SATELLITE NETWORKS LTD files 6-K](https://www.sec.gov/Archives/edgar/data/897322/000117891326004438/zk2636088.htm) — 2026-09-08 21:00 KST
 - [GILAT SATELLITE NETWORKS LTD files 6-K](https://www.sec.gov/Archives/edgar/data/897322/000117891326004448/zk2636093.htm) — 2026-09-09 20:00 KST
 - [GILAT SATELLITE NETWORKS LTD files 6-K](https://www.sec.gov/Archives/edgar/data/897322/000117891326004730/zk2636206.htm) — 2026-10-08 00:00 KST
-- [GILAT SATELLITE NETWORKS LTD files 6-K](https://www.sec.gov/Archives/edgar/data/897322/000117891326004740/zk2636212.htm) — 2026-10-08 22:51 KST
+- [GILAT SATELLITE NETWORKS LTD files 6-K](https://www.sec.gov/Archives/edgar/data/897322/000117891326004740/zk2636212.htm) — 2026-10-09 02:51 KST
 
 ## Related events
 
 - [[event-59|GILAT SATELLITE NETWORKS LTD files 6-K (SEC EDGAR filings noted; contents not provided)]]
 - [[event-27|Satellite manufacturing thrives in California despite cost and regulatory pressures]]
+- [[event-85|Starfighters Space, Inc. files multiple Form 8-Ks on EDGAR (3 filings identified)]]

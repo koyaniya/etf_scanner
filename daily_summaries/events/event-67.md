@@ -48,3 +48,4 @@ The detection highlights the ongoing value of orbital lunar imaging for monitori
 - [[event-24|Northrop Grumman, Canadian Space Agency repurpose their Gateway projects]]
 - [[event-37|NASA selects successor to CAPSTONE lunar mission]]
 - [[event-47|APOD: 2026 August 26 – JWST Images The Lion’s Head Nebula]]
+- [[event-99|NASA Demonstrates Next-Generation Heat Shield Technologies]]

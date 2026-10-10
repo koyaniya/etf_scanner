@@ -34,7 +34,7 @@ Unclear — an 8-K can disclose a wide range of developments (e.g., leadership c
 
 ## Sources
 
-- [FREQUENCY ELECTRONICS INC files 8-K](https://www.sec.gov/Archives/edgar/data/39020/000118518526004648/feim8k100826.htm) — 2026-10-08 19:31 KST
+- [FREQUENCY ELECTRONICS INC files 8-K](https://www.sec.gov/Archives/edgar/data/39020/000118518526004648/feim8k100826.htm) — 2026-10-08 23:31 KST
 
 ## Related events
 

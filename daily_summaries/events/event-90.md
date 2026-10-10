@@ -43,6 +43,7 @@ Routine undocking/departure signals successful completion of Northrop Grumman’
 
 - [[event-15|Space Force awards five companies $60 million to prototype multi-vendor connections to SpaceX-built network]]
 - [[event-24|Northrop Grumman, Canadian Space Agency repurpose their Gateway projects]]
+- [[event-99|NASA Demonstrates Next-Generation Heat Shield Technologies]]
 - [[event-28|Voyager seeks relaxed requirements in NASA commercial space station RFP]]
 - [[event-34|Telesat lands $1.63 billion Canadian defense contract]]
 - [[event-41|Space Force awards All Points $250 million to expand satellite processing at Vandenberg]]
@@ -50,4 +51,3 @@ Routine undocking/departure signals successful completion of Northrop Grumman’
 - [[event-93|NASA’s SpaceX 35th Commercial Resupply Mission Overview]]
 - [[event-95|NASA Advances LISA Mission Contributions With New Test Telescope]]
 - [[event-1|NRO to expand use of HawkEye 360’s satellite intelligence]]
-- [[event-2|New report takes closer look at the Space Force spending surge]]

@@ -33,7 +33,7 @@ The 8‑K could contain material information (e.g., governance changes, financin
 
 ## Sources
 
-- [Sidus Space Inc. files 8-K](https://www.sec.gov/Archives/edgar/data/1879726/000149315226046577/form8-k.htm) — 2026-10-10 06:00 KST
+- [Sidus Space Inc. files 8-K](https://www.sec.gov/Archives/edgar/data/1879726/000149315226046577/form8-k.htm) — 2026-10-10 10:00 KST
 
 ## Related events
 

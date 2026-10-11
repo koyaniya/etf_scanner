@@ -42,7 +42,7 @@ Likely a routine corporate/regulatory disclosure with limited apparent impact on
 
 - [Starfighters Space, Inc. files 8-K](https://www.sec.gov/Archives/edgar/data/1947016/000106299326005167/form8k.htm) — 2026-10-03 09:30 KST
 - [Starfighters Space, Inc. files 8-K](https://www.sec.gov/Archives/edgar/data/1947016/000106299326005199/form8k.htm) — 2026-10-07 10:15 KST
-- [Starfighters Space, Inc. files 8-K](https://www.sec.gov/Archives/edgar/data/1947016/000106299326005267/form8k.htm) — 2026-10-10 06:15 KST
+- [Starfighters Space, Inc. files 8-K](https://www.sec.gov/Archives/edgar/data/1947016/000106299326005267/form8k.htm) — 2026-10-10 10:15 KST
 
 ## Related events
 

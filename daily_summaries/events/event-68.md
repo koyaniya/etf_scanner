@@ -41,6 +41,7 @@ Adding 10-cm-class optical sensors to a SAR constellation creates a multi-sensor
 
 ## Related events
 
+- [[event-100|Jena-Optronik is proud to partner with MDA Space for its first ASTRO HP mission.]]
 - [[event-1|NRO to expand use of HawkEye 360’s satellite intelligence]]
 - [[event-9|Intuitive Machines wins contract for three GEO satellites]]
 - [[event-11|NOAA awards radio‑occultation contracts to Spire and PlanetiQ; extends Spire HyMS evaluation contract]]
@@ -50,4 +51,3 @@ Adding 10-cm-class optical sensors to a SAR constellation creates a multi-sensor
 - [[event-42|Aerospace demonstrates DiskSats in low-Earth orbit]]
 - [[event-46|RTX’s Blue Canyon Technologies introduces new spacecraft mission enabler]]
 - [[event-58|A Bright Spot at Mount Michael]]
-- [[event-70|Terran Orbital Announces Two Senior Leadership Changes: Margherita Cardi Promoted; Jamin Brown Named COO]]

@@ -50,7 +50,7 @@ A scheduled CRS cargo launch maintains the ISS resupply cadence and supports NAS
 
 - [[event-43|Nancy Grace Roman Space Telescope Launches Aboard SpaceX Falcon Heavy]]
 - [[event-39|SpaceX wins $1.6 billion in launch orders for military satellite networks]]
-- [[event-69|NASA Invites Media to SpaceX’s 35th Resupply Launch to Space Station]]
+- [[event-69|NASA Opens Media Accreditation for SpaceX CRS-35; NASA Also Awards Additional Launch Services and Crew Flights to SpaceX]]
 - [[event-72|NASA Shares SpaceX Crew-14 Assignments for Space Station Mission]]
 - [[event-73|NASA to Study Human Health, Performance During Crew-13 Mission]]
 - [[event-80|NASA’s SpaceX Crew-13 Launches]]

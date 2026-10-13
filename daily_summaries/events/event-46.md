@@ -49,3 +49,4 @@ The new subsystem could modestly strengthen RTX’s (via Blue Canyon Technologie
 - [[event-42|Aerospace demonstrates DiskSats in low-Earth orbit]]
 - [[event-68|Satrec Initiative to build 10-centimeter-class optical satellites for Hanwha constellation]]
 - [[event-70|Terran Orbital Announces Two Senior Leadership Changes: Margherita Cardi Promoted; Jamin Brown Named COO]]
+- [[event-100|Jena-Optronik is proud to partner with MDA Space for its first ASTRO HP mission.]]

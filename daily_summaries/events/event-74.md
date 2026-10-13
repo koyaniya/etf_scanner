@@ -50,6 +50,6 @@ The briefing could provide new schedule or certification details for Boeing's St
 - [[event-40|Rocket Lab to open Alaska launch site under $266 million Space Force deal]]
 - [[event-43|Nancy Grace Roman Space Telescope Launches Aboard SpaceX Falcon Heavy]]
 - [[event-50|BOEING CO files 8-K]]
-- [[event-69|NASA Invites Media to SpaceX’s 35th Resupply Launch to Space Station]]
+- [[event-69|NASA Opens Media Accreditation for SpaceX CRS-35; NASA Also Awards Additional Launch Services and Crew Flights to SpaceX]]
 - [[event-80|NASA’s SpaceX Crew-13 Launches]]
 - [[event-93|NASA’s SpaceX 35th Commercial Resupply Mission Overview]]

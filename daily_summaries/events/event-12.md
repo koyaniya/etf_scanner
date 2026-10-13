@@ -47,7 +47,7 @@ Adds a commercial launch booking for Space Exploration Technologies Corp (Falcon
 - [[event-79|Crew-13 Rocket and Spacecraft at Launch Pad]]
 - [[event-39|SpaceX wins $1.6 billion in launch orders for military satellite networks]]
 - [[event-43|Nancy Grace Roman Space Telescope Launches Aboard SpaceX Falcon Heavy]]
-- [[event-69|NASA Invites Media to SpaceX’s 35th Resupply Launch to Space Station]]
+- [[event-69|NASA Opens Media Accreditation for SpaceX CRS-35; NASA Also Awards Additional Launch Services and Crew Flights to SpaceX]]
 - [[event-72|NASA Shares SpaceX Crew-14 Assignments for Space Station Mission]]
 - [[event-73|NASA to Study Human Health, Performance During Crew-13 Mission]]
 - [[event-78|NASA Sets Crew-13 Launch, Docking Coverage]]

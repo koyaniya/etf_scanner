@@ -48,5 +48,5 @@ A scheduled public briefing from Crew-12 is primarily an operational/communicati
 - [[event-93|NASA’s SpaceX 35th Commercial Resupply Mission Overview]]
 - [[event-12|Portal Space Systems to include rideshare payloads on Falcon 9 launch of Supernova]]
 - [[event-39|SpaceX wins $1.6 billion in launch orders for military satellite networks]]
-- [[event-69|NASA Invites Media to SpaceX’s 35th Resupply Launch to Space Station]]
+- [[event-69|NASA Opens Media Accreditation for SpaceX CRS-35; NASA Also Awards Additional Launch Services and Crew Flights to SpaceX]]
 - [[event-78|NASA Sets Crew-13 Launch, Docking Coverage]]

@@ -50,7 +50,7 @@ A successful crewed launch reinforces SpaceX's role in human spaceflight and sup
 
 - [[event-39|SpaceX wins $1.6 billion in launch orders for military satellite networks]]
 - [[event-43|Nancy Grace Roman Space Telescope Launches Aboard SpaceX Falcon Heavy]]
-- [[event-69|NASA Invites Media to SpaceX’s 35th Resupply Launch to Space Station]]
+- [[event-69|NASA Opens Media Accreditation for SpaceX CRS-35; NASA Also Awards Additional Launch Services and Crew Flights to SpaceX]]
 - [[event-79|Crew-13 Rocket and Spacecraft at Launch Pad]]
 - [[event-93|NASA’s SpaceX 35th Commercial Resupply Mission Overview]]
 - [[event-6|Rocket Lab to test Space Force data network connection in orbit in 2027]]

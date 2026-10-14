@@ -48,7 +48,7 @@ If NASA relaxes RFP requirements, Voyager could find it easier to meet procureme
 - [[event-90|NASA to Cover Northrop Grumman CRS-24 Spacecraft Departure]]
 - [[event-93|NASA’s SpaceX 35th Commercial Resupply Mission Overview]]
 - [[event-95|NASA Advances LISA Mission Contributions With New Test Telescope]]
+- [[event-102|Voyager Technologies’ Griffin-1 Completes Environmental Testing at NASA JPL]]
 - [[event-1|NRO to expand use of HawkEye 360’s satellite intelligence]]
 - [[event-2|New report takes closer look at the Space Force spending surge]]
 - [[event-5|NASA’s B777 Gets New Coat of Paint]]
-- [[event-6|Rocket Lab to test Space Force data network connection in orbit in 2027]]

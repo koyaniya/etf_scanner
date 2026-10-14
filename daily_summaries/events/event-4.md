@@ -48,3 +48,4 @@ A successful test would be a modest technology milestone for lunar surface opera
 - [[event-37|NASA selects successor to CAPSTONE lunar mission]]
 - [[event-67|NASA’s Moon Orbiter Spots New, ‘Once-in-Century’ Moon Crater]]
 - [[event-99|NASA Demonstrates Next-Generation Heat Shield Technologies]]
+- [[event-102|Voyager Technologies’ Griffin-1 Completes Environmental Testing at NASA JPL]]

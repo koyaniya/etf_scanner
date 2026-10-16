@@ -34,7 +34,7 @@ Unclear from the summary — an 8-K filing can contain a range of material discl
 
 ## Sources
 
-- [COMTECH TELECOMMUNICATIONS CORP /DE/ files 8-K](https://www.sec.gov/Archives/edgar/data/23197/000002319726000113/cmtl-20261014.htm) — 2026-10-15 05:46 KST
+- [COMTECH TELECOMMUNICATIONS CORP /DE/ files 8-K](https://www.sec.gov/Archives/edgar/data/23197/000002319726000113/cmtl-20261014.htm) — 2026-10-15 09:46 KST
 
 ## Related events
 

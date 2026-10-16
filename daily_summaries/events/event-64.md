@@ -39,7 +39,7 @@ Form 8-K filings are regulatory disclosures that can contain material informatio
 ## Sources
 
 - [Rocket Lab Corp files 8-K](https://www.sec.gov/Archives/edgar/data/1819994/000175392626001769/g085951_8k.htm) — 2026-09-15 19:44 KST
-- [Rocket Lab Corp files 8-K](https://www.sec.gov/Archives/edgar/data/1819994/000181999426000067/rklb-20261014.htm) — 2026-10-15 05:41 KST
+- [Rocket Lab Corp files 8-K](https://www.sec.gov/Archives/edgar/data/1819994/000181999426000067/rklb-20261014.htm) — 2026-10-15 09:41 KST
 
 ## Related events
 

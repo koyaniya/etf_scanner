@@ -35,7 +35,7 @@ Routine annual SEC filing/ regulatory disclosure. The 10-K may contain financial
 
 ## Sources
 
-- [COMTECH TELECOMMUNICATIONS CORP /DE/ files 10-K](https://www.sec.gov/Archives/edgar/data/23197/000002319726000114/cmtl-20260731.htm) — 2026-10-15 05:50 KST
+- [COMTECH TELECOMMUNICATIONS CORP /DE/ files 10-K](https://www.sec.gov/Archives/edgar/data/23197/000002319726000114/cmtl-20260731.htm) — 2026-10-15 09:50 KST
 
 ## Related events
 

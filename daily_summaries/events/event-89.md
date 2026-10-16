@@ -38,7 +38,7 @@ An 8-K is a vehicle for reporting potentially material corporate events (e.g., c
 ## Sources
 
 - [COMTECH TELECOMMUNICATIONS CORP /DE/ files 8-K](https://www.sec.gov/Archives/edgar/data/23197/000002319726000088/cmtl-20261001.htm) — 2026-10-06 10:14 KST
-- [COMTECH TELECOMMUNICATIONS CORP /DE/ files 8-K](https://www.sec.gov/Archives/edgar/data/23197/000002319726000111/cmtl-20261014.htm) — 2026-10-15 05:38 KST
+- [COMTECH TELECOMMUNICATIONS CORP /DE/ files 8-K](https://www.sec.gov/Archives/edgar/data/23197/000002319726000111/cmtl-20261014.htm) — 2026-10-15 09:38 KST
 
 ## Related events
 

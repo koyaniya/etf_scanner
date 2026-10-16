@@ -50,5 +50,6 @@ The merger and rebrand combine messaging-focused D2D capabilities with coordinat
 - [[event-9|Intuitive Machines wins contract for three GEO satellites]]
 - [[event-15|Space Force awards five companies $60 million to prototype multi-vendor connections to SpaceX-built network]]
 - [[event-23|Kepler books Neutron for 2028 optical relay launch]]
+- [[event-30|GILAT SATELLITE NETWORKS LTD referenced Form 6‑K filings on SEC EDGAR (multiple archive entries referenced)]]
 - [[event-34|Telesat lands $1.63 billion Canadian defense contract]]
 - [[event-81|LMT Group and Novaspace partner to develop strategy for 5G/6G satellite communications hub in Latvia]]

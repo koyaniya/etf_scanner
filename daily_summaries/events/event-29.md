@@ -47,6 +47,6 @@ Routine regulatory disclosure by a major semiconductor supplier. By itself, the 
 
 ## Related events
 
-- [[event-87|STMicroelectronics N.V. files Form 6‑K(s) with the U.S. SEC (EDGAR)]]
+- [[event-87|STMicroelectronics N.V. files one or more Form 6‑K(s) with the U.S. SEC (EDGAR)]]
 - [[event-53|STMicroelectronics N.V. files 6-K]]
 - [[event-100|Jena-Optronik is proud to partner with MDA Space for its first ASTRO HP mission.]]

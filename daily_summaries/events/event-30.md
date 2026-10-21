@@ -67,4 +67,4 @@ This is a regulatory disclosure event by a foreign issuer. Depending on the fili
 - [[event-27|Satellite manufacturing thrives in California despite cost and regulatory pressures]]
 - [[event-34|Telesat lands $1.63 billion Canadian defense contract]]
 - [[event-36|Amazon files application for direct-to-device satellite constellation]]
-- [[event-81|LMT Group and Novaspace partner to develop strategy for 5G/6G satellite communications hub in Latvia]]
+- [[event-65|Iridium Communications Inc. files multiple Form 8-K(s) on SEC EDGAR (multiple EDGAR items reported)]]

@@ -50,4 +50,4 @@ Routine undocking/departure signals successful completion of Northrop Grumman’
 - [[event-43|Nancy Grace Roman Space Telescope Launches Aboard SpaceX Falcon Heavy]]
 - [[event-93|NASA’s SpaceX 35th Commercial Resupply Mission Overview]]
 - [[event-95|NASA Advances LISA Mission Contributions With New Test Telescope]]
-- [[event-1|NRO to expand use of HawkEye 360’s satellite intelligence]]
+- [[event-112|NORTHROP GRUMMAN CORP /DE/ files 10-Q]]

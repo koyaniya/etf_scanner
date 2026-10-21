@@ -40,3 +40,5 @@ Form 8-K filings can disclose material events (e.g., financial impacts, leadersh
 ## Related events
 
 - [[event-46|RTX’s Blue Canyon Technologies introduces new spacecraft mission enabler]]
+- [[event-107|RTX Corp files 10-Q]]
+- [[event-108|RTX Corp files 8-K]]

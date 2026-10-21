@@ -50,7 +50,7 @@ Undetermined from the supplied summaries. If any of the 6‑K filings contain ma
 - [STMicroelectronics N.V. files 6-K](https://www.sec.gov/Archives/edgar/data/932787/000093278726000074/c3414c-oct52026xdisclosure.htm) — 2026-10-06 01:35 KST
 - [STMicroelectronics N.V. files 6-K](https://www.sec.gov/Archives/edgar/data/932787/000093278726000078/c3416c-october132026xsttop.htm) — 2026-10-14 01:57 KST
 - [STMicroelectronics N.V. files 6-K](https://www.sec.gov/Archives/edgar/data/932787/000093278726000076/c3415c-october122026xdiscl.htm) — 2026-10-14 01:47 KST
-- [STMicroelectronics N.V. files 6-K](https://www.sec.gov/Archives/edgar/data/932787/000093278726000081/c3417c-october192026xdiscl.htm) — 2026-10-19 21:18 KST
+- [STMicroelectronics N.V. files 6-K](https://www.sec.gov/Archives/edgar/data/932787/000093278726000081/c3417c-october192026xdiscl.htm) — 2026-10-20 01:18 KST
 
 ## Related events
 

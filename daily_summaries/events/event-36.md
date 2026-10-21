@@ -52,4 +52,6 @@ If approved and implemented, the proposal would materially expand D2D capacity a
 - [[event-23|Kepler books Neutron for 2028 optical relay launch]]
 - [[event-30|GILAT SATELLITE NETWORKS LTD referenced Form 6‑K filings on SEC EDGAR (multiple archive entries referenced)]]
 - [[event-34|Telesat lands $1.63 billion Canadian defense contract]]
+- [[event-65|Iridium Communications Inc. files multiple Form 8-K(s) on SEC EDGAR (multiple EDGAR items reported)]]
 - [[event-81|LMT Group and Novaspace partner to develop strategy for 5G/6G satellite communications hub in Latvia]]
+- [[event-109|Iridium Communications Inc. files 10-Q]]

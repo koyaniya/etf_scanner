@@ -37,7 +37,7 @@ Routine quarterly SEC filing that may contain financial results, contract update
 
 ## Sources
 
-- [NORTHROP GRUMMAN CORP /DE/ files 10-Q](https://www.sec.gov/Archives/edgar/data/1133421/000113342126000038/noc-20260930.htm) — 2026-10-21 05:01 KST
+- [NORTHROP GRUMMAN CORP /DE/ files 10-Q](https://www.sec.gov/Archives/edgar/data/1133421/000113342126000038/noc-20260930.htm) — 2026-10-21 09:01 KST
 
 ## Related events
 

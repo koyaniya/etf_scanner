@@ -34,7 +34,7 @@ An 8-K filing is a regulatory disclosure by a major aerospace and defense suppli
 
 ## Sources
 
-- [RTX Corp files 8-K](https://www.sec.gov/Archives/edgar/data/101829/000010182926000030/rtx-20261020.htm) — 2026-10-20 19:57 KST
+- [RTX Corp files 8-K](https://www.sec.gov/Archives/edgar/data/101829/000010182926000030/rtx-20261020.htm) — 2026-10-20 23:57 KST
 
 ## Related events
 

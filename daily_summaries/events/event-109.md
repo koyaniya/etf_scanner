@@ -35,7 +35,7 @@ A Form 10-Q is a routine quarterly SEC filing that may contain updated financial
 
 ## Sources
 
-- [Iridium Communications Inc. files 10-Q](https://www.sec.gov/Archives/edgar/data/1418819/000141881926000052/irdm-20260930.htm) — 2026-10-20 20:01 KST
+- [Iridium Communications Inc. files 10-Q](https://www.sec.gov/Archives/edgar/data/1418819/000141881926000052/irdm-20260930.htm) — 2026-10-21 00:01 KST
 
 ## Related events
 

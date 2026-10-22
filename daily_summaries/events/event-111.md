@@ -35,7 +35,7 @@ An 8-K filing signals that the company reported a material event or other report
 
 ## Sources
 
-- [SPACE EXPLORATION TECHNOLOGIES CORP files 8-K](https://www.sec.gov/Archives/edgar/data/1181412/000162828026066482/spcx-20261020.htm) — 2026-10-21 05:00 KST
+- [SPACE EXPLORATION TECHNOLOGIES CORP files 8-K](https://www.sec.gov/Archives/edgar/data/1181412/000162828026066482/spcx-20261020.htm) — 2026-10-21 09:00 KST
 
 ## Related events
 

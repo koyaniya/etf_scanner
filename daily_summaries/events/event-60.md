@@ -42,3 +42,4 @@ The Form 8-K is a regulatory disclosure that may contain material information (e
 
 - [[event-63|FREQUENCY ELECTRONICS INC files 10-Q]]
 - [[event-94|FREQUENCY ELECTRONICS INC files 8-K]]
+- [[event-115|FREQUENCY ELECTRONICS INC files 8-K]]

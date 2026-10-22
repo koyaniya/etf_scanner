@@ -38,3 +38,7 @@ No specific industry impact can be determined from the summary alone. An 8-K can
 ## Sources
 
 - [Momentus Inc. files 8-K](https://www.sec.gov/Archives/edgar/data/1781162/000162828026058934/mnts-20260821.htm) — 2026-08-26 05:52 KST
+
+## Related events
+
+- [[event-114|Solstar provides Wi-Fi connectivity for NASA proximity operations demonstration]]

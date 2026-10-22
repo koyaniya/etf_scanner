@@ -40,3 +40,4 @@ Unclear — an 8-K can disclose a wide range of developments (e.g., leadership c
 
 - [[event-60|FREQUENCY ELECTRONICS INC files 8-K]]
 - [[event-63|FREQUENCY ELECTRONICS INC files 10-Q]]
+- [[event-115|FREQUENCY ELECTRONICS INC files 8-K]]

@@ -34,7 +34,7 @@ The 8-K filing is a regulatory disclosure that could contain material informatio
 
 ## Sources
 
-- [FREQUENCY ELECTRONICS INC files 8-K](https://www.sec.gov/Archives/edgar/data/39020/000118518526004889/feim8k102126.htm) — 2026-10-22 05:30 KST
+- [FREQUENCY ELECTRONICS INC files 8-K](https://www.sec.gov/Archives/edgar/data/39020/000118518526004889/feim8k102126.htm) — 2026-10-22 09:30 KST
 
 ## Related events
 

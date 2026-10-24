@@ -38,7 +38,7 @@ An 8‑K filing can disclose material corporate, financial or operational develo
 
 ## Sources
 
-- [LOCKHEED MARTIN CORP files 8-K](https://www.sec.gov/Archives/edgar/data/936468/000162828026066780/lmt-20261022.htm) — 2026-10-22 19:26 KST
+- [LOCKHEED MARTIN CORP files 8-K](https://www.sec.gov/Archives/edgar/data/936468/000162828026066780/lmt-20261022.htm) — 2026-10-22 23:26 KST
 
 ## Related events
 

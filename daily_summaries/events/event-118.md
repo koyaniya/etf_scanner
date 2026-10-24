@@ -35,7 +35,7 @@ Routine quarterly SEC filing — likely provides updated financial and operation
 
 ## Sources
 
-- [SPACE EXPLORATION TECHNOLOGIES CORP files 10-Q](https://www.sec.gov/Archives/edgar/data/1181412/000162828026066880/spcx-20260930.htm) — 2026-10-23 05:03 KST
+- [SPACE EXPLORATION TECHNOLOGIES CORP files 10-Q](https://www.sec.gov/Archives/edgar/data/1181412/000162828026066880/spcx-20260930.htm) — 2026-10-23 09:03 KST
 
 ## Related events
 

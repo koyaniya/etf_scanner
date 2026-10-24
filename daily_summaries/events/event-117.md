@@ -34,7 +34,7 @@ Based on the summary alone, the 10-Q filing is a routine financial disclosure wi
 
 ## Sources
 
-- [COMCAST CORP files 10-Q](https://www.sec.gov/Archives/edgar/data/1166691/000162828026066863/cmcsa-20260930.htm) — 2026-10-23 03:57 KST
+- [COMCAST CORP files 10-Q](https://www.sec.gov/Archives/edgar/data/1166691/000162828026066863/cmcsa-20260930.htm) — 2026-10-23 07:57 KST
 
 ## Related events
 

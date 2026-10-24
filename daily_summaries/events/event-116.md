@@ -34,7 +34,7 @@ An 8-K is a potentially material disclosure; depending on its contents it could 
 
 ## Sources
 
-- [COMCAST CORP files 8-K](https://www.sec.gov/Archives/edgar/data/1166691/000162828026066783/cmcsa-20261022.htm) — 2026-10-22 20:05 KST
+- [COMCAST CORP files 8-K](https://www.sec.gov/Archives/edgar/data/1166691/000162828026066783/cmcsa-20261022.htm) — 2026-10-23 00:05 KST
 
 ## Related events
 

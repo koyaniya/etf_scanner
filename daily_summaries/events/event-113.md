@@ -34,4 +34,4 @@ The filing is a corporate regulatory disclosure; its industry impact depends ent
 
 ## Sources
 
-- [AST SpaceMobile, Inc. files 8-K](https://www.sec.gov/Archives/edgar/data/1780312/000149315226047766/form8-k.htm) — 2026-10-21 09:30 KST
+- [AST SpaceMobile, Inc. files 8-K](https://www.sec.gov/Archives/edgar/data/1780312/000149315226047766/form8-k.htm) — 2026-10-21 05:30 KST

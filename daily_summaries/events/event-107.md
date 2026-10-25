@@ -36,7 +36,7 @@ A Form 10-Q is a routine quarterly financial filing. If the filing contains mate
 
 ## Sources
 
-- [RTX Corp files 10-Q](https://www.sec.gov/Archives/edgar/data/101829/000010182926000031/rtx-20260930.htm) — 2026-10-21 09:33 KST
+- [RTX Corp files 10-Q](https://www.sec.gov/Archives/edgar/data/101829/000010182926000031/rtx-20260930.htm) — 2026-10-21 05:33 KST
 
 ## Related events
 

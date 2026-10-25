@@ -36,7 +36,7 @@ A 10-Q filing is a routine quarterly financial report for a major defense and sp
 
 ## Sources
 
-- [LOCKHEED MARTIN CORP files 10-Q](https://www.sec.gov/Archives/edgar/data/936468/000162828026066928/lmt-20260927.htm) — 2026-10-23 10:13 KST
+- [LOCKHEED MARTIN CORP files 10-Q](https://www.sec.gov/Archives/edgar/data/936468/000162828026066928/lmt-20260927.htm) — 2026-10-23 06:13 KST
 
 ## Related events
 

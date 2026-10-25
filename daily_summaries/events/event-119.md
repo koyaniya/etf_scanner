@@ -37,7 +37,7 @@ The 8-K filing could contain material information (e.g., financial results, gove
 
 ## Sources
 
-- [Intuitive Machines, Inc. files 8-K](https://www.sec.gov/Archives/edgar/data/1844452/000162828026066926/lunr-20261021.htm) — 2026-10-23 10:09 KST
+- [Intuitive Machines, Inc. files 8-K](https://www.sec.gov/Archives/edgar/data/1844452/000162828026066926/lunr-20261021.htm) — 2026-10-23 06:09 KST
 
 ## Related events
 

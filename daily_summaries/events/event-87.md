@@ -56,4 +56,5 @@ Undetermined from the supplied summaries. If any of the 6‑K filings contain ma
 
 - [[event-29|STMicroelectronics N.V. files Form 6‑K(s) with SEC (EDGAR); contents not disclosed in supplied summaries]]
 - [[event-53|STMicroelectronics N.V. files 6-K]]
+- [[event-124|STMicroelectronics N.V. files 6-K]]
 - [[event-100|Jena-Optronik is proud to partner with MDA Space for its first ASTRO HP mission.]]

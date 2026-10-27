@@ -50,5 +50,5 @@ If the on-orbit demonstrations validate the DiskSat concept, it could encourage 
 - [[event-6|Rocket Lab to test Space Force data network connection in orbit in 2027]]
 - [[event-15|Space Force awards five companies $60 million to prototype multi-vendor connections to SpaceX-built network]]
 - [[event-64|Rocket Lab Corp files 8-K]]
+- [[event-123|Astranis Upgrades Falcon 9 Launch Contract to Dedicated Mission for Entire Block 4 Production Run of Satellites]]
 - [[event-9|Intuitive Machines wins contract for three GEO satellites]]
-- [[event-12|Portal Space Systems to include rideshare payloads on Falcon 9 launch of Supernova]]

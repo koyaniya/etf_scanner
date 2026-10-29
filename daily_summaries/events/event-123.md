@@ -43,6 +43,7 @@ A dedicated Falcon 9 mission for an entire production run increases schedule cer
 
 ## Related events
 
+- [[event-131|Flexell Space and Satoro Agree to Collaborate on In-Orbit Demonstration of Next-Generation Space Solar Cells]]
 - [[event-12|Portal Space Systems to include rideshare payloads on Falcon 9 launch of Supernova]]
 - [[event-39|SpaceX wins $1.6 billion in launch orders for military satellite networks]]
 - [[event-43|Nancy Grace Roman Space Telescope Launches Aboard SpaceX Falcon Heavy]]
@@ -52,4 +53,3 @@ A dedicated Falcon 9 mission for an entire production run increases schedule cer
 - [[event-78|NASA Sets Crew-13 Launch, Docking Coverage]]
 - [[event-79|Crew-13 Rocket and Spacecraft at Launch Pad]]
 - [[event-80|NASA’s SpaceX Crew-13 Launches]]
-- [[event-86|NASA’s SpaceX Crew‑12 Splashes Down, Concluding Station Science Mission]]

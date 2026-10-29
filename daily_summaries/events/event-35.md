@@ -41,6 +41,7 @@ If carried out successfully, the demonstration could validate air‑breathing el
 
 ## Related events
 
+- [[event-131|Flexell Space and Satoro Agree to Collaborate on In-Orbit Demonstration of Next-Generation Space Solar Cells]]
 - [[event-5|NASA’s B777 Gets New Coat of Paint]]
 - [[event-6|Rocket Lab to test Space Force data network connection in orbit in 2027]]
 - [[event-9|Intuitive Machines wins contract for three GEO satellites]]
@@ -50,4 +51,3 @@ If carried out successfully, the demonstration could validate air‑breathing el
 - [[event-24|Northrop Grumman, Canadian Space Agency repurpose their Gateway projects]]
 - [[event-27|Satellite manufacturing thrives in California despite cost and regulatory pressures]]
 - [[event-28|Voyager seeks relaxed requirements in NASA commercial space station RFP]]
-- [[event-34|Telesat lands $1.63 billion Canadian defense contract]]

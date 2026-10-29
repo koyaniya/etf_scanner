@@ -55,6 +55,6 @@ A scheduled CRS cargo launch maintains the ISS resupply cadence and supports NAS
 - [[event-73|NASA to Study Human Health, Performance During Crew-13 Mission]]
 - [[event-80|NASA’s SpaceX Crew-13 Launches]]
 - [[event-86|NASA’s SpaceX Crew‑12 Splashes Down, Concluding Station Science Mission]]
+- [[event-131|Flexell Space and Satoro Agree to Collaborate on In-Orbit Demonstration of Next-Generation Space Solar Cells]]
 - [[event-6|Rocket Lab to test Space Force data network connection in orbit in 2027]]
 - [[event-12|Portal Space Systems to include rideshare payloads on Falcon 9 launch of Supernova]]
-- [[event-61|NASA’s SpaceX Crew-12 to Discuss Station Mission, Upcoming Return]]

@@ -50,6 +50,6 @@ This advances optical-hardware development for the LISA gravitational-wave obser
 - [[event-43|Nancy Grace Roman Space Telescope Launches Aboard SpaceX Falcon Heavy]]
 - [[event-90|NASA to Cover Northrop Grumman CRS-24 Spacecraft Departure]]
 - [[event-93|NASA’s SpaceX 35th Commercial Resupply Mission Overview]]
+- [[event-134|L3HARRIS TECHNOLOGIES, INC. /DE/ files 8-K]]
+- [[event-138|L3HARRIS TECHNOLOGIES, INC. /DE/ files 10-Q]]
 - [[event-1|NRO to expand use of HawkEye 360’s satellite intelligence]]
-- [[event-2|New report takes closer look at the Space Force spending surge]]
-- [[event-5|NASA’s B777 Gets New Coat of Paint]]

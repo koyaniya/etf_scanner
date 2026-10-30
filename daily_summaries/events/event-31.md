@@ -41,3 +41,5 @@ An 8-K filing can indicate a material corporate disclosure (e.g., leadership cha
 ## Related events
 
 - [[event-95|NASA Advances LISA Mission Contributions With New Test Telescope]]
+- [[event-134|L3HARRIS TECHNOLOGIES, INC. /DE/ files 8-K]]
+- [[event-138|L3HARRIS TECHNOLOGIES, INC. /DE/ files 10-Q]]

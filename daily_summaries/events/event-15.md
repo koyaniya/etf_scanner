@@ -52,6 +52,7 @@ The award supports movement toward multi-vendor, interoperable satellite communi
 
 - [[event-6|Rocket Lab to test Space Force data network connection in orbit in 2027]]
 - [[event-40|Rocket Lab to open Alaska launch site under $266 million Space Force deal]]
+- [[event-140|ESI supplying solar array components to missile defense programs]]
 - [[event-23|Kepler books Neutron for 2028 optical relay launch]]
 - [[event-34|Telesat lands $1.63 billion Canadian defense contract]]
 - [[event-70|Terran Orbital Announces Two Senior Leadership Changes: Margherita Cardi Promoted; Jamin Brown Named COO]]
@@ -59,4 +60,3 @@ The award supports movement toward multi-vendor, interoperable satellite communi
 - [[event-99|NASA Demonstrates Next-Generation Heat Shield Technologies]]
 - [[event-1|NRO to expand use of HawkEye 360’s satellite intelligence]]
 - [[event-2|New report takes closer look at the Space Force spending surge]]
-- [[event-13|Rocket Lab launches 9th satellite for iQPS]]

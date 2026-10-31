@@ -44,3 +44,4 @@ A 10-Q filing is a routine quarterly financial report for a major defense and sp
 - [[event-52|LOCKHEED MARTIN CORP files 8-K]]
 - [[event-70|Terran Orbital Announces Two Senior Leadership Changes: Margherita Cardi Promoted; Jamin Brown Named COO]]
 - [[event-121|LOCKHEED MARTIN CORP files 8-K]]
+- [[event-140|ESI supplying solar array components to missile defense programs]]

@@ -47,6 +47,7 @@ The appointments consolidate senior management at Terran Orbital (described in t
 ## Related events
 
 - [[event-15|Space Force awards five companies $60 million to prototype multi-vendor connections to SpaceX-built network]]
+- [[event-140|ESI supplying solar array components to missile defense programs]]
 - [[event-27|Satellite manufacturing thrives in California despite cost and regulatory pressures]]
 - [[event-52|LOCKHEED MARTIN CORP files 8-K]]
 - [[event-120|LOCKHEED MARTIN CORP files 10-Q]]
@@ -55,4 +56,3 @@ The appointments consolidate senior management at Terran Orbital (described in t
 - [[event-2|New report takes closer look at the Space Force spending surge]]
 - [[event-3|Hypersonic missile startup Castelion raises $1 billion]]
 - [[event-6|Rocket Lab to test Space Force data network connection in orbit in 2027]]
-- [[event-9|Intuitive Machines wins contract for three GEO satellites]]

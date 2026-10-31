@@ -44,3 +44,4 @@ Because the RSS summary gives no details, the filing is a routine regulatory/com
 - [[event-70|Terran Orbital Announces Two Senior Leadership Changes: Margherita Cardi Promoted; Jamin Brown Named COO]]
 - [[event-120|LOCKHEED MARTIN CORP files 10-Q]]
 - [[event-121|LOCKHEED MARTIN CORP files 8-K]]
+- [[event-140|ESI supplying solar array components to missile defense programs]]

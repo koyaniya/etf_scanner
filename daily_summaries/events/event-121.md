@@ -46,3 +46,4 @@ An 8‑K filing can disclose material corporate, financial or operational develo
 - [[event-52|LOCKHEED MARTIN CORP files 8-K]]
 - [[event-70|Terran Orbital Announces Two Senior Leadership Changes: Margherita Cardi Promoted; Jamin Brown Named COO]]
 - [[event-120|LOCKHEED MARTIN CORP files 10-Q]]
+- [[event-140|ESI supplying solar array components to missile defense programs]]

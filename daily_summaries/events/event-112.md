@@ -45,3 +45,4 @@ Routine quarterly SEC filing that may contain financial results, contract update
 - [[event-24|Northrop Grumman, Canadian Space Agency repurpose their Gateway projects]]
 - [[event-90|NASA to Cover Northrop Grumman CRS-24 Spacecraft Departure]]
 - [[event-99|NASA Demonstrates Next-Generation Heat Shield Technologies]]
+- [[event-145|NASA Invites Media to Northrop Grumman CRS-25 Station Resupply Launch]]

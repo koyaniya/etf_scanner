@@ -48,6 +48,7 @@ Completion of JPL environmental and vibration testing is a positive technology-r
 ## Related events
 
 - [[event-28|Voyager seeks relaxed requirements in NASA commercial space station RFP]]
+- [[event-144|Voyager Technologies, Inc./TX files 8-K]]
 - [[event-4|Firefly Aerospace to fly Zeno Power radioisotope heating unit on lunar lander mission]]
 - [[event-18|Former Space Force general joins Lunar Outpost board]]
 - [[event-24|Northrop Grumman, Canadian Space Agency repurpose their Gateway projects]]

@@ -64,5 +64,5 @@ A successful launch of a flagship NASA observatory on a Falcon Heavy provides ne
 - [[event-80|NASA’s SpaceX Crew-13 Launches]]
 - [[event-86|NASA’s SpaceX Crew‑12 Splashes Down, Concluding Station Science Mission]]
 - [[event-131|Flexell Space and Satoro Agree to Collaborate on In-Orbit Demonstration of Next-Generation Space Solar Cells]]
+- [[event-145|NASA Invites Media to Northrop Grumman CRS-25 Station Resupply Launch]]
 - [[event-6|Rocket Lab to test Space Force data network connection in orbit in 2027]]
-- [[event-12|Portal Space Systems to include rideshare payloads on Falcon 9 launch of Supernova]]

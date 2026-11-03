@@ -58,5 +58,5 @@ The award supports movement toward multi-vendor, interoperable satellite communi
 - [[event-70|Terran Orbital Announces Two Senior Leadership Changes: Margherita Cardi Promoted; Jamin Brown Named COO]]
 - [[event-90|NASA to Cover Northrop Grumman CRS-24 Spacecraft Departure]]
 - [[event-99|NASA Demonstrates Next-Generation Heat Shield Technologies]]
+- [[event-145|NASA Invites Media to Northrop Grumman CRS-25 Station Resupply Launch]]
 - [[event-1|NRO to expand use of HawkEye 360’s satellite intelligence]]
-- [[event-2|New report takes closer look at the Space Force spending surge]]

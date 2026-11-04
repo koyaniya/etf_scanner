@@ -35,3 +35,7 @@ No clear industry impact can be determined from the summary. If the 8-K contains
 ## Sources
 
 - [TRIMBLE INC. files 8-K](https://www.sec.gov/Archives/edgar/data/864749/000086474926000111/trmb-20261002.htm) — 2026-10-03 05:08 KST
+
+## Related events
+
+- [[event-148|TRIMBLE INC. files 8-K]]

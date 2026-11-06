@@ -47,3 +47,4 @@ The 8‑K record(s) could contain material information (e.g., governance changes
 - [[event-27|Satellite manufacturing thrives in California despite cost and regulatory pressures]]
 - [[event-30|GILAT SATELLITE NETWORKS LTD referenced Form 6‑K filings on SEC EDGAR (multiple archive entries referenced)]]
 - [[event-85|Starfighters Space, Inc. files multiple Form 8-Ks on EDGAR (3 filings identified)]]
+- [[event-159|Globalstar, Inc. files 8-K]]

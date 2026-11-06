@@ -36,4 +36,4 @@ This is a routine regulatory compliance filing by a major defense/aerospace cont
 
 - [[event-31|L3HARRIS TECHNOLOGIES, INC. /DE/ files 8-K]]
 - [[event-95|NASA Advances LISA Mission Contributions With New Test Telescope]]
-- [[event-134|L3HARRIS TECHNOLOGIES, INC. /DE/ files 8-K]]
+- [[event-134|L3HARRIS TECHNOLOGIES, INC. /DE/ files 8-K (SEC EDGAR summaries)]]

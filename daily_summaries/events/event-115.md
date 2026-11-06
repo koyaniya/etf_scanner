@@ -6,35 +6,38 @@ event_date: null
 impact_direction: "UNCERTAIN"
 impact_strength: 2
 importance_score: 25
-confidence: 0.65
-time_horizon: "IMMEDIATE"
+confidence: 0.6
+time_horizon: "UNCERTAIN"
 companies:
   - "Frequency Electronics Inc [company_id: 55]"
 topics:
-updated_at: "2026-10-22T01:41:17.358292+00:00"
+updated_at: "2026-11-06T03:35:58.205264+00:00"
 ---
 
 # FREQUENCY ELECTRONICS INC files 8-K
 
-Frequency Electronics Inc filed a Form 8-K with the U.S. SEC, as reported in an SEC EDGAR entry (Form 8-K). The provided summary does not describe the contents of the filing.
+Frequency Electronics Inc filed Form 8-K disclosures on SEC EDGAR. Two separate EDGAR entries are referenced in the available analyses (one published 2026-10-21 and another published 2026-11-05). The provided RSS/EDGAR summaries do not describe the substantive contents of the filings, so the material significance is unknown.
 
 ## Industry implication
 
-The 8-K filing is a regulatory disclosure that could contain material information (e.g., leadership changes, financial matters, contracts, or other material events). Without the filing details the potential impact on Frequency Electronics Inc or its customers/suppliers is uncertain.
+8-K filings are regulatory disclosures that may disclose material corporate developments (e.g., leadership changes, financial items, contracts). Because the available summaries do not include the filings' contents, the specific implications for Frequency Electronics Inc, its customers, suppliers, or competitors cannot be determined from the supplied evidence.
 
 ## Key facts
 
-- SEC EDGAR shows a Form 8-K filing by Frequency Electronics Inc (reported in the article summary).
-- The article summary (SEC EDGAR) provides no details on the content of the Form 8-K.
+- SEC EDGAR entry: Form 8-K by Frequency Electronics Inc referenced in an article published 2026-10-21 with URL: https://www.sec.gov/Archives/edgar/data/39020/000118518526004889/feim8k102126.htm
+- SEC EDGAR entry: Form 8-K by Frequency Electronics Inc referenced in an article published 2026-11-05 with URL: https://www.sec.gov/Archives/edgar/data/39020/000118518526005208/feim8k110526.htm
+- Both article summaries note the Form 8-K filings but provide no details on the content of the filings.
 
 ## Risks
 
-- The filing may disclose material information that could affect Frequency Electronics Inc's stock price or business prospects.
-- Lack of detail in the summary means market participants cannot assess the significance until the full 8-K is reviewed.
+- The filings may disclose material information that could affect Frequency Electronics Inc's stock price or business prospects.
+- Lack of substantive detail in the summaries prevents assessment of whether the disclosures are positive, negative, or immaterial.
+- There is ambiguity whether these references reflect multiple distinct 8-K filings or separate EDGAR postings for related items; that ambiguity affects interpretation of significance.
 
 ## Sources
 
 - [FREQUENCY ELECTRONICS INC files 8-K](https://www.sec.gov/Archives/edgar/data/39020/000118518526004889/feim8k102126.htm) — 2026-10-22 05:30 KST
+- [FREQUENCY ELECTRONICS INC files 8-K](https://www.sec.gov/Archives/edgar/data/39020/000118518526005208/feim8k110526.htm) — 2026-11-06 06:15 KST
 
 ## Related events
 

@@ -46,6 +46,8 @@ If approved and implemented, the proposal would materially expand D2D capacity a
 ## Related events
 
 - [[event-7|Lynk and Omnispace form Elveo Mobile to advance D2D services]]
+- [[event-153|Globalstar, Inc. files 10-Q]]
+- [[event-159|Globalstar, Inc. files 8-K]]
 - [[event-6|Rocket Lab to test Space Force data network connection in orbit in 2027]]
 - [[event-9|Intuitive Machines wins contract for three GEO satellites]]
 - [[event-15|Space Force awards five companies $60 million to prototype multi-vendor connections to SpaceX-built network]]
@@ -53,5 +55,3 @@ If approved and implemented, the proposal would materially expand D2D capacity a
 - [[event-30|GILAT SATELLITE NETWORKS LTD referenced Form 6‑K filings on SEC EDGAR (multiple archive entries referenced)]]
 - [[event-34|Telesat lands $1.63 billion Canadian defense contract]]
 - [[event-65|Iridium Communications Inc. files multiple Form 8-K(s) on SEC EDGAR (multiple EDGAR items reported)]]
-- [[event-81|LMT Group and Novaspace partner to develop strategy for 5G/6G satellite communications hub in Latvia]]
-- [[event-109|Iridium Communications Inc. files 10-Q]]

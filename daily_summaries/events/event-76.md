@@ -43,4 +43,4 @@ No clear industry-level impact can be assessed from the provided summaries. Any 
 
 ## Related events
 
-- [[event-98|Sidus Space Inc. files 8-K]]
+- [[event-98|Sidus Space Inc. files Form 8‑K (EDGAR notices)]]

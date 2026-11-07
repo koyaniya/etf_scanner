@@ -30,3 +30,4 @@ The RSS summary reports that Viasat Inc filed an SEC Form 8-K (SEC EDGAR). The f
 ## Related events
 
 - [[event-57|VIASAT INC files 8-K]]
+- [[event-163|VIASAT INC files 10-Q]]

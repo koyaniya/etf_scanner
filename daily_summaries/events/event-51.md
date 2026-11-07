@@ -41,3 +41,5 @@ Filing an 8-K indicates Karman disclosed a material event to the SEC; however, b
 ## Related events
 
 - [[event-48|Karman Holdings Inc. files 8-K (multiple filings reported)]]
+- [[event-164|Karman Holdings Inc. files 10-Q]]
+- [[event-165|Karman Holdings Inc. files 8-K]]

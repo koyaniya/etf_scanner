@@ -6,40 +6,42 @@ event_date: null
 impact_direction: "UNCERTAIN"
 impact_strength: 1
 importance_score: 25
-confidence: 0.3
+confidence: 0.32
 time_horizon: "UNCERTAIN"
 companies:
   - "Sidus Space Inc [company_id: 62]"
 topics:
   - "Space regulation"
-updated_at: "2026-10-30T02:50:27.065395+00:00"
+updated_at: "2026-11-07T03:02:36.001322+00:00"
 ---
 
-# Sidus Space Inc. files 8-K
+# Sidus Space Inc. files Form 8‑K (EDGAR notices)
 
-Sidus Space Inc. filed one or more Form 8‑K reports with the U.S. Securities and Exchange Commission (EDGAR). The supplied article summaries provide only filing notices and do not include the substantive content of the 8‑K(s). Two distinct SEC EDGAR URLs are present in the linked analyses, but the summaries do not clarify whether these refer to the same filing or separate filings.
+Multiple SEC EDGAR RSS items report that Sidus Space Inc. filed one or more Form 8‑K reports. The supplied linked analyses reference three distinct EDGAR URLs (published as RSS/article notices on 2026-10-10, 2026-10-29, and 2026-11-06). The RSS/article summaries do not include the substantive content of the 8‑K(s), and the materials do not confirm whether the different EDGAR URLs correspond to separate filings, successive amendments/updated accessions of the same filing, or duplicates.
 
 ## Industry implication
 
-The 8‑K record(s) could contain material information (e.g., governance changes, financings, contracts, or other disclosures) that may affect Sidus Space's operations or investors. Because the provided summaries lack substantive detail and the EDGAR links differ, the specific industry impact remains uncertain until the actual filing content(s) are reviewed.
+The 8‑K filing(s) could disclose material information (e.g., financings, contracts, litigation, or governance changes) that would affect Sidus Space and its investors. Because the provided summaries contain no substantive text and multiple different EDGAR links are present, the specific implications for Sidus Space or the broader industry remain uncertain until the actual EDGAR filing content(s) and filing identifiers/dates are reviewed.
 
 ## Key facts
 
-- Sidus Space Inc. is reported to have filed a Form 8‑K with the U.S. SEC (EDGAR).
-- Linked analysis 147 includes an EDGAR URL: https://www.sec.gov/Archives/edgar/data/1879726/000149315226046577/form8-k.htm (article published_at: 2026-10-10T01:00:32+00:00).
-- Linked analysis 203 includes an EDGAR URL: https://www.sec.gov/Archives/edgar/data/1879726/000149315226049195/form8-k.htm (article published_at: 2026-10-29T12:51:22+00:00).
-- Both article summaries state that no details of the 8‑K content are provided in the RSS/article summary.
+- Multiple RSS/EDGAR notices report a Form 8‑K filing by Sidus Space Inc.
+- EDGAR URL reported in linked analysis 147 (article published_at: 2026-10-10T01:00:32+00:00): https://www.sec.gov/Archives/edgar/data/1879726/000149315226046577/form8-k.htm
+- EDGAR URL reported in linked analysis 203 (article published_at: 2026-10-29T12:51:22+00:00): https://www.sec.gov/Archives/edgar/data/1879726/000149315226049195/form8-k.htm
+- EDGAR URL reported in linked analysis 243 (article published_at: 2026-11-06T22:25:29+00:00): https://www.sec.gov/Archives/edgar/data/1879726/000149315226050537/form8-k.htm
+- All supplied article/RSS summaries explicitly state they do not include the content or details of the Form 8‑K(s).
 
 ## Risks
 
-- The RSS/article summaries do not include the text or substance of the 8‑K; the filing(s) may contain material positive or negative information (financial disclosures, litigation, contract awards or terminations, or governance changes) that would affect Sidus Space and its investors.
-- Because the summaries lack details and the EDGAR links differ, stakeholders face uncertainty until the actual EDGAR filing(s) are reviewed to confirm contents and filing identifiers/dates.
-- If the EDGAR links correspond to different filings, there may be multiple disclosures to assess; alternatively, if one link is a duplicate or updated accession, further verification on EDGAR is required to determine the correct filing record.
+- The RSS/article summaries lack the text of the 8‑K(s); the filing(s) may contain material positive or negative information (financial disclosures, litigation, contract awards or terminations, leadership changes, or other matters) that would affect Sidus Space and its investors.
+- Multiple distinct EDGAR URLs are present in the provided analyses; stakeholders cannot determine from the summaries whether these represent separate filings, updated accessions of the same filing, or duplicates—this increases uncertainty and complicates assessment.
+- Without reviewing the actual EDGAR filing(s) (full text and official filing metadata), market, partner, or regulatory impacts cannot be assessed reliably.
 
 ## Sources
 
 - [Sidus Space Inc. files 8-K](https://www.sec.gov/Archives/edgar/data/1879726/000149315226046577/form8-k.htm) — 2026-10-10 10:00 KST
 - [Sidus Space Inc. files 8-K](https://www.sec.gov/Archives/edgar/data/1879726/000149315226049195/form8-k.htm) — 2026-10-29 21:51 KST
+- [Sidus Space Inc. files 8-K](https://www.sec.gov/Archives/edgar/data/1879726/000149315226050537/form8-k.htm) — 2026-11-07 07:25 KST
 
 ## Related events
 

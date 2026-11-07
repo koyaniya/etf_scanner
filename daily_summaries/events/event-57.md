@@ -42,3 +42,4 @@ Unknown — the 8-K could disclose material information (financial, governance, 
 ## Related events
 
 - [[event-156|VIASAT INC files 8-K]]
+- [[event-163|VIASAT INC files 10-Q]]

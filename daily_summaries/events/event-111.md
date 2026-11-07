@@ -5,40 +5,43 @@ event_type: "LEGAL_OR_COMPLIANCE"
 event_date: null
 impact_direction: "UNCERTAIN"
 impact_strength: 1
-importance_score: 35
+importance_score: 30
 confidence: 0.3
 time_horizon: "UNCERTAIN"
 companies:
   - "Space Exploration Technologies Corp [company_id: 19]"
 topics:
-updated_at: "2026-10-27T02:16:24.540445+00:00"
+updated_at: "2026-11-07T03:03:04.009572+00:00"
 ---
 
-# Space Exploration Technologies Corp files Form 8-K (SEC EDGAR)
+# Space Exploration Technologies Corp files multiple Form 8-Ks (SEC EDGAR)
 
-SEC EDGAR Form 8-K filing(s) reported for Space Exploration Technologies Corp (SpaceX). Supplied summaries identify only that a Form 8-K was filed; no substantive details of the filing contents are provided. Two separate EDGAR record URLs are cited in the linked analyses.
+SEC EDGAR Form 8-K filings have been reported for Space Exploration Technologies Corp (SpaceX). Three separate EDGAR record URLs are cited in the supplied analyses (published 2026-10-20, 2026-10-26, and 2026-11-06). The supplied RSS/article summaries do not include substantive details of the 8-K contents; therefore the nature, materiality, and implications of the disclosures are unknown without reviewing the filing texts.
 
 ## Industry implication
 
-A Form 8-K can disclose material corporate events (financings, governance changes, legal matters, or other developments). Because the supplied summaries contain no content from the Form 8-K(s), the specific regulatory, contractual, operational, or market implications for SpaceX and industry stakeholders are unknown until the filing text(s) are reviewed. The presence of two different EDGAR links introduces uncertainty about whether they reference the same filing or distinct filings.
+Form 8-Ks can disclose material corporate developments (e.g., financings, governance changes, legal matters, contracts). Because the supplied summaries contain no filing content, the regulatory, contractual, operational, or market implications for SpaceX and related stakeholders cannot be determined from the provided evidence. The presence of multiple distinct EDGAR links increases uncertainty about whether there are multiple separate disclosures and about which filing(s) should be reviewed to assess impact.
 
 ## Key facts
 
-- SEC EDGAR Form 8-K filing(s) reported for SPACE EXPLORATION TECHNOLOGIES CORP (SpaceX).
-- EDGAR record URL (article_id 2411): https://www.sec.gov/Archives/edgar/data/1181412/000162828026066482/spcx-20261020.htm (published 2026-10-20T20:00:51+00:00).
-- EDGAR record URL (article_id 2644): https://www.sec.gov/Archives/edgar/data/1181412/000110465926118614/tm2628247d1_8k.htm (published 2026-10-26T12:00:18+00:00).
-- Supplied RSS/article summaries contain no substantive detail about the 8-K contents; they state only that a Form 8-K was filed.
+- Three EDGAR 8-K records for SPACE EXPLORATION TECHNOLOGIES CORP are cited in the supplied analyses.
+- Article (id 2411) / EDGAR URL: https://www.sec.gov/Archives/edgar/data/1181412/000162828026066482/spcx-20261020.htm; article published_at: 2026-10-20T20:00:51+00:00; article title: 'SPACE EXPLORATION TECHNOLOGIES CORP files 8-K'.
+- Article (id 2644) / EDGAR URL: https://www.sec.gov/Archives/edgar/data/1181412/000110465926118614/tm2628247d1_8k.htm; article published_at: 2026-10-26T12:00:18+00:00; article title: 'SPACE EXPLORATION TECHNOLOGIES CORP files 8-K'.
+- Article (id 3104) / EDGAR URL: https://www.sec.gov/Archives/edgar/data/1181412/000162828026071689/spcx-20261104.htm; article published_at: 2026-11-06T21:15:01+00:00; article title: 'SPACE EXPLORATION TECHNOLOGIES CORP files 8-K'.
+- All supplied RSS/article summaries state only that a Form 8-K was filed and do not include substantive details of the filings' contents.
 
 ## Risks
 
-- The summaries do not include the Form 8-K contents, so the filing(s) could disclose material information that affects investors, partners, contracts, or operations.
+- The supplied summaries do not include 8-K contents, so the filings could disclose material information affecting investors, partners, contracts, or operations that is not captured here.
 - Without the filing text(s), the materiality, direction, and magnitude of any downstream effects (market, contractual, regulatory) are unknown.
-- Two different EDGAR URLs are cited; this could indicate multiple separate filings or different links to the same filing and increases uncertainty about which specific disclosure(s) should be reviewed.
+- Multiple different EDGAR URLs are cited; this could indicate multiple separate filings or different links to the same filing and increases uncertainty about which disclosure(s) should be reviewed.
+- Publication timestamps in the article metadata are not necessarily the same as the 8-K filing dates; no explicit filing date is provided in the summaries.
 
 ## Sources
 
 - [SPACE EXPLORATION TECHNOLOGIES CORP files 8-K](https://www.sec.gov/Archives/edgar/data/1181412/000162828026066482/spcx-20261020.htm) — 2026-10-21 05:00 KST
 - [SPACE EXPLORATION TECHNOLOGIES CORP files 8-K](https://www.sec.gov/Archives/edgar/data/1181412/000110465926118614/tm2628247d1_8k.htm) — 2026-10-26 21:00 KST
+- [SPACE EXPLORATION TECHNOLOGIES CORP files 8-K](https://www.sec.gov/Archives/edgar/data/1181412/000162828026071689/spcx-20261104.htm) — 2026-11-07 06:15 KST
 
 ## Related events
 

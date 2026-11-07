@@ -44,4 +44,4 @@ The 8-K filing signals a corporate disclosure or material development by Globals
 - [[event-27|Satellite manufacturing thrives in California despite cost and regulatory pressures]]
 - [[event-30|GILAT SATELLITE NETWORKS LTD referenced Form 6‑K filings on SEC EDGAR (multiple archive entries referenced)]]
 - [[event-85|Starfighters Space, Inc. files multiple Form 8-Ks on EDGAR (3 filings identified)]]
-- [[event-98|Sidus Space Inc. files 8-K]]
+- [[event-98|Sidus Space Inc. files Form 8‑K (EDGAR notices)]]

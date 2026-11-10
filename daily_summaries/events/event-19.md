@@ -52,4 +52,4 @@ A possible slip of Neutron's maiden flight to 2027 represents schedule risk for 
 - [[event-15|Space Force awards five companies $60 million to prototype multi-vendor connections to SpaceX-built network]]
 - [[event-17|Firefly increases vehicle production even as launches lag]]
 - [[event-64|Rocket Lab Corp files 8-K]]
-- [[event-12|Portal Space Systems to include rideshare payloads on Falcon 9 launch of Supernova]]
+- [[event-166|Rocket Lab Corp files 10-Q]]

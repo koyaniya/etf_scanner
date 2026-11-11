@@ -46,6 +46,7 @@ These actions expand NOAA's use of commercial space‑based weather data across 
 ## Related events
 
 - [[event-1|NRO to expand use of HawkEye 360’s satellite intelligence]]
+- [[event-171|Spire Global, Inc. files 10-Q]]
 - [[event-2|New report takes closer look at the Space Force spending surge]]
 - [[event-8|NASA Selects Companies to Provide Payload Processing Services]]
 - [[event-13|Rocket Lab launches 9th satellite for iQPS]]
@@ -54,4 +55,3 @@ These actions expand NOAA's use of commercial space‑based weather data across 
 - [[event-21|Space Force orders two more Impulse Space vehicles for maneuvering demonstrations]]
 - [[event-22|Webb Opens Treasure Chest]]
 - [[event-25|U.S. Senate confirms Schiess to lead Space Force]]
-- [[event-28|Voyager seeks relaxed requirements in NASA commercial space station RFP]]

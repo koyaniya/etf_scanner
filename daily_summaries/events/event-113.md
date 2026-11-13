@@ -48,3 +48,4 @@ This is a corporate regulatory disclosure. Any industry or market impact depends
 ## Related events
 
 - [[event-167|AST SpaceMobile, Inc. files 10-Q]]
+- [[event-174|AST SpaceMobile presses case for developing own launch vehicle]]

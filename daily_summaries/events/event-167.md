@@ -39,3 +39,4 @@ Routine SEC quarterly filing provides updated public financial and operational d
 ## Related events
 
 - [[event-113|AST SpaceMobile, Inc. files multiple Form 8-K entries on SEC EDGAR]]
+- [[event-174|AST SpaceMobile presses case for developing own launch vehicle]]

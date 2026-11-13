@@ -49,4 +49,5 @@ The 8‑K filing(s) could disclose material information (e.g., financings, contr
 - [[event-27|Satellite manufacturing thrives in California despite cost and regulatory pressures]]
 - [[event-30|GILAT SATELLITE NETWORKS LTD referenced Form 6‑K filings on SEC EDGAR (multiple archive entries referenced)]]
 - [[event-85|Starfighters Space, Inc. files multiple Form 8-Ks on EDGAR (3 filings identified)]]
+- [[event-119|Intuitive Machines, Inc. files SEC Form 8-K (multiple filings reported)]]
 - [[event-159|Globalstar, Inc. files 8-K]]

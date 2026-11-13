@@ -44,7 +44,7 @@ The contract represents a significant commercial win for Intuitive Machines and 
 
 ## Related events
 
-- [[event-119|Intuitive Machines, Inc. files 8-K]]
+- [[event-119|Intuitive Machines, Inc. files SEC Form 8-K (multiple filings reported)]]
 - [[event-6|Rocket Lab to test Space Force data network connection in orbit in 2027]]
 - [[event-7|Lynk and Omnispace form Elveo Mobile to advance D2D services]]
 - [[event-15|Space Force awards five companies $60 million to prototype multi-vendor connections to SpaceX-built network]]

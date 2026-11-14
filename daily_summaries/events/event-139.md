@@ -43,3 +43,4 @@ Demonstrates JWST’s ongoing scientific imaging capability in the mid-infrared 
 - [[event-22|Webb Opens Treasure Chest]]
 - [[event-47|APOD: 2026 August 26 – JWST Images The Lion’s Head Nebula]]
 - [[event-67|NASA’s Moon Orbiter Spots New, ‘Once-in-Century’ Moon Crater]]
+- [[event-182|HawkEye 360, Inc. files 10-Q]]

@@ -45,6 +45,7 @@ The contract represents a significant commercial win for Intuitive Machines and 
 ## Related events
 
 - [[event-119|Intuitive Machines, Inc. files SEC Form 8-K (multiple filings reported)]]
+- [[event-181|Intuitive Machines, Inc. files 10-Q]]
 - [[event-6|Rocket Lab to test Space Force data network connection in orbit in 2027]]
 - [[event-7|Lynk and Omnispace form Elveo Mobile to advance D2D services]]
 - [[event-15|Space Force awards five companies $60 million to prototype multi-vendor connections to SpaceX-built network]]
@@ -53,4 +54,3 @@ The contract represents a significant commercial win for Intuitive Machines and 
 - [[event-30|GILAT SATELLITE NETWORKS LTD referenced Form 6‑K filings on SEC EDGAR (multiple archive entries referenced)]]
 - [[event-34|Telesat lands $1.63 billion Canadian defense contract]]
 - [[event-35|Kreios Space to fly VLEO demonstration in NanoAvionics bus]]
-- [[event-36|Amazon files application for direct-to-device satellite constellation]]

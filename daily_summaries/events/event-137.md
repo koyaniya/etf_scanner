@@ -40,4 +40,4 @@ Routine SEC quarterly filing by a satellite radio/broadcasting company. Likely l
 
 ## Related events
 
-- [[event-136|SIRIUS XM HOLDINGS INC. files 8-K]]
+- [[event-136|SIRIUS XM HOLDINGS INC. files Form 8-K (one or more EDGAR filings reported)]]

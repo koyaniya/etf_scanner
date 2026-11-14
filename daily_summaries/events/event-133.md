@@ -38,4 +38,4 @@ Routine quarterly SEC filing; likely limited immediate impact on the broader spa
 
 ## Related events
 
-- [[event-132|Honeywell Aerospace Inc. files 8-K]]
+- [[event-132|Honeywell Aerospace Inc. files SEC Form 8-K (EDGAR entries referenced)]]

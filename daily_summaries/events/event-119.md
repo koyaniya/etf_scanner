@@ -50,5 +50,6 @@ The 8-K filings may disclose material corporate information (e.g., corporate act
 - [[event-27|Satellite manufacturing thrives in California despite cost and regulatory pressures]]
 - [[event-30|GILAT SATELLITE NETWORKS LTD referenced Form 6‑K filings on SEC EDGAR (multiple archive entries referenced)]]
 - [[event-85|Starfighters Space, Inc. files multiple Form 8-Ks on EDGAR (3 filings identified)]]
-- [[event-98|Sidus Space Inc. files Form 8‑K (EDGAR notices)]]
+- [[event-98|Sidus Space Inc. files multiple Form 8‑K notices on SEC EDGAR (multiple RSS items)]]
 - [[event-159|Globalstar, Inc. files 8-K]]
+- [[event-185|Starfighters Space, Inc. files 10-Q]]

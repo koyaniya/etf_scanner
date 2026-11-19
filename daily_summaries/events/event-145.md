@@ -43,6 +43,7 @@ The announced CRS-25 flight represents near-term commercial launch business for 
 
 ## Related events
 
+- [[event-188|NASA Sets Coverage for Northrop Grumman CRS-25 Launch, Prelaunch]]
 - [[event-39|SpaceX wins $1.6 billion in launch orders for military satellite networks]]
 - [[event-43|Nancy Grace Roman Space Telescope Launches Aboard SpaceX Falcon Heavy]]
 - [[event-69|NASA Opens Media Accreditation for SpaceX CRS-35; NASA Also Awards Additional Launch Services and Crew Flights to SpaceX]]
@@ -52,4 +53,3 @@ The announced CRS-25 flight represents near-term commercial launch business for 
 - [[event-15|Space Force awards five companies $60 million to prototype multi-vendor connections to SpaceX-built network]]
 - [[event-72|NASA Shares SpaceX Crew-14 Assignments for Space Station Mission]]
 - [[event-73|NASA to Study Human Health, Performance During Crew-13 Mission]]
-- [[event-78|NASA Sets Crew-13 Launch, Docking Coverage]]

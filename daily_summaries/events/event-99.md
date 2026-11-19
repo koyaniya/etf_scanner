@@ -51,6 +51,6 @@ If the experiments succeed, these demonstrations could validate new reentry/heat
 - [[event-37|NASA selects successor to CAPSTONE lunar mission]]
 - [[event-112|NORTHROP GRUMMAN CORP /DE/ files 10-Q]]
 - [[event-122|NASA, Partners Accelerate Lander Development for 2028 Moon Missions]]
+- [[event-188|NASA Sets Coverage for Northrop Grumman CRS-25 Launch, Prelaunch]]
 - [[event-1|NRO to expand use of HawkEye 360’s satellite intelligence]]
 - [[event-2|New report takes closer look at the Space Force spending surge]]
-- [[event-4|Firefly Aerospace to fly Zeno Power radioisotope heating unit on lunar lander mission]]

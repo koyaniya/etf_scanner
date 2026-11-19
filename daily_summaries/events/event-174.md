@@ -46,7 +46,7 @@ If AST SpaceMobile pursues development of its own reusable launch vehicle, it co
 - [[event-16|China’s iSpace raises first batch of series E funding for reusable rocketry]]
 - [[event-79|Crew-13 Rocket and Spacecraft at Launch Pad]]
 - [[event-80|NASA’s SpaceX Crew-13 Launches]]
-- [[event-113|AST SpaceMobile, Inc. files multiple Form 8-K entries on SEC EDGAR]]
+- [[event-113|AST SpaceMobile, Inc. files Form 8‑K entries on SEC EDGAR (multiple EDGAR URLs observed; contents not summarized)]]
 - [[event-167|AST SpaceMobile, Inc. files 10-Q]]
 - [[event-13|Rocket Lab launches 9th satellite for iQPS]]
 - [[event-17|Firefly increases vehicle production even as launches lag]]

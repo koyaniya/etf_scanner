@@ -45,5 +45,7 @@ The 8-K filing signals a corporate disclosure or material development by Globals
 - [[event-30|GILAT SATELLITE NETWORKS LTD referenced Form 6‑K filings on SEC EDGAR (multiple archive entries referenced)]]
 - [[event-85|Starfighters Space, Inc. files multiple Form 8-Ks on EDGAR (3 filings identified)]]
 - [[event-98|Sidus Space Inc. files multiple Form 8‑K notices on SEC EDGAR (multiple RSS items)]]
+- [[event-113|AST SpaceMobile, Inc. files Form 8‑K entries on SEC EDGAR (multiple EDGAR URLs observed; contents not summarized)]]
 - [[event-119|Intuitive Machines, Inc. files SEC Form 8-K (multiple filings reported)]]
+- [[event-135|Telesat Corp files multiple Form 6‑K reports on SEC EDGAR]]
 - [[event-185|Starfighters Space, Inc. files 10-Q]]

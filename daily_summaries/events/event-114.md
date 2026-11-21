@@ -43,6 +43,7 @@ A successful in-space Wi‑Fi link between a cubesat and an orbital-servicing ve
 ## Related events
 
 - [[event-44|Momentus Inc. files 8-K]]
+- [[event-190|Momentus Inc. files 10-Q]]
 - [[event-6|Rocket Lab to test Space Force data network connection in orbit in 2027]]
 - [[event-7|Lynk and Omnispace form Elveo Mobile to advance D2D services]]
 - [[event-9|Intuitive Machines wins contract for three GEO satellites]]
@@ -51,4 +52,3 @@ A successful in-space Wi‑Fi link between a cubesat and an orbital-servicing ve
 - [[event-30|GILAT SATELLITE NETWORKS LTD referenced Form 6‑K filings on SEC EDGAR (multiple archive entries referenced)]]
 - [[event-34|Telesat lands $1.63 billion Canadian defense contract]]
 - [[event-36|Amazon files application for direct-to-device satellite constellation]]
-- [[event-37|NASA selects successor to CAPSTONE lunar mission]]

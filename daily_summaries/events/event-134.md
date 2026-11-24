@@ -45,3 +45,4 @@ An 8‑K can disclose material corporate, financial, governance, or legal develo
 - [[event-31|L3HARRIS TECHNOLOGIES, INC. /DE/ files 8-K]]
 - [[event-95|NASA Advances LISA Mission Contributions With New Test Telescope]]
 - [[event-138|L3HARRIS TECHNOLOGIES, INC. /DE/ files 10-Q]]
+- [[event-191|L3HARRIS TECHNOLOGIES, INC. /DE/ files 8-K]]

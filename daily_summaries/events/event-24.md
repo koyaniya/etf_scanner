@@ -47,7 +47,7 @@ If implemented, repurposing Gateway-related hardware and work toward a lunar bas
 - [[event-112|NORTHROP GRUMMAN CORP /DE/ files 10-Q]]
 - [[event-145|NASA Invites Media to Northrop Grumman CRS-25 Station Resupply Launch]]
 - [[event-188|NASA Sets Coverage for Northrop Grumman CRS-25 Launch, Prelaunch]]
+- [[event-192|NASA Awards Contract for NOAA’s Near Earth Orbit Network Program]]
 - [[event-4|Firefly Aerospace to fly Zeno Power radioisotope heating unit on lunar lander mission]]
 - [[event-5|NASA’s B777 Gets New Coat of Paint]]
 - [[event-6|Rocket Lab to test Space Force data network connection in orbit in 2027]]
-- [[event-18|Former Space Force general joins Lunar Outpost board]]

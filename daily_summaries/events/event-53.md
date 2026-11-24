@@ -34,3 +34,4 @@ The article reports that STMicroelectronics N.V. submitted an SEC EDGAR Form 6-K
 - [[event-29|STMicroelectronics N.V. files Form 6‑K(s) with SEC (EDGAR); contents not disclosed in supplied summaries]]
 - [[event-87|STMicroelectronics N.V. files multiple SEC Form 6‑K(s) (EDGAR)]]
 - [[event-124|STMicroelectronics N.V. files 6-K]]
+- [[event-193|STMicroelectronics N.V. files 6-K]]

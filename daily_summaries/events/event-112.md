@@ -47,3 +47,4 @@ Routine quarterly SEC filing that may contain financial results, contract update
 - [[event-99|NASA Demonstrates Next-Generation Heat Shield Technologies]]
 - [[event-145|NASA Invites Media to Northrop Grumman CRS-25 Station Resupply Launch]]
 - [[event-188|NASA Sets Coverage for Northrop Grumman CRS-25 Launch, Prelaunch]]
+- [[event-192|NASA Awards Contract for NOAA’s Near Earth Orbit Network Program]]

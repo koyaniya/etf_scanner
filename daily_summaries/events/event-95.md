@@ -52,4 +52,4 @@ This advances optical-hardware development for the LISA gravitational-wave obser
 - [[event-93|NASA’s SpaceX 35th Commercial Resupply Mission Overview]]
 - [[event-134|L3HARRIS TECHNOLOGIES, INC. /DE/ files 8-K (SEC EDGAR summaries)]]
 - [[event-138|L3HARRIS TECHNOLOGIES, INC. /DE/ files 10-Q]]
-- [[event-1|NRO to expand use of HawkEye 360’s satellite intelligence]]
+- [[event-191|L3HARRIS TECHNOLOGIES, INC. /DE/ files 8-K]]

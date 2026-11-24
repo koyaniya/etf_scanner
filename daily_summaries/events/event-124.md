@@ -41,3 +41,4 @@ This is a corporate/SEC disclosure event. Based on the provided summary, the fil
 - [[event-29|STMicroelectronics N.V. files Form 6‑K(s) with SEC (EDGAR); contents not disclosed in supplied summaries]]
 - [[event-53|STMicroelectronics N.V. files 6-K]]
 - [[event-87|STMicroelectronics N.V. files multiple SEC Form 6‑K(s) (EDGAR)]]
+- [[event-193|STMicroelectronics N.V. files 6-K]]

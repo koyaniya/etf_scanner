@@ -51,7 +51,7 @@ If successful, these in-orbit demonstrations could accelerate adoption of next-g
 - [[event-86|NASA’s SpaceX Crew‑12 Splashes Down, Concluding Station Science Mission]]
 - [[event-93|NASA’s SpaceX 35th Commercial Resupply Mission Overview]]
 - [[event-123|Astranis Upgrades Falcon 9 Launch Contract to Dedicated Mission for Entire Block 4 Production Run of Satellites]]
+- [[event-145|NASA Invites Media to Northrop Grumman CRS-25 Station Resupply Launch]]
 - [[event-6|Rocket Lab to test Space Force data network connection in orbit in 2027]]
 - [[event-12|Portal Space Systems to include rideshare payloads on Falcon 9 launch of Supernova]]
 - [[event-39|SpaceX wins $1.6 billion in launch orders for military satellite networks]]
-- [[event-61|NASA’s SpaceX Crew-12 to Discuss Station Mission, Upcoming Return]]

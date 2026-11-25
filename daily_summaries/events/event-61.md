@@ -47,6 +47,6 @@ A scheduled public briefing from Crew-12 is primarily an operational/communicati
 - [[event-86|NASA’s SpaceX Crew‑12 Splashes Down, Concluding Station Science Mission]]
 - [[event-93|NASA’s SpaceX 35th Commercial Resupply Mission Overview]]
 - [[event-131|Flexell Space and Satoro Agree to Collaborate on In-Orbit Demonstration of Next-Generation Space Solar Cells]]
+- [[event-145|NASA Invites Media to Northrop Grumman CRS-25 Station Resupply Launch]]
 - [[event-187|NASA to Cover 35th SpaceX Resupply Mission Space Station Departure]]
 - [[event-12|Portal Space Systems to include rideshare payloads on Falcon 9 launch of Supernova]]
-- [[event-39|SpaceX wins $1.6 billion in launch orders for military satellite networks]]

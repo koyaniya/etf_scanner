@@ -43,9 +43,9 @@ If implemented, repurposing Gateway-related hardware and work toward a lunar bas
 
 - [[event-90|NASA to Cover Northrop Grumman CRS-24 Spacecraft Departure]]
 - [[event-99|NASA Demonstrates Next-Generation Heat Shield Technologies]]
+- [[event-145|NASA Invites Media to Northrop Grumman CRS-25 Station Resupply Launch]]
 - [[event-15|Space Force awards five companies $60 million to prototype multi-vendor connections to SpaceX-built network]]
 - [[event-112|NORTHROP GRUMMAN CORP /DE/ files 10-Q]]
-- [[event-145|NASA Invites Media to Northrop Grumman CRS-25 Station Resupply Launch]]
 - [[event-188|NASA Sets Coverage for Northrop Grumman CRS-25 Launch, Prelaunch]]
 - [[event-192|NASA Awards Contract for NOAA’s Near Earth Orbit Network Program]]
 - [[event-4|Firefly Aerospace to fly Zeno Power radioisotope heating unit on lunar lander mission]]

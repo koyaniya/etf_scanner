@@ -49,6 +49,7 @@ A scheduled CRS cargo launch maintains the ISS resupply cadence and supports NAS
 ## Related events
 
 - [[event-43|Nancy Grace Roman Space Telescope Launches Aboard SpaceX Falcon Heavy]]
+- [[event-145|NASA Invites Media to Northrop Grumman CRS-25 Station Resupply Launch]]
 - [[event-39|SpaceX wins $1.6 billion in launch orders for military satellite networks]]
 - [[event-69|NASA Opens Media Accreditation for SpaceX CRS-35; NASA Also Awards Additional Launch Services and Crew Flights to SpaceX]]
 - [[event-72|NASA Shares SpaceX Crew-14 Assignments for Space Station Mission]]
@@ -56,5 +57,4 @@ A scheduled CRS cargo launch maintains the ISS resupply cadence and supports NAS
 - [[event-80|NASA’s SpaceX Crew-13 Launches]]
 - [[event-86|NASA’s SpaceX Crew‑12 Splashes Down, Concluding Station Science Mission]]
 - [[event-131|Flexell Space and Satoro Agree to Collaborate on In-Orbit Demonstration of Next-Generation Space Solar Cells]]
-- [[event-145|NASA Invites Media to Northrop Grumman CRS-25 Station Resupply Launch]]
 - [[event-6|Rocket Lab to test Space Force data network connection in orbit in 2027]]

@@ -52,4 +52,4 @@ This advances optical-hardware development for the LISA gravitational-wave obser
 - [[event-93|NASA’s SpaceX 35th Commercial Resupply Mission Overview]]
 - [[event-134|L3HARRIS TECHNOLOGIES, INC. /DE/ files 8-K (SEC EDGAR summaries)]]
 - [[event-138|L3HARRIS TECHNOLOGIES, INC. /DE/ files 10-Q]]
-- [[event-191|L3HARRIS TECHNOLOGIES, INC. /DE/ files 8-K]]
+- [[event-145|NASA Invites Media to Northrop Grumman CRS-25 Station Resupply Launch]]

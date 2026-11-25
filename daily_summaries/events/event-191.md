@@ -34,10 +34,6 @@ The 8-K filing may disclose material information (e.g., financials, contracts, l
 - Conversely, the 8-K could disclose positive developments (e.g., new government contract awards or favorable financial results) that would benefit L3Harris — the lack of detail makes direction uncertain.
 - Because the summary lacks content, stakeholders relying on this feed may be delayed in reacting until the full 8-K is reviewed, creating short-term information asymmetry risk.
 
-## Sources
-
-- [L3HARRIS TECHNOLOGIES, INC. /DE/ files 8-K](https://www.sec.gov/Archives/edgar/data/202058/000020205826000091/hrs-20261123.htm) — 2026-11-24 06:06 KST
-
 ## Related events
 
 - [[event-31|L3HARRIS TECHNOLOGIES, INC. /DE/ files 8-K]]

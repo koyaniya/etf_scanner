@@ -41,10 +41,10 @@ Routine undocking/departure signals successful completion of Northrop Grumman’
 
 ## Related events
 
+- [[event-145|NASA Invites Media to Northrop Grumman CRS-25 Station Resupply Launch]]
 - [[event-15|Space Force awards five companies $60 million to prototype multi-vendor connections to SpaceX-built network]]
 - [[event-24|Northrop Grumman, Canadian Space Agency repurpose their Gateway projects]]
 - [[event-99|NASA Demonstrates Next-Generation Heat Shield Technologies]]
-- [[event-145|NASA Invites Media to Northrop Grumman CRS-25 Station Resupply Launch]]
 - [[event-192|NASA Awards Contract for NOAA’s Near Earth Orbit Network Program]]
 - [[event-28|Voyager seeks relaxed requirements in NASA commercial space station RFP]]
 - [[event-34|Telesat lands $1.63 billion Canadian defense contract]]

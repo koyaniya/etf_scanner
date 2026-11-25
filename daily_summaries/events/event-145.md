@@ -5,8 +5,8 @@ event_type: "OTHER"
 event_date: "2026-11-01"
 impact_direction: "POSITIVE"
 impact_strength: 2
-importance_score: 35
-confidence: 0.85
+importance_score: 40
+confidence: 0.75
 time_horizon: "SHORT_TERM"
 companies:
   - "Northrop Grumman Corp [company_id: 20]"
@@ -14,42 +14,49 @@ companies:
 topics:
   - "Government contracts"
   - "Launch services"
-updated_at: "2026-11-03T04:00:10.781957+00:00"
+  - "Space infrastructure"
+updated_at: "2026-11-25T05:35:16.922161+00:00"
 ---
 
 # NASA Invites Media to Northrop Grumman CRS-25 Station Resupply Launch
 
-NASA opened media accreditation for the upcoming Northrop Grumman CRS-25 resupply mission: a Northrop Grumman Cygnus XL will launch to the International Space Station in November aboard a SpaceX Falcon 9.
+NASA opened media accreditation for the upcoming Northrop Grumman CRS-25 resupply mission to the International Space Station. The mission will use a Northrop Grumman Cygnus XL spacecraft (its third flight of the XL configuration) and is reported to deliver about 11,000 pounds of science and supplies. One article states the Cygnus XL will launch in November on a SpaceX Falcon 9; another overview article confirms the payload mass and XL flight count but does not specify launch date or vehicle.
 
 ## Industry implication
 
-The announced CRS-25 flight represents near-term commercial launch business for SpaceX and a resupply flight for Northrop Grumman under NASA's CRS program; media access may increase public visibility of the mission and of both contractors' roles.
+The CRS-25 mission sustains near-term commercial launch business (one source cites a SpaceX Falcon 9 launch) and continues Northrop Grumman’s role as an ISS cargo provider using the larger Cygnus XL configuration (third XL flight) to deliver roughly 11,000 pounds of cargo. Public media access may increase visibility for NASA and the contractors. Note that some coverage omits launch-provider or exact-date details, leaving certain operational specifics uncertain until further manifest updates.
 
 ## Key facts
 
-- NASA opened media accreditation for the next ISS resupply launch.
-- A Northrop Grumman Cygnus XL spacecraft will launch in November to the International Space Station.
-- The Cygnus XL will launch on a SpaceX Falcon 9 rocket.
-- The mission is NASA’s Northrop Grumman Commercial Resupply Services 25 (CRS-25).
+- NASA opened media accreditation for the next ISS resupply launch (CRS-25).
+- The mission is Northrop Grumman Commercial Resupply Services 25 (CRS-25).
+- A Northrop Grumman Cygnus XL spacecraft will deliver cargo to the International Space Station.
+- One article reports the Cygnus XL will launch in November on a SpaceX Falcon 9 rocket.
+- The mission is reported to deliver about 11,000 pounds of science and supplies to the ISS.
+- This will be the third flight of Northrop Grumman's Cygnus XL configuration.
 
 ## Risks
 
 - Planned November launch date could slip due to technical issues, weather, or ISS scheduling constraints.
 - Vehicle or manifest changes (e.g., different booster, payload adjustments) could occur between this announcement and the launch.
+- Launch schedule slip or technical issues could delay or prevent delivery to the ISS.
+- Changes in NASA ISS logistics planning or mission manifest could alter payload or timing.
+- Some source coverage does not specify launch date or launch provider, increasing uncertainty about timing and vehicle until NASA or the launch provider publishes a final manifest.
 
 ## Sources
 
 - [NASA Invites Media to Northrop Grumman CRS-25 Station Resupply Launch](https://www.nasa.gov/news-release/nasa-invites-media-to-northrop-grumman-crs-25-station-resupply-launch/) — 2026-11-03 02:33 KST
+- [NASA’s Northrop Grumman CRS-25 Mission Overview](https://www.nasa.gov/missions/station/nasas-northrop-grumman-crs-25-mission-overview/) — 2026-11-25 04:09 KST
 
 ## Related events
 
+- [[event-43|Nancy Grace Roman Space Telescope Launches Aboard SpaceX Falcon Heavy]]
+- [[event-93|NASA’s SpaceX 35th Commercial Resupply Mission Overview]]
 - [[event-188|NASA Sets Coverage for Northrop Grumman CRS-25 Launch, Prelaunch]]
 - [[event-39|SpaceX wins $1.6 billion in launch orders for military satellite networks]]
-- [[event-43|Nancy Grace Roman Space Telescope Launches Aboard SpaceX Falcon Heavy]]
 - [[event-69|NASA Opens Media Accreditation for SpaceX CRS-35; NASA Also Awards Additional Launch Services and Crew Flights to SpaceX]]
-- [[event-80|NASA’s SpaceX Crew-13 Launches]]
-- [[event-93|NASA’s SpaceX 35th Commercial Resupply Mission Overview]]
-- [[event-12|Portal Space Systems to include rideshare payloads on Falcon 9 launch of Supernova]]
-- [[event-15|Space Force awards five companies $60 million to prototype multi-vendor connections to SpaceX-built network]]
 - [[event-72|NASA Shares SpaceX Crew-14 Assignments for Space Station Mission]]
 - [[event-73|NASA to Study Human Health, Performance During Crew-13 Mission]]
+- [[event-80|NASA’s SpaceX Crew-13 Launches]]
+- [[event-86|NASA’s SpaceX Crew‑12 Splashes Down, Concluding Station Science Mission]]
+- [[event-90|NASA to Cover Northrop Grumman CRS-24 Spacecraft Departure]]

@@ -41,6 +41,7 @@ The scheduling uncertainty means NASA and Boeing have not finalized when Starlin
 
 - [[event-74|NASA, Boeing to Provide Update on Starliner Development]]
 - [[event-75|NASA, Boeing Share Update on Commercial Starliner Development Plans]]
+- [[event-194|NASA Enhances Supplier Program, Announces Mentor-Protégé Agreement]]
 - [[event-5|NASA’s B777 Gets New Coat of Paint]]
 - [[event-39|SpaceX wins $1.6 billion in launch orders for military satellite networks]]
 - [[event-40|Rocket Lab to open Alaska launch site under $266 million Space Force deal]]
@@ -48,4 +49,3 @@ The scheduling uncertainty means NASA and Boeing have not finalized when Starlin
 - [[event-50|BOEING CO files 8-K]]
 - [[event-69|NASA Opens Media Accreditation for SpaceX CRS-35; NASA Also Awards Additional Launch Services and Crew Flights to SpaceX]]
 - [[event-80|NASA’s SpaceX Crew-13 Launches]]
-- [[event-93|NASA’s SpaceX 35th Commercial Resupply Mission Overview]]

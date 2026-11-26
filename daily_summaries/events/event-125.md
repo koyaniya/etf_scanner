@@ -45,3 +45,4 @@ Without the 8-K contents, implications for the space industry (including Boeing 
 - [[event-74|NASA, Boeing to Provide Update on Starliner Development]]
 - [[event-75|NASA, Boeing Share Update on Commercial Starliner Development Plans]]
 - [[event-127|BOEING CO files 10-Q]]
+- [[event-194|NASA Enhances Supplier Program, Announces Mentor-Protégé Agreement]]

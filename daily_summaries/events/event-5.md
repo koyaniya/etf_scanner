@@ -46,7 +46,7 @@ The photographed repaint and planned entry into service indicate NASA is transit
 - [[event-75|NASA, Boeing Share Update on Commercial Starliner Development Plans]]
 - [[event-125|BOEING CO files 8-K]]
 - [[event-127|BOEING CO files 10-Q]]
+- [[event-194|NASA Enhances Supplier Program, Announces Mentor-Protégé Agreement]]
 - [[event-6|Rocket Lab to test Space Force data network connection in orbit in 2027]]
 - [[event-20|Rocket Lab builds deployable infrastructure for Electron launches]]
 - [[event-22|Webb Opens Treasure Chest]]
-- [[event-23|Kepler books Neutron for 2028 optical relay launch]]

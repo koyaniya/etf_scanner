@@ -45,6 +45,7 @@ If accurate, certification of a new rocket for crew transport and an increase in
 
 - [[event-38|Boeing still working with NASA to schedule next Starliner flight]]
 - [[event-74|NASA, Boeing to Provide Update on Starliner Development]]
+- [[event-194|NASA Enhances Supplier Program, Announces Mentor-Protégé Agreement]]
 - [[event-5|NASA’s B777 Gets New Coat of Paint]]
 - [[event-39|SpaceX wins $1.6 billion in launch orders for military satellite networks]]
 - [[event-40|Rocket Lab to open Alaska launch site under $266 million Space Force deal]]
@@ -52,4 +53,3 @@ If accurate, certification of a new rocket for crew transport and an increase in
 - [[event-50|BOEING CO files 8-K]]
 - [[event-69|NASA Opens Media Accreditation for SpaceX CRS-35; NASA Also Awards Additional Launch Services and Crew Flights to SpaceX]]
 - [[event-80|NASA’s SpaceX Crew-13 Launches]]
-- [[event-93|NASA’s SpaceX 35th Commercial Resupply Mission Overview]]

@@ -33,6 +33,10 @@ Unknown based on the provided summary. If the 6‑K contains material disclosure
 - The supplied summary does not include the 6‑K's contents, so any operational or financial impact on STMicroelectronics or its customers (including space-sector customers) is unknown.
 - Relying on the filing to assess impact requires reviewing the full 6‑K; without that, direction and magnitude of effects are highly uncertain.
 
+## Sources
+
+- [STMicroelectronics N.V. files 6-K](https://www.sec.gov/Archives/edgar/data/932787/000094787126001042/ss7095704_6k.htm) — 2026-11-24 06:15 KST
+
 ## Related events
 
 - [[event-29|STMicroelectronics N.V. files Form 6‑K(s) with SEC (EDGAR); contents not disclosed in supplied summaries]]
